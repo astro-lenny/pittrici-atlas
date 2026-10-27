@@ -2,10 +2,9 @@
 
 **Where women artists of early modern Italy lived and travelled, 1480–1720, and who taught, married, employed and met them.**
 
-### ▶ [Launch the atlas](https://GITHUB-USER.github.io/pittrici-atlas/)
+### ▶ [Launch the atlas](https://astro-lenny.github.io/pittrici-atlas/)
 
-<sub>Replace `GITHUB-USER` with your GitHub user name once GitHub Pages is switched on (see [Publishing](#publishing)).
-The page is a single self-contained HTML file: [`docs/index.html`](docs/index.html).</sub>
+<sub>The page is a single self-contained HTML file: [`docs/index.html`](docs/index.html), served by GitHub Pages.</sub>
 
 ---
 
@@ -92,9 +91,8 @@ Everything except `make_borders.py` uses only the Python standard library.
 
 ## Publishing
 
-1. Create a repository named `pittrici-atlas` on GitHub and push this folder to it.
-2. In the repository, open **Settings → Pages**, choose **Deploy from a branch**, branch `main`, folder `/docs`, and save.
-3. After a minute the atlas is live at `https://GITHUB-USER.github.io/pittrici-atlas/`; put that address in the launch link at the top.
+The atlas is served by GitHub Pages from the `docs/` folder of `main` (**Settings → Pages → Deploy from a branch**).
+After `python3 scripts/build.py`, commit `docs/index.html` and push; the live page updates within a minute or two.
 
 ## Limitations
 
