@@ -58,6 +58,8 @@ header p { margin: 0; color: var(--ink-2); max-width: 70ch; }
 .seg button.blocked { opacity: .5; text-decoration: line-through; text-decoration-thickness: 1px; }
 .mapopts { display: grid; gap: 6px; font-size: 13px; }
 .mapopts label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+.mapopts label.sub { padding-left: 20px; }
+.mapopts label.off { color: var(--ink-3); cursor: default; }
 .leaflet-tooltip.statelabel { background: none; border: 0; box-shadow: none; padding: 0; font: 600 11px var(--f-ui); letter-spacing: .1em;
   text-transform: uppercase; color: var(--ink); text-shadow: 0 0 3px var(--paper), 0 0 3px var(--paper), 0 0 6px var(--paper); white-space: nowrap; }
 .leaflet-tooltip.statelabel::before { display: none; }
@@ -330,7 +332,8 @@ details ul { padding-left: 16px; }
         <div class="seg" id="basebar2" role="group" aria-label="Base map"></div>
         <label class="hint" data-hint="Rough outlines rebuilt from modern provinces; they change with the year. Click an area to see why it is uncertain.">
           <input type="checkbox" id="borders-toggle"> Historical borders <span class="exp">experimental</span></label>
-        <label><input type="checkbox" id="squares-toggle" checked> State colour beside each city name</label>
+        <label><input type="checkbox" id="names-toggle" checked> City names</label>
+        <label class="sub" id="squares-label"><input type="checkbox" id="squares-toggle" checked> State colour beside each city name</label>
         <label><input type="checkbox" id="rings-toggle" checked> Certainty ring around each dot</label>
       </div>
     </section>
@@ -380,7 +383,7 @@ const VIEWS = [
   { id: "lombardy", label: "Cremona–Milan", bbox: [9.0, 45.0, 10.2, 45.6] },
 ];
 
-const state = { rings: true, rangeOn: false, from: 1600, year: 1600, mode: "net", sel: null, playing: false, hidden: new Set(), view: "italy" };
+const state = { cityNames: true, rings: true, rangeOn: false, from: 1600, year: 1600, mode: "net", sel: null, playing: false, hidden: new Set(), view: "italy" };
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
 // ---- per-year lookups ----
@@ -613,7 +616,7 @@ function render(animate = true) {
     const L = PL.get(cid); const [x, y2] = xy(L.lon, L.lat);
     const spread = Math.max(...[...pos.values()].filter(m => m.cid === cid && m.loc === cid).map(m => Math.hypot(m.x - x, m.y - y2)), 0);
     const lift = agg ? aggRadius(c.n) + 5 : Math.max(spread, 6) + 8;
-    labels.push({ id: cid, x, y: y2 - lift, name: L.name, n: c.n, w: c.w, cls: "citylabel" });
+    if (state.cityNames) labels.push({ id: cid, x, y: y2 - lift, name: L.name, n: c.n, w: c.w, cls: "citylabel" });
   }
   const siteMarks = [];
   for (const [cid, isOpen] of open) if (isOpen) for (const s of D.places.filter(p => p.city === cid)) {
@@ -1023,6 +1026,12 @@ legend.append("div").html(`Certainty ring: <span class="cl g" style="cursor:defa
 d3.select("#rings-toggle").on("change", function () { state.rings = this.checked; render(false); });
 d3.select("#borders-toggle").on("change", function () { state.borders = this.checked; state.period = null; render(false); });
 d3.select("#squares-toggle").on("change", function () { state.stateMarks = this.checked; render(false); });
+d3.select("#names-toggle").on("change", function () {  // the state squares sit beside the names, so they go with them
+  state.cityNames = this.checked;
+  document.getElementById("squares-toggle").disabled = !this.checked;
+  document.getElementById("squares-label").classList.toggle("off", !this.checked);
+  render(false);
+});
 legend.append("div").attr("class", "muted").text("dashed: dates estimated · dotted arcs: recent travels");
 
 // ---- teacher–pupil lineages, in both directions ----
