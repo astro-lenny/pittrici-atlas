@@ -1,0 +1,31 @@
+{
+  "women_artists": 72,
+  "women_geolocated": 67,
+  "women_with_itinerary": 19,
+  "persons_total": 193,
+  "persons_on_map": 162,
+  "relations_total": 192,
+  "relations_both_on_map": 153,
+  "relations_curated": 64,
+  "relations_inferred_dates": 39,
+  "relations_dating": {
+    "lifetimes": 89,
+    "source": 64,
+    "inferred": 39
+  },
+  "relations_dropped_impossible": 5,
+  "stays_curated": 140,
+  "stays_wikidata": 443,
+  "places": 105,
+  "sites": 28,
+  "hotspots_usable": [
+    "bologna",
+    "florence",
+    "rome",
+    "venice",
+    "naples"
+  ],
+  "warnings": 5,
+  "lineage_edges": 88,
+  "lineage_extra_people": 33
+}

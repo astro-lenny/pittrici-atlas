@@ -1,0 +1,45 @@
+id,lang,kind,citation,url,status
+WD,multi,database,"Wikidata, SPARQL extract (scripts/fetch_wikidata.py)",https://query.wikidata.org/,fetched
+VAS,it,primary,"Giorgio Vasari, Le vite de' più eccellenti pittori, scultori e architettori, 2nd ed., Firenze 1568",,bibliographic
+MAL,it,primary,"Carlo Cesare Malvasia, Felsina pittrice. Vite de' pittori bolognesi, Bologna 1678",,bibliographic
+RID,it,primary,"Carlo Ridolfi, Le maraviglie dell'arte, Venezia 1648",,bibliographic
+BAL,it,primary,"Filippo Baldinucci, Notizie de' professori del disegno, Firenze 1681-1728",,bibliographic
+SOP,it,primary,"Raffaele Soprani, Le vite de' pittori, scoltori et architetti genovesi, Genova 1674",,bibliographic
+VDY,en,primary,"Anthony van Dyck, Italian sketchbook (British Museum), note on visit to Sofonisba Anguissola, Palermo, 12 July 1624",,bibliographic
+GAL,it,primary,"Galileo Galilei, Opere, ed. naz. (letters from Artemisia Gentileschi, 1635)",,bibliographic
+GAR,en,secondary,"Mary D. Garrard, Artemisia Gentileschi: The Image of the Female Hero in Italian Baroque Art, Princeton 1989",,bibliographic
+CHR,en,secondary,"Keith Christiansen and Judith W. Mann (eds.), Orazio and Artemisia Gentileschi, New York (Metropolitan Museum) 2001",,bibliographic
+PER,en,secondary,"Ilya Sandra Perlingieri, Sofonisba Anguissola: The First Great Woman Artist of the Renaissance, New York 1992",,bibliographic
+CRE,it,secondary,"Sofonisba Anguissola e le sue sorelle, exh. cat., Cremona 1994",,bibliographic
+PRA,es,secondary,"Leticia Ruiz Gómez (ed.), A Tale of Two Women Painters: Sofonisba Anguissola and Lavinia Fontana, Madrid (Prado) 2019",https://news.artnet.com/art-world/help-us-museums-prado-celebrating-two-great-female-artists-bicentenary-year-1341185,seen_online
+MUR,en,secondary,"Caroline P. Murphy, Lavinia Fontana: A Painter and Her Patrons in Sixteenth-Century Bologna, New Haven 2003",,bibliographic
+FOR,it,secondary,"Vera Fortunati (ed.), Lavinia Fontana 1552-1614, exh. cat., Milano 1994",,bibliographic
+MOD,it,secondary,"Adelina Modesti, Elisabetta Sirani. Una virtuosa del Seicento bolognese, Bologna 2004",https://pinacotecabologna.beniculturali.it/images/Documenti/Sirani/Approfondimento.pdf,seen_online
+SIR,it,web,"Pinacoteca Nazionale di Bologna, Elisabetta Sirani (approfondimento)",https://pinacotecabologna.beniculturali.it/images/Documenti/Sirani/Approfondimento.pdf,seen_online
+PUL,it,web,"Massimo Pulini interviewed on Elisabetta Sirani, Finestre sull'Arte",https://www.finestresullarte.info/interviste/elisabetta-sirani-pittrice-di-successo-bologna-seicento-intervista-massimo-pulini,seen_online
+NMWA,en,secondary,"Vera Fortunati, Jordana Pomeroy, Claudio Strinati (eds.), Italian Women Artists from Renaissance to Baroque, Washington (NMWA) 2007",https://nmwa.org/exhibitions/italian-women-artists-from-renaissance-to-baroque/,seen_online
+HAR,en,secondary,"Ann Sutherland Harris and Linda Nochlin, Women Artists: 1550-1950, Los Angeles 1976",,bibliographic
+NEL,it,secondary,"Plautilla Nelli. Arte e devozione sulle orme di Savonarola, exh. cat., Firenze (Uffizi) 2017",,bibliographic
+GZN,it,secondary,"Gerardo Casale, Giovanna Garzoni «insigne miniatrice», Milano 1991",,bibliographic
+BRI,it,secondary,"Consuelo Lollobrigida, Plautilla Bricci: pictura et architectura celebris, Roma 2017",,bibliographic
+LIN,en,secondary,"Evelyn Lincoln, The Invention of the Italian Renaissance Printmaker, New Haven 2000 (Diana Mantuana)",,bibliographic
+MIL,it,web,"Le signore dell'arte. Storie di donne tra '500 e '600, Milano, Palazzo Reale 2021",https://www.milanofree.it/eventi/mostre/le-donne-dellarte-tra-500-e-600-in-mostra-a-palazzo-reale.html,seen_online
+GNT,fr,web,"The Ladies of the Baroque, MSK Gent (review, meer.com)",https://www.meer.com/fr/45398-the-ladies-of-the-baroque,seen_online
+JAC,fr,web,"Artemisia, héroïne de l'art, Paris, Musée Jacquemart-André 2025 (La Libre)",https://www.lalibre.be/culture/arts/2025/04/19/artemisia-sensuelle-violente-premiere-femme-peintre-star-CSUMOKU2SJHMLLKNFGXSANQTMI/,seen_online
+NAP,fr,web,"Gallerie d'Italia Napoli, women in the arts in 17th-century Naples (Finestre sull'Arte FR)",https://www.finestresullarte.info/fr/expositions/la-gallerie-d-italia-a-naples-consacre-une-exposition-aux-femmes-dans-les-arts-a-naples-au-xviie-siecle,seen_online
+NEWS,de,web,"Sofonisba Anguissola (news.at)",https://www.news.at/news/sofonisba-anguissola,seen_online
+GMK,en,project,"Global Makers: Women Artists in the Early Modern Courts (University of Alabama)",https://as.ua.edu/?p=28626,seen_online
+HOG,en,project,"Dana V. Hogan, Expanding Worlds: Italian Women Artists and Cross-Cultural Encounters in Early Modernity, PhD diss., Duke 2024",https://dukespace.lib.duke.edu/items/29de1ef9-a56f-4ef9-8595-d48213835ec8,seen_online
+WAV,en,project,"Save Venice, Finding Women Artists of Venice (database)",https://savevenice.org/news-and-stories/women-artists-of-venice-wav-news-online-database-coming-soon,seen_online
+SIRW,en,web,"Elisabetta Sirani (Wikipedia, citing Malvasia's list of her pupils)",https://en.wikipedia.org/wiki/Elisabetta_Sirani,seen_online
+ORZ,it,web,"Irina Niculescu, Il mito della pittrice Elisabetta Sirani, Orizzonti culturali italo-romeni",https://www.orizzonticulturali.it/it_studi_Irina-Niculescu.html,seen_online
+NGV,en,web,"A Studio of Their Own: Lavinia Fontana and Elisabetta Sirani, National Gallery of Victoria",https://www.ngv.vic.gov.au/essay/a-studio-of-their-own-lavinia-fontana-and-elisabetta-sirani/,seen_online
+CORW,en,web,"Theresa Maria Coriolano (Wikipedia, after Bryan's Dictionary)",https://en.wikipedia.org/wiki/Theresa_Maria_Coriolano,seen_online
+VEZ,en,web,"Virginia Vezzi, A Space of Their Own, Eskenazi Museum of Art, Indiana University",https://artmuseum.indiana.edu/space-of-their-own/artists/83,seen_online
+GZT,en,web,"Giovanna Garzoni, timeline, A Space of Their Own, Eskenazi Museum of Art, Indiana University",https://artmuseum.indiana.edu/space-of-their-own/artists/65/timeline,seen_online
+DIA,en,web,"Diana Scultori, timeline, A Space of Their Own, Eskenazi Museum of Art, Indiana University",https://artmuseum.indiana.edu/space-of-their-own/artists/77/timeline,seen_online
+LAVI,en,web,"Lavinia Fontana, A Space of Their Own, Eskenazi Museum of Art, Indiana University",https://artmuseum.indiana.edu/space-of-their-own/artists/64,seen_online
+CAA,en,web,"Review of Babette Bohn, Ludovico Carracci and the Art of Drawing, caa.reviews",https://m.caareviews.org/reviews/857,seen_online
+OBG,en,web,"Maria Oriana Galli Bibiena (Wikipedia)",https://en.wikipedia.org/wiki/Maria_Oriana_Galli_Bibiena,seen_online
+SHE,en,secondary,"William R. Shepherd, Historical Atlas, New York 1923: Italy about 1494, p. 90 (Perry-Castañeda Library, University of Texas)",https://maps.lib.utexas.edu/maps/historical/history_shepherd_1923.html,seen_online
+WPS,en,web,"List of historical states of Italy (Wikipedia)",https://en.wikipedia.org/wiki/List_of_historical_states_of_Italy,seen_online

@@ -1,0 +1,6406 @@
+[
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q31146"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P737"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q5597"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1483-04-06T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1520-04-16T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Raffaello Sanzio"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q31146"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P737"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q5597"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1483-04-15T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1520-04-16T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Raffaello Sanzio"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q31146"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P737"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q5597"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1483-04-06T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1520-04-17T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Raffaello Sanzio"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q31146"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P737"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q5597"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1483-04-15T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1520-04-17T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Raffaello Sanzio"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q544173"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q9319"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1519-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1594-05-31T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Tintoretto"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3026163"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q215305"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1499-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1546-11-11T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giulio Romano"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q388599"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1532-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1625-11-16T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Sofonisba Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q465443"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1532-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1625-11-16T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Sofonisba Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q561947"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1532-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1625-11-16T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Sofonisba Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1532-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1625-11-16T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Sofonisba Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1375207"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1532-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1625-11-16T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Sofonisba Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q526155"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q271475"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1638-01-08T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1665-08-28T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elisabetta Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236050"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P463"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q338523"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Accademia nazionale di San Luca"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1074555"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P463"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q338523"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Accademia nazionale di San Luca"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q212657"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q367360"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1563-07-19T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1639-02-07T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Orazio Gentileschi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q212657"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q367360"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1563-07-19T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1639-02-07T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Orazio Gentileschi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q212657"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q367360"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1563-07-29T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1639-02-07T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Orazio Gentileschi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q212657"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q367360"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1563-07-29T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1639-02-07T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Orazio Gentileschi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q388599"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1539-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1566-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Minerva Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q465443"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q388599"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1539-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1566-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Minerva Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q561947"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q388599"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1539-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1566-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Minerva Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q388599"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1539-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1566-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Minerva Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1375207"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q388599"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1539-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1566-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Minerva Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236050"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q460751"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1512-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1597-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Prospero Fontana"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q465443"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1536-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1565-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lucia Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q388599"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q465443"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1536-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1565-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lucia Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q561947"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q465443"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1536-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1565-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lucia Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q465443"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1536-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1565-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lucia Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1375207"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q465443"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1536-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1565-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lucia Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q271475"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P802"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q526155"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1618-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1672-05-11T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Ginevra Cantofoli"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q507765"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q539786"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1586-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1638-05-22T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Tiberio Tinelli"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q561947"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1555-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1611-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Maria Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q388599"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q561947"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1555-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1611-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Maria Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q465443"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q561947"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1555-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1611-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Maria Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q561947"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1555-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1611-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Maria Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1375207"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q561947"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1555-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1611-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Maria Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2849937"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q569020"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1607-02-25T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1656-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Agostino Beltrano"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q544173"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q706519"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1560-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1635-05-17T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Domenico Robusti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q271475"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q709383"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1610-09-04T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1670-05-21T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Andrea Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q293106"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q728375"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1480-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1534-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Marcantonio Raimondi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3026163"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q748699"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1535-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1594-02-15T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Francesco Capriani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q822891"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1520-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1591-08-18T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bernardino Campi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q822891"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1520-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1591-08-18T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bernardino Campi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q822909"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1495-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1576-02-22T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bernardino Gatti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2849937"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q982384"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1585-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1656-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Massimo Stanzione"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1530-01-01T00:00:00Z"
+},
+"od": {
+"type": "uri",
+"value": "http://www.wikidata.org/.well-known/genid/f7902acbe750d90e948416d5c76e8108"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elena Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q388599"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1530-01-01T00:00:00Z"
+},
+"od": {
+"type": "uri",
+"value": "http://www.wikidata.org/.well-known/genid/f7902acbe750d90e948416d5c76e8108"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elena Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q465443"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1530-01-01T00:00:00Z"
+},
+"od": {
+"type": "uri",
+"value": "http://www.wikidata.org/.well-known/genid/f7902acbe750d90e948416d5c76e8108"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elena Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q561947"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1530-01-01T00:00:00Z"
+},
+"od": {
+"type": "uri",
+"value": "http://www.wikidata.org/.well-known/genid/f7902acbe750d90e948416d5c76e8108"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elena Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1375207"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1530-01-01T00:00:00Z"
+},
+"od": {
+"type": "uri",
+"value": "http://www.wikidata.org/.well-known/genid/f7902acbe750d90e948416d5c76e8108"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elena Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1375207"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Europa Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q388599"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1375207"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Europa Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q465443"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1375207"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Europa Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q561947"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1375207"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Europa Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1375207"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Europa Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2166524"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1394894"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1603-03-02T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1647-08-27T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Pietro Novelli"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2979583"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1529806"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1678-09-06T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Pietro della Vecchia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1152279"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1727693"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1539-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1596-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Dario Varotari il Vecchio"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1152279"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1727824"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1588-04-04T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1649-07-20T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Alessandro Varotari"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1152279"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1727824"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1588-04-04T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1649-07-29T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Alessandro Varotari"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q212657"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P463"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1760178"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Accademia delle arti del disegno"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2850453"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1988115"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1587-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1663-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Francesco Allegrini"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2850453"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1988115"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1624-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1663-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Francesco Allegrini"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2943711"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2297219"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1516-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1567-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Domenico Brusasorzi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2943711"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2297219"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1516-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1567-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Domenico Brusasorzi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2943711"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2600590"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1542-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1605-02-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Felice Brusasorzi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2979583"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2979648"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1588-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1667-11-20T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Nicolas Régnier"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2979583"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2979648"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1590-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1667-11-20T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Nicolas Régnier"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2415445"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3107016"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1535-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1598-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Antonio di Amato il Giovane"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2943711"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3107042"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1544-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Battista Brusasorci"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3026163"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3107069"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1503-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1575-12-12T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovan Battista Mantovano"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3026163"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3107069"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1503-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1575-12-12T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovan Battista Mantovano"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2415445"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3107178"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1495-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1584-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Filippo Criscuolo"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2428749"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3346449"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1539-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1621-11-09T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Nunzio Galizia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q544173"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3513703"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1543-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1615-03-25T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Taddeo Carlone"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1038"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3743011"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1544-08-07T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1586-02-15T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Ferrante Gonzaga"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1152279"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P802"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q5051921"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1615-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Caterina Tarabotti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q212657"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q5479372"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1597-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1660-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Francesco Gentileschi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q212657"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q7191756"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1612-11-29T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Pierantonio Stiattesi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q16010690"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1494-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1573-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Amilcare Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q388599"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q16010690"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1494-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1573-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Amilcare Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q465443"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q16010690"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1494-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1573-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Amilcare Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q561947"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q16010690"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1494-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1573-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Amilcare Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q16010690"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1494-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1573-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Amilcare Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1375207"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q16010690"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1494-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1573-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Amilcare Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P25"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23012277"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bianca Ponzoni Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q388599"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P25"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23012277"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bianca Ponzoni Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q465443"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P25"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23012277"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bianca Ponzoni Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q561947"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P25"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23012277"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bianca Ponzoni Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P25"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23012277"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bianca Ponzoni Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1375207"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P25"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23012277"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bianca Ponzoni Anguissola"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2850453"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q28927625"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1607-10-17T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1664-02-03T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Maddalena Corvina"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q271475"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q47523026"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1653-01-16T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1715-03-05T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Maria Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1152279"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P802"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q59361233"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1637-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1700-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lucia Scaligeri"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q73524660"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "en",
+"type": "literal",
+"value": "Orazio Lomellino"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q271475"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107672609"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1641-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1692-02-18T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Barbara Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1074555"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713804"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1650-11-15T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1700-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Francesca Volò Smiller"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1074555"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713846"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1601-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1671-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenzo Volò"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1074555"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713846"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1620-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1671-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenzo Volò"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1074555"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713846"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1601-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1672-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenzo Volò"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2979583"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q123950770"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Angelica Regnier"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2979583"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q123950821"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Regnier"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236050"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q124325434"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Gian Paolo Zappi"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1555-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1615-01-01T00:00:00Z"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q507765"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1038"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q131986160"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Pietro Gaia"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1570-01-01T00:00:00Z"
+},
+"od": {
+"type": "uri",
+"value": "http://www.wikidata.org/.well-known/genid/0ea5edccc742f10f1337e80f48fb54ec"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1074555"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q132005780"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Ludovico Caffi"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1691-10-18T00:00:00Z"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1074555"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713846"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenzo Volò"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1620-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1672-01-01T00:00:00Z"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1074555"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713906"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanna Volò"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1652-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1680-01-01T00:00:00Z"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q212657"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P25"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q111996911"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "en",
+"type": "literal",
+"value": "Prudenzia di Ottaviano Montoni"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1074555"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q123785865"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giuseppe Volo Vicenzino"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1662-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1700-01-01T00:00:00Z"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2979583"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q123950566"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lucretia Régnier"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q59131648"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q192488"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1397-06-15T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1475-12-19T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Paolo Uccello"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3847441"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q239980"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1628-05-15T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1719-09-08T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Carlo Cignani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q104533864"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q239980"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1628-05-15T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1719-09-08T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Carlo Cignani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3847441"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q239980"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1628-05-15T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1719-12-08T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Carlo Cignani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q104533864"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q239980"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1628-05-15T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1719-12-08T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Carlo Cignani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q7782881"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q271475"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1638-01-08T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1665-08-28T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elisabetta Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q28599878"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q271475"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1638-01-08T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1665-08-28T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elisabetta Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q47523026"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q271475"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1638-01-08T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1665-08-28T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elisabetta Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q47523026"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q271475"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1638-01-08T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1665-08-28T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elisabetta Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107611592"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q271475"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1638-01-08T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1665-08-28T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elisabetta Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107672609"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q271475"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1638-01-08T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1665-08-28T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elisabetta Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107907203"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q271475"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1638-01-08T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1665-08-28T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elisabetta Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4014505"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q317920"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1590-01-08T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1649-06-30T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "en",
+"type": "literal",
+"value": "Simon Vouet"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4014505"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q317920"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1590-01-08T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1649-06-30T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "en",
+"type": "literal",
+"value": "Simon Vouet"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4014505"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q317920"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1590-01-09T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1649-06-30T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "en",
+"type": "literal",
+"value": "Simon Vouet"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4014505"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q317920"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1590-01-09T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1649-06-30T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "en",
+"type": "literal",
+"value": "Simon Vouet"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q104533864"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P463"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q338478"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Accademia dell'Arcadia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4014505"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P463"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q338523"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Accademia nazionale di San Luca"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713804"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P463"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q338523"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Accademia nazionale di San Luca"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4776226"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q380553"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1555-04-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1619-11-13T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Ludovico Carracci"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q59361935"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q461670"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1626-08-04T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1699-08-18T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Antonio Domenico Triva"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q19402473"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q503322"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1616-05-25T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1686-01-17T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Carlo Dolci"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3839037"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q551695"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1589-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1623-04-16T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Domenico Fetti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3839037"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q551695"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1589-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1624-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Domenico Fetti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q47523026"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q709383"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1610-09-04T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1670-05-21T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Andrea Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q47523026"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q709383"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1610-09-04T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1670-05-21T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Andrea Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107672609"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q709383"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1610-09-04T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1670-05-21T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Andrea Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23766755"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1038"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q948226"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1536-05-10T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1586-10-19T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Ignazio Danti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713804"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1074555"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1648-03-26T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1710-09-20T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Margherita Caffi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3356695"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1136794"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1568-05-09T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1625-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Guglielmo Caccia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23766755"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1038"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1234790"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1530-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1576-05-26T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenzo Danti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107612446"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1433238"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1625-04-05T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1684-04-06T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Domenico Maria Canuti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107612446"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1433238"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1625-04-05T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1684-04-06T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Domenico Maria Canuti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107612446"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1433238"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1626-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1684-04-06T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Domenico Maria Canuti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107612446"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1433238"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1626-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1684-04-06T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Domenico Maria Canuti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3847441"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1526234"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1625-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1665-06-21T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Maria Galli da Bibbiena"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q19569575"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1528623"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1634-06-12T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1695-05-29T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giuseppe Recco"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q59361233"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1727824"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1588-04-04T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1649-07-20T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Alessandro Varotari"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q59361233"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1727824"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1588-04-04T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1649-07-29T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Alessandro Varotari"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3847441"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2543592"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1648-04-05T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1729-12-24T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Marcantonio Franceschini"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q22957925"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2543592"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1648-04-05T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1729-12-24T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Marcantonio Franceschini"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107611592"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2880655"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1614-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1678-12-18T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Baldassarre Bianchi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107907203"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3071876"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1603-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1675-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Filippo Brizzi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107611592"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3081102"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1635-08-25T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1709-03-07T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Francesco Stringa"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107611592"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3081102"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1635-08-25T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1709-03-19T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Francesco Stringa"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4776226"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3107034"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1577-05-20T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1644-07-23T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Battista Bertusio"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4776226"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3107034"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1577-05-30T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1644-07-23T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Battista Bertusio"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q131460806"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3107038"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1636-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1688-09-28T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Battista Benaschi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q131460806"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3107038"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1636-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1688-09-28T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Battista Benaschi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q96312519"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3107339"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1608-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1673-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Stanchi Dei Fiori"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q96312519"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1038"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3107339"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1608-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1673-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Stanchi Dei Fiori"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q96312519"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3107339"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1608-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1675-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Stanchi Dei Fiori"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q96312519"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1038"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3107339"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1608-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1675-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Stanchi Dei Fiori"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q104533864"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P463"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3603988"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Accademia dei Filergiti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3742095"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3839904"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1605-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1656-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Luigi Miradori"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3026163"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4680183"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1530-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1585-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Adamo Scultori"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q7782881"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4865508"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1599-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1676-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bartolomeo Coriolano"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q7782881"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4865508"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1599-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1676-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bartolomeo Coriolano"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q7782881"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1038"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q5186479"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1540-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Cristoforo Coriolano"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q64585350"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q5371956"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1633-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1696-06-17T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Emilio Taruffi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6078056"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q16853931"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1570-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1612-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Leonardo Parasole"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3847441"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q16853979"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1651-05-28T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1733-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Gioacchino Pizzoli"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q27955543"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q19569683"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1617-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1669-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giacomo Piccini"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23766755"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1038"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q21055293"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1547-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1580-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Girolamo Danti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q19772104"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q21844809"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1574-02-23T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "en",
+"type": "literal",
+"value": "Clemente Pietra"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q28927625"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1038"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23583709"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1540-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1621-10-23T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Frans van de Casteele"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q28927625"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23583709"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1540-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1621-10-23T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Frans van de Casteele"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107672609"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q47523026"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1653-01-16T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1715-03-05T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Maria Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q28599878"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q53500766"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1607-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1661-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Domenico Maria Fontana"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q28599878"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q53500766"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1607-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1661-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Domenico Maria Fontana"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23766755"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q81757780"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1500-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1575-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giulio Danti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23766755"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1038"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q91909828"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1450-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1512-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Piervincenzo Danti"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3617772"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q94623693"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1571-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1631-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Alessandro Vaiani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3617772"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q94623693"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1578-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1631-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Alessandro Vaiani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q22957925"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q97583727"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1639-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1694-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giulio Zanardi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q47523026"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107672609"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1641-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1692-02-18T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Barbara Sirani"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713804"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713846"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1601-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1671-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenzo Volò"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713804"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713846"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1601-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1671-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenzo Volò"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713804"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713846"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1620-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1671-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenzo Volò"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713804"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713846"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1620-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1671-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenzo Volò"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713804"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713846"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1601-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1672-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenzo Volò"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713804"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713846"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1601-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1672-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenzo Volò"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713804"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713846"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1620-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1672-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenzo Volò"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713804"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713846"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1620-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1672-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenzo Volò"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713804"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713906"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1652-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1680-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanna Volò"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6078056"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q110921109"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1569-01-01T00:00:00Z"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1622-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581072"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Geronima Parasole Cagnaccia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q22957925"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q117034641"
+},
+"ob": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1658-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Paolo Zanardi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q22957925"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P3373"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q117034641"
+},
+"ob": {
+"type": "uri",
+"value": "http://www.wikidata.org/.well-known/genid/676e5f49bcebe10f9483c152dcdb6050"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanni Paolo Zanardi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q22957925"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q117034647"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Sebastiano Monchi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107907203"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q131360389"
+},
+"od": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1686-01-01T00:00:00Z"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lodovico Mongardi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4014505"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P22"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q131927220"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Pompeo Vezzi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4014505"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P1066"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q131927220"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Pompeo Vezzi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107612446"
+},
+"p": {
+"type": "uri",
+"value": "http://www.wikidata.org/prop/direct/P26"
+},
+"o": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q132009272"
+},
+"oSex": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6581097"
+},
+"oLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bonaveri"
+}
+}
+]

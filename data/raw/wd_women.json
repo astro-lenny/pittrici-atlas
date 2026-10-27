@@ -1,0 +1,3979 @@
+[
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q212657"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2634"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(14.248611111 40.835833333)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1593-07-08T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1653-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500011658"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Artemisia Gentileschi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Napoli"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q293106"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1490-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1530-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500082950"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Properzia de' Rossi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2428749"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q490"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(9.19 45.466944444)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q490"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(9.19 45.466944444)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1578-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1630-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500013207"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Fede Galizia"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Milano"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Milano"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q465443"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6231"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.024722222 45.133333333)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6231"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.024722222 45.133333333)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1536-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1565-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500031903"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lucia Anguissola"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Cremona"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Cremona"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2428749"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q490"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(9.19 45.466944444)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3376"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.11666667 46.06666667)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1578-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1630-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500013207"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Fede Galizia"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Trento"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Milano"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q293106"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1490-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1533-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500082950"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Properzia de' Rossi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2849937"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2634"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(14.248611111 40.835833333)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2634"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(14.248611111 40.835833333)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1613-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1649-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500002834"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Aniella di Beltrano"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Napoli"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Napoli"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236050"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1552-09-03T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1614-08-11T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500012612"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lavinia Fontana"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1074555"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q490"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(9.19 45.466944444)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6231"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.024722222 45.133333333)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1648-03-26T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1710-09-20T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500007397"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Margherita Caffi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Cremona"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Milano"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2979583"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1627-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1715-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500089612"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Clorinda Renieri"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q561947"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6231"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.024722222 45.133333333)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6231"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.024722222 45.133333333)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1555-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1611-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500083203"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Maria Anguissola"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Cremona"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Cremona"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q236038"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2656"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(13.361261944 38.115658055)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6231"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.024722222 45.133333333)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1532-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1625-11-16T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500115561"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Sofonisba Anguissola"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Cremona"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Palermo"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1375207"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q38"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.5 42.5)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6231"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.024722222 45.133333333)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500099676"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Europa Anguissola"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Cremona"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Italia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q526155"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1618-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1672-05-11T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500009258"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Ginevra Cantofoli"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1152279"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q617"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.873333333 45.407777777)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1584-01-01T00:00:00Z"
+},
+"death": {
+"type": "uri",
+"value": "http://www.wikidata.org/.well-known/genid/04d38d9d360187a66734661da68ad369"
+},
+"ulan": {
+"type": "literal",
+"value": "500029469"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Chiara Varotari"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Padova"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q544173"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1560-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1590-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500024580"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Marietta Robusti"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q388599"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6231"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.024722222 45.133333333)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6231"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.024722222 45.133333333)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1539-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1566-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Minerva Anguissola"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Cremona"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Cremona"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q507765"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6624"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(13.575277777 42.854722222)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1670-02-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500027455"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giovanna Garzoni"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Ascoli Piceno"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2943711"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2028"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.992777777 45.438611111)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2028"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.992777777 45.438611111)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1549-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1593-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500433802"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Cecilia Brusasorci"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Verona"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Verona"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1327840"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6247"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.791111111 45.156388888)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6231"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.024722222 45.133333333)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1530-01-01T00:00:00Z"
+},
+"death": {
+"type": "uri",
+"value": "http://www.wikidata.org/.well-known/genid/f7902acbe750d90e948416d5c76e8108"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elena Anguissola"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Cremona"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Mantova"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2849937"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2634"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(14.248611111 40.835833333)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2634"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(14.248611111 40.835833333)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1602-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1649-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500002834"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Aniella di Beltrano"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Napoli"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Napoli"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q544173"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1554-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1590-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500024580"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Marietta Robusti"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q271475"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1638-01-08T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1665-08-28T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500015596"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elisabetta Sirani"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1074555"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q490"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(9.19 45.466944444)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q490"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(9.19 45.466944444)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1648-03-26T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1710-09-20T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500007397"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Margherita Caffi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Milano"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Milano"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3154328"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q53197"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.901666666 46.111388888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1538-10-27T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1559-12-27T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500050516"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Irene di Spilimbergo"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Spilimbergo"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3518357"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2634"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(14.248611111 40.835833333)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1649-08-20T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1713-08-05T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500031063"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Teresa del Po"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Napoli"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q7782881"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1657-04-28T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1671-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500121785"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Teresa Maria Coriolano"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q7782881"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1657-04-28T00:00:00Z"
+},
+"death": {
+"type": "uri",
+"value": "http://www.wikidata.org/.well-known/genid/c081629ab0c160fc545852cde2373e6f"
+},
+"ulan": {
+"type": "literal",
+"value": "500121785"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Teresa Maria Coriolano"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3154328"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q53197"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.901666666 46.111388888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1538-10-27T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1559-12-15T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500050516"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Irene di Spilimbergo"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Spilimbergo"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q7782881"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1657-04-28T00:00:00Z"
+},
+"death": {
+"type": "uri",
+"value": "http://www.wikidata.org/.well-known/genid/82e98c9d2a9d6fbee4e0a7dd61457b9f"
+},
+"ulan": {
+"type": "literal",
+"value": "500121785"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Teresa Maria Coriolano"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3026163"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6247"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.791111111 45.156388888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1547-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1612-04-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500018707"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Diana Scultori Ghisi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Mantova"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3218663"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1622-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1675-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500051115"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Laura Bernasconi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3839037"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6247"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.791111111 45.156388888)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1651-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lucrina Fetti"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Mantova"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4014505"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q90"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(2.352222222 48.856666666)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q189236"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.783333333 41.666666666)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1600-06-24T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1638-10-18T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Virginia Vezzi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Velletri"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Parigi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3617772"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2044"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.254166666 43.771388888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1604-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1655-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500004542"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Maria Vaiana"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Firenze"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3906452"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2044"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.254166666 43.771388888)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2044"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.254166666 43.771388888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1524-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1588-05-07T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500049444"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Plautilla Nelli"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Firenze"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Firenze"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2979583"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1650-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1715-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500089612"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Clorinda Renieri"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4940622"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q914255"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.465555555 41.887222222)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1616-08-13T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1705-12-13T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500314928"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Plautilla Bricci"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Trastevere"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6078056"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q628"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(9.67 45.695)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1570-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1617-05-12T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500356678"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Isabella Parasole"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bergamo"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3617772"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2044"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.254166666 43.771388888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1604-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1654-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500004542"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Maria Vaiana"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Firenze"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6078056"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q628"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(9.67 45.695)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1575-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1617-05-12T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500356678"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Isabella Parasole"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bergamo"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3356695"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q17827"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(8.266388888 45.051111111)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q17827"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(8.266388888 45.051111111)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1596-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1676-07-26T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500024887"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Orsola Caccia"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Moncalvo"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Moncalvo"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3051108"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6572"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.794 45.0809)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6572"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.794 45.0809)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1630-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1710-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500004790"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elisabetta Marchioni"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Rovigo"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Rovigo"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6078056"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q628"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(9.67 45.695)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1580-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1617-05-12T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500356678"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Isabella Parasole"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bergamo"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3847441"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1656-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1749-01-03T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500115689"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Maria Oriana Galli da Bibbiena"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4776226"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1592-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1644-01-01T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500049719"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Antonia Pinelli"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q5051917"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1590-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1660-11-30T00:00:00Z"
+},
+"ulan": {
+"type": "literal",
+"value": "500050552"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Caterina Ginnasi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q59361233"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1637-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1700-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lucia Scaligeri"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q19772104"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2044"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.254166666 43.771388888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1541-01-21T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1594-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lucrezia Quistelli"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Firenze"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3291086"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1650-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1711-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "en",
+"type": "literal",
+"value": "Maria Vittoria Cassana"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3742095"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6231"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.024722222 45.133333333)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1637-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1700-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Felice Antonia Miradori"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Cremona"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107907356"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q94944"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.633333333 44.483333333)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1658-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1730-02-15T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Isabella Sandri Orfei"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Medicina"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q64585350"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1659-07-05T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1737-05-07T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Maria Elena Panzacchi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+},
+"ulan": {
+"type": "literal",
+"value": "500067235"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2415445"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2634"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(14.248611111 40.835833333)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1548-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1630-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Mariangiola Criscuolo"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Napoli"
+},
+"ulan": {
+"type": "literal",
+"value": "500076352"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q131460806"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1656-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Angela Beinaschi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q19569575"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2634"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(14.248611111 40.835833333)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1654-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1700-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Elena Recco"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Napoli"
+},
+"ulan": {
+"type": "literal",
+"value": "500100088"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3218666"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1216"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(7.916666666 45.25)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1650-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Laura Bottero"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Piemonte"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q19402473"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2044"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.254166666 43.771388888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1659-09-14T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1689-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Agnese Dolci"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Firenze"
+},
+"ulan": {
+"type": "literal",
+"value": "500045602"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q27955543"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1644-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1734-04-29T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Isabella Piccini"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+},
+"ulan": {
+"type": "literal",
+"value": "500043020"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3080861"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q17827"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(8.266388888 45.051111111)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1608-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1628-12-18T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Francesca Caccia"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Moncalvo"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107907203"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1645-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1680-01-19T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Caterina Mongardi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107611592"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1650-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Lucrezia Bianchi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q22957925"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1660-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1700-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Gentile Zanardi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q59361935"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q13360"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.633333333 44.7)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1629-04-03T00:00:00Z"
+},
+"death": {
+"type": "uri",
+"value": "http://www.wikidata.org/.well-known/genid/85cc7895d75eaf96c2bb8d72e13be6b9"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Flaminia Triva"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Reggio Emilia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q59131648"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2044"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.254166666 43.771388888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1456-10-22T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1491-02-18T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Antonia di Paolo di Dono"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Firenze"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q104533864"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q13367"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.041388888 44.222777777)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1650-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1720-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Rosa Agnese Bruni"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Forlì"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q104964223"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6697"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.95 43.716666666)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1597-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1657-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Costanza Francini"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Empoli"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q4936473"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q641"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.331944444 45.439722222)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1530-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1568-09-21T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vincenza Armani"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Venezia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2850453"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1505-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Angelica Allegrini"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+},
+"ulan": {
+"type": "literal",
+"value": "500114385"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107612446"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1636-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1696-08-03T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Giulia Canuti Bonaveri"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2166524"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2656"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(13.361261944 38.115658055)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1628-02-02T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1688-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Rosalia Novelli"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Palermo"
+},
+"ulan": {
+"type": "literal",
+"value": "500297277"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q28927625"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1607-10-17T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1664-02-03T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Maddalena Corvina"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+},
+"ulan": {
+"type": "literal",
+"value": "500013847"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107713804"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q490"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(9.19 45.466944444)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1650-11-15T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1700-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Francesca Volò Smiller"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Milano"
+},
+"ulan": {
+"type": "literal",
+"value": "500340630"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q28669714"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q490"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(9.19 45.466944444)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1610-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1660-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Madonna Fitta de Milano"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Milano"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q16859805"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q13375"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.4 43.716666666)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1599-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1622-10-18T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Arcangela Paladini"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Pisa"
+},
+"ulan": {
+"type": "literal",
+"value": "500061115"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2044"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.254166666 43.771388888)"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Firenze"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q23766755"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q3437"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.38854847 43.11191816)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1498-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1573-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Teodora Danti"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Perugia"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q28599878"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2683"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(10.328 44.801472222)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1651-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1688-10-02T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Veronica Fontana"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Parma"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q31146"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q13364"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.201666666 44.416111111)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1552-10-11T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1638-12-23T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Barbara Longhi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Ravenna"
+},
+"ulan": {
+"type": "literal",
+"value": "500003301"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q13364"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.201666666 44.416111111)"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Ravenna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q96312519"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1620-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Stanchi"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q107672609"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1641-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1692-02-18T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Barbara Sirani"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q5051921"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q6537"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.55 45.55)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1615-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Caterina Tarabotti"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Vicenza"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q104533864"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q13367"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.041388888 44.222777777)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1650-01-01T00:00:00Z"
+},
+"death": {
+"type": "uri",
+"value": "http://www.wikidata.org/.well-known/genid/60b6b26d9e3d8e86d220b1816ef27b2e"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Rosa Agnese Bruni"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Forlì"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q108380850"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1597-01-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1676-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Maria Eufrasia della Croce"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q220"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.482777777 41.893055555)"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Roma"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q47523026"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1891"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(11.342777777 44.493888888)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1653-01-16T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1715-03-05T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Anna Maria Sirani"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Bologna"
+},
+"ulan": {
+"type": "literal",
+"value": "500047282"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q2849401"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q1216"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(7.916666666 45.25)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1650-01-01T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "en",
+"type": "literal",
+"value": "Angiola Guglielma Butteri"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Piemonte"
+}
+},
+{
+"a": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q31146"
+},
+"bp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q13364"
+},
+"bpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.201666666 44.416111111)"
+},
+"birth": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1552-10-01T00:00:00Z"
+},
+"death": {
+"datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+"type": "literal",
+"value": "1638-12-23T00:00:00Z"
+},
+"aLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Barbara Longhi"
+},
+"bpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Ravenna"
+},
+"ulan": {
+"type": "literal",
+"value": "500003301"
+},
+"dp": {
+"type": "uri",
+"value": "http://www.wikidata.org/entity/Q13364"
+},
+"dpc": {
+"datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
+"type": "literal",
+"value": "Point(12.201666666 44.416111111)"
+},
+"dpLabel": {
+"xml:lang": "it",
+"type": "literal",
+"value": "Ravenna"
+}
+}
+]

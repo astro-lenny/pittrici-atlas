@@ -1,0 +1,98 @@
+place,state,from,to,confidence,sources,note
+rome,PAP,1450,1720,high,SHE;WPS,
+florence,FLO,1450,1720,high,SHE;WPS,
+bologna,PAP,1450,1506,medium,SHE;WPS,Bentivoglio signoria under papal sovereignty
+bologna,PAP,1506,1720,high,WPS,Direct papal rule after Julius II
+venice,VEN,1450,1720,high,SHE;WPS,
+naples,NAP,1450,1720,high,SHE;WPS,Aragonese then Spanish rule
+milan,MIL,1450,1720,high,SHE;WPS,French and Spanish rulers at times; see state note
+cremona,MIL,1450,1499,high,SHE,
+cremona,VEN,1499,1509,high,WPS,Venetian 1499-1509 after the French conquest of Milan
+cremona,MIL,1509,1720,high,WPS,
+genoa,GEN,1450,1720,medium,SHE;WPS,Under Milanese or French lordship at times before 1528
+palermo,SIC,1450,1720,high,WPS,
+paterno,SIC,1450,1720,high,WPS,
+pisa,FLO,1450,1494,high,SHE,
+pisa,PIS,1494,1509,high,WPS,Revolt against Florence
+pisa,FLO,1509,1720,high,WPS,
+livorno,FLO,1450,1720,high,SHE,
+mantua,MAN,1450,1720,high,SHE;WPS,
+ravenna,VEN,1450,1509,high,SHE,Venetian 1441-1509
+ravenna,PAP,1509,1720,high,WPS,
+padua,VEN,1450,1720,high,SHE,
+turin,SAV,1450,1536,high,SHE,
+turin,FRA,1536,1562,medium,WPS,French occupation
+turin,SAV,1562,1720,high,WPS,
+verona,VEN,1450,1720,high,SHE,
+parma,MIL,1450,1512,medium,SHE,
+parma,PAP,1512,1545,medium,WPS,
+parma,PAR,1545,1720,high,WPS,
+imola,PAP,1450,1720,medium,SHE,Riario and Sforza vicars before 1500
+ascoli,PAP,1450,1720,high,SHE,
+velletri,PAP,1450,1720,high,SHE,
+spilimbergo,VEN,1450,1720,high,SHE,
+moncalvo,MON,1450,1720,medium,SHE,Monferrato; Gonzaga from 1536
+bianze,SAV,1450,1720,low,SHE,Border area between Savoy and Monferrato
+siena,SIE,1450,1555,high,SHE;WPS,
+siena,ESP,1555,1557,medium,WPS,Imperial-Spanish occupation after the siege
+siena,FLO,1557,1720,high,WPS,Enfeoffed to Cosimo I de' Medici
+perugia,PAP,1450,1540,medium,SHE,Autonomous under the Baglioni until the Salt War
+perugia,PAP,1540,1720,high,WPS,
+madrid,ESP,1450,1720,high,WPS,
+paris,FRA,1450,1720,high,WPS,
+london,ENG,1450,1720,high,WPS,
+wd-orvieto,PAP,1450,1720,high,SHE,
+wd-empoli,FLO,1450,1720,high,SHE,
+wd-montabone,MON,1450,1720,low,SHE,Monferrato border area
+wd-arezzo,FLO,1450,1720,high,SHE,
+wd-italy,NONE,1450,1720,low,WD,Wikidata gives only the country
+wd-antwerp,LOW,1450,1720,high,WPS,
+wd-alicante,ESP,1450,1720,high,WPS,
+wd-vicenza,VEN,1450,1720,high,SHE,
+wd-fano,PAP,1450,1720,medium,SHE,Malatesta vicars to 1463
+wd-fontainebleau,FRA,1450,1720,high,WPS,
+wd-aranjuez,ESP,1450,1720,high,WPS,
+wd-cologne,HRE,1450,1720,high,WPS,
+wd-pratovecchio,FLO,1450,1720,high,SHE,
+wd-gubbio,URB,1450,1631,high,SHE,
+wd-gubbio,PAP,1631,1720,high,WPS,
+wd-brussels,LOW,1450,1720,high,WPS,
+wd-forli,PAP,1450,1720,medium,SHE,Riario-Sforza vicars to 1500
+wd-modena,EST,1450,1720,high,SHE,
+wd-maubeuge,LOW,1450,1678,medium,WPS,
+wd-maubeuge,FRA,1678,1720,medium,WPS,Ceded to France at Nijmegen
+wd-rovigo,VEN,1450,1720,high,SHE,Venetian from 1484
+wd-gaeta,NAP,1450,1720,high,SHE,
+wd-trento,HRE,1450,1720,high,SHE,Prince-bishopric within the Empire
+wd-palacio-de-pimentel,ESP,1450,1720,high,WPS,Valladolid
+wd-royal-monastery-of-san-lorenzo-de-el-escorial,ESP,1450,1720,high,WPS,
+wd-rovio,MIL,1450,1512,medium,SHE,
+wd-rovio,SWI,1512,1720,medium,WPS,Lugano bailiwick of the Swiss
+wd-castel-goffredo,MAN,1450,1720,medium,SHE,Gonzaga cadet branch
+wd-ponzano-romano,PAP,1450,1720,high,SHE,
+wd-reggio-emilia,EST,1450,1720,high,SHE,Papal 1512-1523
+wd-munich,HRE,1450,1720,high,WPS,
+wd-pieve-di-cadore,VEN,1450,1720,high,SHE,
+wd-nuremberg,HRE,1450,1720,high,WPS,
+wd-caprese-michelangelo,FLO,1450,1720,high,SHE,
+wd-urbino,URB,1450,1631,high,SHE;WPS,
+wd-urbino,PAP,1631,1720,high,WPS,
+wd-bergamo,VEN,1450,1720,high,SHE,
+wd-molinella,PAP,1450,1720,high,SHE,
+wd-volterra,FLO,1450,1720,high,SHE,
+wd-dunfermline-palace,ENG,1450,1720,low,WPS,Scotland; separate crown until 1603
+wd-pavia,MIL,1450,1720,high,SHE,
+wd-alatri,PAP,1450,1720,high,SHE,
+wd-piacenza,MIL,1450,1512,medium,SHE,
+wd-piacenza,PAP,1512,1545,medium,WPS,
+wd-piacenza,PAR,1545,1720,high,WPS,
+wd-spain,NONE,1450,1720,low,WD,Wikidata gives only the country
+wd-pistoia,FLO,1450,1720,high,SHE,
+wd-rimini,PAP,1450,1720,medium,SHE,Malatesta vicars to 1500; Venetian 1503-1509
+wd-france,NONE,1450,1720,low,WD,Wikidata gives only the country
+wd-amsterdam,LOW,1450,1720,high,WPS,Dutch Republic from 1581
+wd-vienna,HRE,1450,1720,high,WPS,
+wd-augsburg,HRE,1450,1720,high,WPS,
+wd-innsbruck,HRE,1450,1720,high,WPS,
+wd-ferrara,EST,1450,1598,high,SHE;WPS,
+wd-ferrara,PAP,1598,1720,high,WPS,Devolved to the Papal States

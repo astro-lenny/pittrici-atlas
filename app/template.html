@@ -1,0 +1,1093 @@
+<meta charset="utf-8">
+<title>Pittrici Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>/*__LEAFLET_CSS__*/</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one-screen atlas. Map fills the left, a ledger panel on the right, a timeline rail under the map.
+   Palette taken from pigments: verdaccio paper, ultramarine for women artists, umber for men,
+   verdigris for patrons, madder for marriages, ochre for encounters. */
+:root {
+  --paper: #e9ebe4;  --sea: #dfe4e2;  --land: #f5f5ef;  --land-edge: #c3c7bd;  --river: #a9bdc6;
+  --ink: #23262b;    --ink-2: #5a5f66; --ink-3: #8b9097; --rule: #cfd2c9;   --panel: #f4f5f0;
+  --women: #2c48a3;  --men: #8a6a45;   --patron: #2f8576; --org: #6f747b;
+  --e-teacher: #4a69c9; --e-family: #a07d52; --e-patron: #2f8576; --e-spouse: #b04a6c;
+  --e-encounter: #c08a1e; --e-member: #8b9097;
+  --focus-ring: #c08a1e; --tile-filter: saturate(.75); --terrain-filter: none;
+  --c-g: #2e8a4a; --c-y: #c99a12; --c-r: #c2412d;
+  --f-display: "EB Garamond", "Garamond", "Georgia", serif;
+  --f-ui: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #15171b; --sea: #121418; --land: #1f2227; --land-edge: #343941; --river: #2f4652;
+  --ink: #e6e4dc;  --ink-2: #b0b0aa; --ink-3: #7f8288; --rule: #2c3036; --panel: #1a1d21;
+  --women: #8ea6ff; --men: #c7a47a; --patron: #5cc4ae; --org: #9a9fa6;
+  --e-teacher: #7f99f0; --e-family: #c9a271; --e-patron: #5cc4ae; --e-spouse: #e07a9b;
+  --e-encounter: #e0b04a; --e-member: #80858c; --focus-ring: #e0b04a; --tile-filter: invert(1) hue-rotate(180deg) brightness(.85) contrast(.9) saturate(.5); --terrain-filter: brightness(.7) saturate(.8); --c-g: #5cc77a; --c-y: #e8bd3c; --c-r: #ef6a55; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #15171b; --sea: #121418; --land: #1f2227; --land-edge: #343941; --river: #2f4652;
+  --ink: #e6e4dc;  --ink-2: #b0b0aa; --ink-3: #7f8288; --rule: #2c3036; --panel: #1a1d21;
+  --women: #8ea6ff; --men: #c7a47a; --patron: #5cc4ae; --org: #9a9fa6;
+  --e-teacher: #7f99f0; --e-family: #c9a271; --e-patron: #5cc4ae; --e-spouse: #e07a9b;
+  --e-encounter: #e0b04a; --e-member: #80858c; --focus-ring: #e0b04a; --tile-filter: invert(1) hue-rotate(180deg) brightness(.85) contrast(.9) saturate(.5); --terrain-filter: brightness(.7) saturate(.8); --c-g: #5cc77a; --c-y: #e8bd3c; --c-r: #ef6a55; color-scheme: dark }
+[hidden] { display: none !important; }
+html, body { height: 100%; }
+body { background: var(--paper); color: var(--ink); font-family: var(--f-ui); font-size: 14px; overflow: hidden; }
+.app { height: 100%; display: grid; grid-template-columns: minmax(0, 1fr) 360px; grid-template-rows: auto minmax(0, 1fr) auto; }
+header { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap;
+  padding-block: 10px 8px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  border-bottom: 1px solid var(--rule); }
+h1 { font-family: var(--f-display); font-weight: 500; font-style: italic; font-size: 26px; margin: 0; letter-spacing: .01em; }
+header p { margin: 0; color: var(--ink-2); max-width: 70ch; }
+.mapwrap { position: relative; min-width: 0; min-height: 0; background: var(--sea); }
+#map { position: absolute; inset: 0; background: var(--sea); font-family: var(--f-ui); }
+#map[data-base="street"] .leaflet-tile-pane { filter: var(--tile-filter); }
+#map[data-base="terrain"] .leaflet-tile-pane { filter: var(--terrain-filter); }
+.basebar { position: absolute; z-index: 900; top: 10px; right: max(10px, env(safe-area-inset-right, 0px)); gap: 0 !important; flex-wrap: nowrap !important; }
+.basebar button { border-radius: 0; margin-left: -1px; }
+.basebar button:first-child { border-radius: 3px 0 0 3px; } .basebar button:last-child { border-radius: 0 3px 3px 0; }
+.seg button.blocked { opacity: .5; text-decoration: line-through; text-decoration-thickness: 1px; }
+.mapopts { display: grid; gap: 6px; font-size: 13px; }
+.mapopts label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+.leaflet-tooltip.statelabel { background: none; border: 0; box-shadow: none; padding: 0; font: 600 11px var(--f-ui); letter-spacing: .1em;
+  text-transform: uppercase; color: var(--ink); text-shadow: 0 0 3px var(--paper), 0 0 3px var(--paper), 0 0 6px var(--paper); white-space: nowrap; }
+.leaflet-tooltip.statelabel::before { display: none; }
+.net-pane svg { position: absolute; left: 0; top: 0; pointer-events: none; overflow: visible; }
+.net-pane .node { pointer-events: auto; }
+.leaflet-container .leaflet-control-attribution { background: color-mix(in srgb, var(--panel) 85%, transparent); color: var(--ink-2); }
+.leaflet-container .leaflet-control-attribution a { color: var(--ink-2); }
+.leaflet-bar a, .leaflet-bar a:hover { background: var(--panel); color: var(--ink); border-color: var(--rule); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--panel); color: var(--ink); border-radius: 4px; box-shadow: 0 3px 14px rgb(0 0 0 / .25); }
+.leaflet-popup-content { margin: 12px 14px; font: 13px/1.45 var(--f-ui); width: min(340px, 70vw) !important; }
+.leaflet-container a.leaflet-popup-close-button { color: var(--ink-3); }
+.pop { max-height: 52vh; overflow-y: auto; padding-right: 4px; }
+.pop h3 { font: 600 20px var(--f-display); margin: 0; }
+.pop .life { color: var(--ink-2); margin: 2px 0 6px; }
+.pop .desc { color: var(--ink-2); font-size: 12px; margin: 0 0 8px; }
+.pop .desc i { color: var(--ink-3); font-style: normal; font-family: var(--f-mono); font-size: 10.5px; margin-right: 4px; }
+.pop p.sum { margin: 0 0 10px; }
+.pop h4 { font: 600 10.5px var(--f-ui); letter-spacing: .09em; text-transform: uppercase; color: var(--ink-3); margin: 10px 0 4px; }
+.pop .links { display: flex; flex-wrap: wrap; gap: 4px; }
+.pop .links a { font-size: 12px; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 3px; padding: 1px 6px; text-decoration: none; }
+.pop .links a:hover { border-color: var(--ink-3); }
+.leaflet-container .pop a.pname { color: var(--women); }
+.leaflet-container .pop a.pname.m { color: var(--men); }
+.basemode { position: absolute; right: max(10px, env(safe-area-inset-right, 0px)); top: 48px; z-index: 900; font-size: 11.5px; color: var(--ink-2);
+  background: color-mix(in srgb, var(--panel) 90%, transparent); border: 1px solid var(--rule); border-radius: 3px; padding: 3px 8px; max-width: 46%; }
+.edge { fill: none; stroke-width: 1.2; opacity: .55; }
+.edge.inferred { stroke-dasharray: 3 3; opacity: .35; }
+.edge.dim { opacity: .06; }
+.edge.hi { opacity: .95; stroke-width: 2; }
+.trail { fill: none; stroke: var(--ink-2); stroke-width: 1.4; stroke-dasharray: 1 4; stroke-linecap: round; }
+.node { stroke: var(--paper); stroke-width: 1.2; cursor: pointer; }
+.node.dim { opacity: .2; }
+.node.sel { stroke-width: 3; }
+.aggn { font: 600 9.5px var(--f-mono); fill: var(--paper); text-anchor: middle; pointer-events: none; }
+.cl { display: inline-block; width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid var(--panel); box-shadow: 0 0 0 1px var(--rule);
+  padding: 0; margin: 0 3px; vertical-align: -1px; cursor: pointer; background: var(--c-y); }
+.cl.g { background: var(--c-g); } .cl.y { background: var(--c-y); } .cl.r { background: var(--c-r); }
+.cl:hover { box-shadow: 0 0 0 2px var(--ink-3); }
+.legend { overflow: visible; }
+.hint { position: relative; }
+.hint:hover::after, .hint:focus-within::after { content: attr(data-hint); position: absolute; left: 0; bottom: calc(100% + 4px); width: max-content; max-width: 280px;
+  background: var(--ink); color: var(--paper); font-size: 11.5px; line-height: 1.35; padding: 4px 7px; border-radius: 3px; z-index: 5; pointer-events: none; white-space: normal; }
+.exp { font: 600 9.5px var(--f-ui); letter-spacing: .08em; text-transform: uppercase; color: var(--c-r); border: 1px solid var(--c-r); border-radius: 2px; padding: 0 3px; margin-left: 3px; }
+.lineage { position: absolute; inset: 0; z-index: 1200; background: var(--panel); display: grid; grid-template-rows: auto minmax(0, 1fr); }
+.lin-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; flex-wrap: wrap; padding: 10px 14px; border-bottom: 1px solid var(--rule); }
+.lin-title h2 { font: 600 20px var(--f-display); margin: 0; text-transform: none; letter-spacing: 0; color: var(--ink); }
+.lin-title p { margin: 2px 0 0; max-width: 70ch; font-size: 12.5px; }
+.lin-body { position: relative; min-height: 0; }
+#linsvg { width: 100%; height: 100%; display: block; cursor: grab; }
+#linsvg .lnode rect { fill: var(--paper); stroke: var(--rule); stroke-width: 1; rx: 4; }
+#linsvg .lnode { cursor: pointer; }
+#linsvg .lnode:hover rect { stroke: var(--ink-3); }
+#linsvg .lnode.root rect { stroke: var(--focus-ring); stroke-width: 2.5; }
+#linsvg .lnode.off rect { stroke-dasharray: 3 2; }
+#linsvg .lnode .bar { stroke: none; }
+#linsvg .lnode text { font: 12.5px var(--f-ui); fill: var(--ink); }
+#linsvg .lnode text.yrs { font: 10.5px var(--f-mono); fill: var(--ink-3); }
+#linsvg .llink { fill: none; stroke-width: 2.2; cursor: pointer; }
+#linsvg .gen { font: 600 10.5px var(--f-ui); letter-spacing: .09em; text-transform: uppercase; fill: var(--ink-3); }
+.linindex { position: absolute; inset: 0; overflow-y: auto; padding: 12px 14px; }
+.linindex ul { list-style: none; margin: 8px 0 0; padding: 0; columns: 2; column-gap: 24px; }
+.linindex li { break-inside: avoid; padding: 2px 0; font-size: 13px; }
+.linindex .cnt { font: 11px var(--f-mono); color: var(--ink-3); margin-left: 6px; }
+@media (max-width: 820px) { .linindex ul { columns: 1; } }
+.statemark { stroke: var(--paper); stroke-width: 1.2; cursor: pointer; pointer-events: auto; }
+.statemark:hover { stroke: var(--ink); }
+.states { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 10px; font-size: 12px; }
+.states span.sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+.borders-path { cursor: pointer; }
+#whybox { position: fixed; z-index: 2000; max-width: 300px; background: var(--panel); color: var(--ink); border: 1px solid var(--rule);
+  border-radius: 4px; padding: 8px 10px; font-size: 12.5px; line-height: 1.4; box-shadow: 0 4px 16px rgb(0 0 0 / .25); }
+#whybox b { display: block; font: 600 10.5px var(--f-ui); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 4px; }
+#whybox ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; }
+#whybox li { display: grid; grid-template-columns: 14px minmax(0, 1fr); align-items: start; }
+#whybox li .cl { margin: 3px 0 0; cursor: default; width: 8px; height: 8px; }
+.citylabel { font-family: var(--f-display); font-size: 14px; fill: var(--ink); paint-order: stroke; stroke: var(--sea); stroke-width: 3px; pointer-events: none; }
+.citylabel .n { font-family: var(--f-mono); font-size: 10px; fill: var(--ink-3); }
+.sitelabel { font-family: var(--f-ui); font-size: 11px; fill: var(--ink-2); paint-order: stroke; stroke: var(--land); stroke-width: 3px; pointer-events: none; }
+.sitemark { fill: none; stroke: var(--ink-3); stroke-width: 1; }
+.cityring { fill: none; stroke: var(--ink-3); stroke-width: .8; stroke-dasharray: 2 2; }
+.views { position: absolute; z-index: 900; top: 10px; left: max(10px, env(safe-area-inset-left, 0px)); display: flex; flex-wrap: wrap; gap: 4px; max-width: calc(100% - 270px); }
+.views button, .rail button, .seg button { font: 500 12px var(--f-ui); color: var(--ink); background: var(--panel); border: 1px solid var(--rule);
+  border-radius: 3px; padding: 4px 9px; cursor: pointer; }
+.views button:hover, .rail button:hover, .seg button:hover { border-color: var(--ink-3); }
+.views button[aria-pressed="true"], .seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 1px; }
+.tip { position: absolute; z-index: 950; pointer-events: none; background: var(--panel); border: 1px solid var(--rule); padding: 6px 8px; border-radius: 3px;
+  font-size: 12px; max-width: 260px; box-shadow: 0 2px 8px rgb(0 0 0 / .12); }
+.tip b { font-family: var(--f-display); font-size: 15px; font-weight: 600; }
+.legend { position: absolute; z-index: 900; bottom: 10px; left: max(10px, env(safe-area-inset-left, 0px)); background: color-mix(in srgb, var(--panel) 92%, transparent);
+  border: 1px solid var(--rule); border-radius: 3px; padding: 6px 8px; font-size: 11.5px; display: grid; gap: 3px; }
+.legend label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+.legend .sw { width: 16px; height: 0; border-top: 2px solid; display: inline-block; }
+.legend .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.legend .row { display: flex; gap: 10px; flex-wrap: wrap; }
+.rail { grid-column: 1; display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto; gap: 10px; align-items: center;
+  padding-block: 8px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: 16px; border-top: 1px solid var(--rule); background: var(--panel); }
+.rail .year { font: 500 28px var(--f-mono); min-width: 4ch; font-variant-numeric: tabular-nums; }
+.rail .ctl { display: flex; gap: 4px; }
+#hist { width: 100%; height: 44px; display: block; cursor: pointer; }
+#hist .bar { fill: var(--women); opacity: .45; }
+#hist .bar.e { fill: var(--ink-3); opacity: .25; }
+#hist .cur { stroke: var(--focus-ring); stroke-width: 2; }
+#hist text { font: 10px var(--f-mono); fill: var(--ink-3); }
+.rail select { font: 12px var(--f-ui); background: var(--panel); color: var(--ink); border: 1px solid var(--rule); border-radius: 3px; padding: 3px; }
+aside { grid-column: 2; grid-row: 2 / 4; border-left: 1px solid var(--rule); background: var(--panel); overflow-y: auto; min-width: 0;
+  padding-block: 12px 24px; padding-left: 16px; padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 18px; align-content: start; }
+aside h2 { font: 600 11px var(--f-ui); letter-spacing: .09em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 6px; }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.stats div { display: grid; }
+.stats b { font: 500 20px var(--f-mono); font-variant-numeric: tabular-nums; }
+.stats span { font-size: 11px; color: var(--ink-3); }
+.seg { display: flex; gap: 4px; flex-wrap: wrap; }
+ul.events, ul.list { list-style: none; margin: 0; padding: 0; display: grid; gap: 5px; }
+ul.events li { line-height: 1.35; }
+ul.events .k { font: 10.5px var(--f-mono); color: var(--ink-3); margin-right: 4px; text-transform: uppercase; }
+.pname { color: var(--women); cursor: pointer; text-decoration: none; border-bottom: 1px dotted currentColor; }
+.pname.m { color: var(--men); }
+.card h3 { font-family: var(--f-display); font-weight: 600; font-size: 22px; margin: 0; text-wrap: balance; }
+.card .life { color: var(--ink-2); margin: 2px 0 8px; }
+.card a { color: var(--ink-2); }
+.itin { display: grid; grid-template-columns: 8.5ch minmax(0, 1fr); gap: 3px 8px; font-size: 13px; }
+.itin .y { font: 12px var(--f-mono); color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.itin .src { font: 10.5px var(--f-mono); color: var(--ink-3); }
+.itin .now { color: var(--ink); font-weight: 600; }
+.search { width: 100%; font: 13px var(--f-ui); padding: 6px 8px; border: 1px solid var(--rule); border-radius: 3px; background: var(--paper); color: var(--ink); }
+.women { columns: 2; column-gap: 12px; font-size: 12.5px; }
+.women li { break-inside: avoid; padding: 1px 0; }
+.women li.off { color: var(--ink-3); }
+.women li .pname { border-bottom: none; }
+details summary { cursor: pointer; font: 600 11px var(--f-ui); letter-spacing: .09em; text-transform: uppercase; color: var(--ink-3); }
+details p, details li { font-size: 12.5px; color: var(--ink-2); line-height: 1.45; }
+details ul { padding-left: 16px; }
+.muted { color: var(--ink-3); }
+@media (max-width: 820px) {
+  body { overflow: auto; }
+  .app { height: auto; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 62vh auto auto; }
+  aside { grid-column: 1; grid-row: auto; border-left: 0; border-top: 1px solid var(--rule); padding-left: max(16px, env(safe-area-inset-left, 0px)); }
+  .rail { grid-template-columns: auto auto minmax(0, 1fr); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .rail select { grid-column: 1 / -1; justify-self: start; }
+  .legend { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="app">
+  <header>
+    <h1>Pittrici Atlas</h1>
+    <p>Where women artists of early modern Italy lived and travelled, 1480–1720, and who they were connected to: teachers, families, patrons, academies.</p>
+  </header>
+  <div class="mapwrap">
+    <div id="map" role="region" aria-label="Map of artists' locations and relations for the selected year"></div>
+    <div class="basebar seg" id="basebar" role="group" aria-label="Base map"></div>
+    <div class="basemode" id="basemode" hidden></div>
+    <div class="views" id="views"></div>
+    <div class="legend" id="legend"></div>
+    <div class="tip" id="tip" hidden></div>
+    <div class="lineage" id="lineage" role="dialog" aria-labelledby="linh" hidden>
+      <div class="lin-head">
+        <div class="lin-title"><h2 id="linh">Teacher–pupil lineages</h2><p id="linsub" class="muted"></p></div>
+        <div class="seg"><button id="lin-index">All painters</button><button id="lin-map">Show on map</button><button id="lin-close">Close</button></div>
+      </div>
+      <div class="lin-body"><svg id="linsvg" aria-label="Teacher and pupil tree"></svg><div id="linindex" class="linindex" hidden></div></div>
+    </div>
+  </div>
+  <div id="whybox" role="dialog" aria-label="Why this is uncertain" hidden></div>
+  <div class="rail">
+    <div class="year" id="year" aria-live="polite">1600</div>
+    <div class="ctl">
+      <button id="prev" title="Previous event year">◀︎ Event</button>
+      <button id="play" title="Play or pause">Play</button>
+      <button id="next" title="Next event year">Event ▶︎</button>
+    </div>
+    <svg id="hist" aria-label="Women artists on the map per year; click to jump"></svg>
+    <select id="speed" aria-label="Playback mode">
+      <option value="1">1 year / s</option>
+      <option value="3" selected>3 years / s</option>
+      <option value="8">8 years / s</option>
+      <option value="ev">Event to event</option>
+    </select>
+  </div>
+  <aside>
+    <section>
+      <div class="stats" id="stats"></div>
+    </section>
+    <section>
+      <h2>Show</h2>
+      <div class="seg" id="mode">
+        <button data-m="women" aria-pressed="false">Women artists</button>
+        <button data-m="net" aria-pressed="true">With their network</button>
+        <button id="open-lineage" title="Who taught whom: teachers above, pupils below">Lineages</button>
+      </div>
+    </section>
+    <section>
+      <h2>Map</h2>
+      <div class="mapopts">
+        <div class="seg" id="basebar2" role="group" aria-label="Base map"></div>
+        <label class="hint" data-hint="Rough outlines rebuilt from modern provinces; they change with the year. Click an area to see why it is uncertain.">
+          <input type="checkbox" id="borders-toggle"> Historical borders <span class="exp">experimental</span></label>
+        <label><input type="checkbox" id="squares-toggle" checked> State colour beside each city name</label>
+        <label><input type="checkbox" id="rings-toggle" checked> Certainty ring around each dot</label>
+      </div>
+    </section>
+    <section>
+      <h2 id="stateh">States</h2>
+      <div class="states" id="states"></div>
+    </section>
+    <section class="card" id="card"></section>
+    <section>
+      <h2 id="evh">This year</h2>
+      <ul class="events" id="events"></ul>
+    </section>
+    <section>
+      <h2>Women artists</h2>
+      <input class="search" id="q" placeholder="Find an artist" aria-label="Find an artist">
+      <ul class="list women" id="women"></ul>
+    </section>
+    <section>
+      <details>
+        <summary>Data and method</summary>
+        <div id="method"></div>
+      </details>
+    </section>
+  </aside>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+const D = /*__DATA__*/null;
+const P = new Map(D.persons.map(p => [p.id, p]));
+const PL = new Map(D.places.map(p => [p.id, p]));
+const SRC = new Map(D.sources.map(s => [s.id, s]));
+const [Y0, Y1] = D.range;
+const EDGE_GROUP = { teacher: "teacher", parent: "family", sibling: "family", relative: "family", spouse: "spouse",
+  patron: "patron", member: "member", friend: "encounter", encounter: "encounter", collaborator: "encounter",
+  influence: "teacher", mentions: "encounter" };
+const EDGE_LABEL = { teacher: "Teachers", family: "Family", spouse: "Marriages", patron: "Patrons", encounter: "Friends and encounters", member: "Academies" };
+const VERB = { teacher: "teaches", parent: "parent of", sibling: "sibling of", relative: "related to", spouse: "married to",
+  patron: "patron of", member: "member of", friend: "friend of", encounter: "meets", collaborator: "works with",
+  influence: "influences", mentions: "writes about" };
+const PATRON_ROLES = new Set(["patron"]);
+const VIEWS = [
+  { id: "europe", label: "Europe", bbox: [-10, 36, 19.5, 54] },
+  { id: "italy", label: "Italy", bbox: [6.5, 37.5, 18.6, 46.6] },
+  ...["bologna", "florence", "rome", "venice", "naples"].map(c => ({ id: c, label: PL.get(c).name, city: c })),
+  { id: "lombardy", label: "Cremona–Milan", bbox: [9.0, 45.0, 10.2, 45.6] },
+];
+
+const state = { rings: true, year: 1600, mode: "net", sel: null, playing: false, hidden: new Set(), view: "italy" };
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+// ---- per-year lookups ----
+function where(pid, y) {
+  const segs = D.tracks[pid]; if (!segs) return null;
+  for (const s of segs) if (y >= s[0] && y <= s[1]) return { place: s[2], kind: s[3], carried: s[4] };
+  return null;
+}
+const cityOf = id => { const p = PL.get(id); return p.city || p.id; };
+const isWoman = p => p.focus;
+function nodeColor(p) {
+  if (p.kind === "org") return css("--org");
+  if (p.focus) return css("--women");
+  if (PATRON_ROLES.has(p.role)) return css("--patron");
+  return p.sex === "F" ? css("--women") : css("--men");
+}
+const neighbours = new Map();
+for (const r of D.relations) for (const [x, y] of [[r.a, r.b], [r.b, r.a]]) {
+  if (!neighbours.has(x)) neighbours.set(x, []);
+  neighbours.get(x).push({ other: y, r });
+}
+
+// Event years: a woman artist changes city, a dated (non-inferred) relation begins, or a commission/visit starts.
+const eventsByYear = new Map();
+function addEvent(y, e) { if (y < Y0 || y > Y1) return; if (!eventsByYear.has(y)) eventsByYear.set(y, []); eventsByYear.get(y).push(e); }
+for (const p of D.persons) {
+  const segs = D.tracks[p.id];
+  for (let i = 1; i < segs.length; i++) {
+    const a = cityOf(segs[i - 1][2]), b = cityOf(segs[i][2]);
+    if (a !== b && (p.focus || !segs[i][4])) addEvent(segs[i][0], { k: "move", p: p.id, from: a, to: b, focus: p.focus });
+  }
+  if (p.focus && p.birth >= Y0) addEvent(p.birth, { k: "born", p: p.id, at: cityOf(segs[0][2]), focus: true });
+}
+for (const s of D.stays) if (["commission", "visit", "court", "member", "burial"].includes(s.kind) && s.origin === "curated")
+  addEvent(s.from, { k: s.kind, p: s.person, at: s.place, note: s.note, focus: P.get(s.person).focus });
+for (const r of D.relations) if (!r.inferred_dates) addEvent(r.from, { k: "rel", r, focus: P.get(r.a).focus || P.get(r.b).focus });
+const eventYears = [...eventsByYear.entries()].filter(([, es]) => es.some(e => e.focus)).map(([y]) => y).sort((a, b) => a - b);
+
+// ---- map: Leaflet base (OpenStreetMap tiles, or embedded vectors where tiles are blocked) + D3 network overlay ----
+const map = L.map("map", { zoomControl: false, minZoom: 4, maxZoom: 19, worldCopyJump: false, preferCanvas: true });
+const OSM_ATTR = '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors';
+L.control.zoom({ position: "bottomright" }).addTo(map);
+// Base maps: typical map-app choices. Tiles come from their providers; "Plain" is drawn from embedded data.
+const BASES = {
+  street: { label: "Street", url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png", opt: { maxZoom: 19, attribution: OSM_ATTR } },
+  satellite: { label: "Satellite", url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    opt: { maxZoom: 19, attribution: "Imagery &copy; Esri, Maxar, Earthstar Geographics and the GIS User Community" } },
+  terrain: { label: "Terrain", url: "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",
+    opt: { maxZoom: 17, subdomains: "abc", attribution: OSM_ATTR + ", SRTM · style &copy; <a href=\"https://opentopomap.org\" target=\"_blank\" rel=\"noopener\">OpenTopoMap</a> (CC-BY-SA)" } },
+  plain: { label: "Plain" },
+};
+let baseName = null, baseLayer = null, vectorBase = null, tilesBlocked = false;
+function setBase(name) {
+  if (tilesBlocked && name !== "plain") name = "plain";
+  if (baseLayer) { map.removeLayer(baseLayer); baseLayer = null; }
+  if (vectorBase && name !== "plain") map.removeLayer(vectorBase);
+  baseName = name;
+  map.getContainer().dataset.base = name;
+  if (name === "plain") useVectorBase();
+  else {
+    const b = BASES[name]; let ok = 0, err = 0;
+    baseLayer = L.tileLayer(b.url, b.opt).addTo(map);
+    baseLayer.on("tileload", () => ok++);
+    baseLayer.on("tileerror", () => { if (++err >= 6 && ok === 0) blockTiles(); });
+    setTimeout(() => { if (baseName === name && ok === 0) blockTiles(); }, 6000);
+  }
+  d3.selectAll("#basebar button, #basebar2 button").attr("aria-pressed", function () { return this.dataset.b === baseName; });
+}
+function blockTiles() {  // the artifact viewer refuses external images: fall back to embedded geometry
+  if (tilesBlocked) return;
+  tilesBlocked = true; setBase("plain");
+  d3.selectAll("#basebar button, #basebar2 button").filter(function () { return this.dataset.b !== "plain"; })
+    .classed("blocked", true).attr("aria-disabled", "true").attr("title", "Not available in this viewer: it blocks map images from other websites. Click for details.");
+}
+
+// Plain base: Natural Earth coastlines everywhere, OpenStreetMap streets and water for the hotspot centres.
+const baseVecPane = map.createPane("basevec"); baseVecPane.style.zIndex = 250;  // above tiles, below borders and network
+function useVectorBase() {
+  if (vectorBase) { vectorBase.addTo(map); return; }
+  const B = D.basemap, ring = r => r.map(([x, y]) => [y, x]);
+  const st = n => ({ land: { color: css("--land-edge"), weight: .7, fillColor: css("--land"), fillOpacity: 1 },
+    region: { color: css("--land-edge"), weight: .6, dashArray: "2 3", fill: false },
+    water: { color: css("--river"), weight: .6, fillColor: css("--sea"), fillOpacity: 1 },
+    river: { color: css("--river"), weight: 1.2 }, park: { stroke: false, fillColor: css("--patron"), fillOpacity: .12 },
+    road: { color: css("--land-edge"), weight: 1 }, major: { color: css("--ink-3"), weight: 1.6 } })[n];
+  vectorBase = L.layerGroup().addTo(map);
+  B.land.forEach(r => L.polygon(r.map(ring), { ...st("land"), interactive: false, pane: "basevec" }).addTo(vectorBase));
+  B.italy.forEach(r => L.polygon(r.map(ring), { ...st("region"), interactive: false, pane: "basevec" }).addTo(vectorBase));
+  B.lakes.forEach(r => L.polygon(r.map(ring), { ...st("water"), interactive: false, pane: "basevec" }).addTo(vectorBase));
+  B.rivers.forEach(r => L.polyline(ring(r.c), { ...st("river"), interactive: false, pane: "basevec" }).addTo(vectorBase));
+  const city = L.layerGroup();
+  for (const c of Object.values(D.osm)) {
+    c.parks.forEach(p => L.polygon(ring(p), { ...st("park"), interactive: false, pane: "basevec" }).addTo(city));
+    c.water.forEach(p => L.polygon(ring(p), { ...st("water"), interactive: false, pane: "basevec" }).addTo(city));
+    c.waterLines.forEach(p => L.polyline(ring(p), { ...st("river"), weight: 2, interactive: false, pane: "basevec" }).addTo(city));
+    c.roads.forEach(r => L.polyline(ring(r.c), { ...st(r.m ? "major" : "road"), interactive: false, pane: "basevec" }).addTo(city));
+  }
+  const showCity = () => map.getZoom() >= 13 ? vectorBase.addLayer(city) : vectorBase.removeLayer(city);
+  map.on("zoomend", showCity); showCity();
+  map.attributionControl.addAttribution("Natural Earth · city streets " + OSM_ATTR);
+}
+d3.selectAll("#basebar, #basebar2").selectAll("button").data(Object.entries(BASES)).join("button")
+  .attr("data-b", d => d[0]).text(d => d[1].label).on("click", (e, d) => {
+    if (tilesBlocked && d[0] !== "plain") return explainBlocked(d[1].label);
+    setBase(d[0]);
+  });
+function explainBlocked(label) {
+  const note = document.getElementById("basemode");
+  note.textContent = `${label} isn't available here: this viewer blocks map images from other websites. ` +
+    `Run the app on your computer (see the README) to use Street, Satellite and Terrain. Plain works everywhere.`;
+  note.hidden = false; clearTimeout(explainBlocked.t); explainBlocked.t = setTimeout(() => note.hidden = true, 9000);
+}
+L.DomEvent.disableClickPropagation(document.getElementById("basebar"));
+setBase("street");
+
+const pane = map.createPane("net"); pane.classList.add("net-pane", "leaflet-zoom-hide"); pane.style.zIndex = 650;
+const svg = d3.select(pane).append("svg");
+const gOver = svg.append("g");
+const gStates = gOver.append("g");
+const gRings = gOver.append("g"), gTrails = gOver.append("g"), gEdges = gOver.append("g"),
+      gNodes = gOver.append("g"), gAggText = gOver.append("g"), gLabels = gOver.append("g");
+let W = 800, H = 600;
+const xy = (lon, lat) => { const p = map.latLngToContainerPoint([lat, lon]); return [p.x, p.y]; };
+function placeOverlay() {  // the pane moves with the map; keep the svg on the visible container
+  const s = map.getSize(); W = s.x; H = s.y;
+  L.DomUtil.setPosition(svg.node(), map.containerPointToLayerPoint([0, 0]));
+  svg.attr("width", W).attr("height", H);
+}
+map.on("move moveend zoomend viewreset resize", () => render(false));
+
+function bboxOf(v) {
+  if (v.bbox) return v.bbox;
+  const pts = D.places.filter(p => p.id === v.city || p.city === v.city);
+  const lons = pts.map(p => p.lon), lats = pts.map(p => p.lat), pad = 0.004;
+  return [d3.min(lons) - pad, d3.min(lats) - pad, d3.max(lons) + pad, d3.max(lats) + pad];
+}
+function goView(id, animate = true) {
+  state.view = id;
+  const [x0, y0, x1, y1] = bboxOf(VIEWS.find(v => v.id === id));
+  const b = [[y0, x0], [y1, x1]];
+  animate ? map.flyToBounds(b, { duration: 0.9 }) : map.fitBounds(b);
+  d3.selectAll("#views button").attr("aria-pressed", function () { return this.dataset.v === id; });
+}
+d3.select("#views").selectAll("button").data(VIEWS).join("button")
+  .text(v => v.label).attr("data-v", v => v.id).on("click", (e, v) => goView(v.id));
+L.DomEvent.disableClickPropagation(document.getElementById("views"));
+
+function resize() { map.invalidateSize(); placeOverlay(); }
+
+// Is a city "opened" so its people sit on their sites? When its sites are far enough apart on screen.
+function cityOpen(cid) {
+  const c = PL.get(cid); const sites = D.places.filter(p => p.city === cid);
+  if (!sites.length) return false;
+  const [cx, cy] = xy(c.lon, c.lat);
+  return d3.max(sites, s => { const [x, y] = xy(s.lon, s.lat); return Math.hypot(x - cx, y - cy); }) > 40;
+}
+
+function visiblePeople(y) {
+  const out = [];
+  for (const p of D.persons) {
+    const w = where(p.id, y); if (!w) continue;
+    if (state.mode === "women" && !p.focus && p.id !== state.sel) continue;
+    if (state.mode === "net" && !p.focus) {   // keep only people linked to a visible woman this year
+      const ok = (neighbours.get(p.id) || []).some(n => P.get(n.other).focus && n.r.from <= y && y <= n.r.to && where(n.other, y));
+      if (!ok && p.id !== state.sel) continue;
+    }
+    out.push({ p, w });
+  }
+  return out;
+}
+
+const AGG_ZOOM = 8;  // below this zoom each city is one bubble, placed exactly on the city
+function layout(y) {
+  const people = visiblePeople(y), open = new Map(), groups = new Map(), agg = map.getZoom() < AGG_ZOOM;
+  for (const { p, w } of people) {
+    const cid = cityOf(w.place);
+    if (!open.has(cid)) open.set(cid, !agg && cityOpen(cid));
+    const loc = open.get(cid) && PL.get(w.place).kind === "site" ? w.place : cid;
+    if (!groups.has(loc)) groups.set(loc, []);
+    groups.get(loc).push({ p, w, cid });
+  }
+  const pos = new Map();
+  for (const [loc, ms] of groups) {
+    ms.sort((a, b) => (b.p.focus - a.p.focus) || a.p.name.localeCompare(b.p.name));
+    const L = PL.get(loc); const [cx, cy] = xy(L.lon, L.lat);
+    ms.forEach((m, i) => {   // sunflower spiral so a crowded city stays readable (zoomed in only)
+      const r = agg || i === 0 ? 0 : 7.5 * Math.sqrt(i), a = i * 2.39996;
+      pos.set(m.p.id, { x: cx + r * Math.cos(a), y: cy + r * Math.sin(a), ...m, loc });
+    });
+  }
+  return { pos, groups, open, agg };
+}
+const aggRadius = n => 3.5 + 2.6 * Math.sqrt(n);
+
+const tip = document.getElementById("tip");
+function render(animate = true) {
+  placeOverlay();  // keep the network layer aligned with the map on every redraw
+  const y = state.year, { pos, groups, open, agg } = layout(y);
+  const dur = animate && !matchMedia("(prefers-reduced-motion: reduce)").matches ? Math.min(700, playDelay() * 0.8) : 0;
+  const sel = state.sel, selN = sel ? new Set([sel, ...(neighbours.get(sel) || []).filter(n => n.r.from <= y && y <= n.r.to).map(n => n.other)]) : null;
+
+  // city rings + labels (city level) and site labels (opened cities)
+  const cityCounts = d3.rollup([...pos.values()], v => ({ n: v.length, w: v.filter(m => m.p.focus).length }), m => m.cid);
+  const labels = [];
+  for (const [cid, c] of cityCounts) {
+    const L = PL.get(cid); const [x, y2] = xy(L.lon, L.lat);
+    const spread = Math.max(...[...pos.values()].filter(m => m.cid === cid && m.loc === cid).map(m => Math.hypot(m.x - x, m.y - y2)), 0);
+    const lift = agg ? aggRadius(c.n) + 5 : Math.max(spread, 6) + 8;
+    labels.push({ id: cid, x, y: y2 - lift, name: L.name, n: c.n, w: c.w, cls: "citylabel" });
+  }
+  const siteMarks = [];
+  for (const [cid, isOpen] of open) if (isOpen) for (const s of D.places.filter(p => p.city === cid)) {
+    const [x, y2] = xy(s.lon, s.lat); siteMarks.push({ id: s.id, x, y: y2 });
+    labels.push({ id: s.id, x: x + 9, y: y2 + 4, name: s.name, cls: "sitelabel", anchor: "start" });
+  }
+  gRings.selectAll("circle").data(siteMarks, d => d.id).join("circle").attr("class", "sitemark")
+    .attr("cx", d => d.x).attr("cy", d => d.y).attr("r", 4);
+  gLabels.selectAll("text").data(labels, d => d.id).join("text").attr("class", d => d.cls)
+    .attr("text-anchor", d => d.anchor || "middle").attr("x", d => d.x).attr("y", d => d.y)
+    .each(function (d) {
+      const t = d3.select(this); t.selectAll("*").remove(); t.text(d.name);
+      if (d.cls === "citylabel" && !agg) t.append("tspan").attr("class", "n").text(`  ${d.w} women · ${d.n}`);
+    });
+
+  // state colour of each city in this year, as a clickable square left of its label
+  const marks = [];
+  if (state.stateMarks) gLabels.selectAll("text.citylabel").each(function (d) {
+    const cs = stateOf(d.id, y), bb = this.getBBox(), k = "w" + (++whyN), reasons = certCityState(cs, y);
+    WHY.set(k, { lv: worst(reasons), reasons, what: `${PL.get(d.id).name} in ${y}` });
+    marks.push({ id: d.id, x: bb.x - 13, y: bb.y + bb.height / 2 - 5, color: cs ? ST.get(cs.state).color : css("--ink-3"), k, lv: worst(reasons) });
+  });
+  gStates.selectAll("rect").data(marks, d => d.id).join("rect").attr("class", "statemark")
+    .attr("x", d => d.x).attr("y", d => d.y).attr("width", 10).attr("height", 10).attr("rx", 2)
+    .attr("fill", d => d.color).attr("data-why", d => d.k)
+    .attr("stroke-dasharray", d => d.lv === "g" ? null : d.lv === "y" ? "3 2" : "1 2")
+    .each(function (d) { d3.select(this).selectAll("title").data([0]).join("title").text("State in this year; click for certainty"); });
+  drawBorders();
+  statePanel([...cityCounts.keys()]);
+
+  // edges
+  const edges = D.relations.filter(r => r.from <= y && y <= r.to && pos.has(r.a) && pos.has(r.b) && !state.hidden.has(EDGE_GROUP[r.type])
+    && !(agg && pos.get(r.a).cid === pos.get(r.b).cid));
+  const fan = new Map(), slot = new Map();  // parallel links between the same two cities fan out
+  for (const r of edges) { const k = [pos.get(r.a).cid, pos.get(r.b).cid].sort().join(); slot.set(r, fan.get(k) || 0); fan.set(k, (fan.get(k) || 0) + 1); }
+  const curve = r => {
+    const a = pos.get(r.a), b = pos.get(r.b), mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2, dx = b.x - a.x, dy = b.y - a.y;
+    const i = slot.get(r) || 0, bend = Math.min(0.25, 30 / (Math.hypot(dx, dy) + 1)) * (agg ? (1 + Math.ceil(i / 2) * 0.7) * (i % 2 ? -1 : 1) : 1);
+    return `M${a.x},${a.y}Q${mx - dy * bend},${my + dx * bend} ${b.x},${b.y}`;
+  };
+  gEdges.selectAll("path").data(edges, r => r.a + r.b + r.type).join("path")
+    .attr("class", r => "edge" + (r.inferred_dates ? " inferred" : "") + (sel ? (r.a === sel || r.b === sel ? " hi" : " dim") : ""))
+    .attr("stroke", r => css("--e-" + EDGE_GROUP[r.type]))
+    .transition().duration(dur).attr("d", curve);
+
+  // travel trails: city changes in the last 6 years
+  const trails = [];
+  for (const [id, m] of pos) {
+    for (let k = 0; k < 6; k++) {
+      const a = where(id, y - k - 1), b = where(id, y - k);
+      if (a && b && cityOf(a.place) !== cityOf(b.place)) {
+        const A = PL.get(cityOf(a.place)), Bp = PL.get(cityOf(b.place));
+        trails.push({ id: id + k, from: xy(A.lon, A.lat), to: xy(Bp.lon, Bp.lat), age: k, focus: m.p.focus || id === sel });
+      }
+    }
+  }
+  gTrails.selectAll("path").data(trails, d => d.id).join("path").attr("class", "trail")
+    .attr("opacity", d => (d.focus ? 0.9 : 0.4) * (1 - d.age / 6))
+    .attr("d", d => { const [x0, y0] = d.from, [x1, y1] = d.to, mx = (x0 + x1) / 2, my = (y0 + y1) / 2;
+      return `M${x0},${y0}Q${mx - (y1 - y0) * .2},${my + (x1 - x0) * .2} ${x1},${y1}`; });
+
+  // nodes: one dot per person when zoomed in; one bubble per city when zoomed out
+  const people = [...pos.values()];
+  const nodes = agg
+    ? [...d3.group(people, m => m.cid)].map(([cid, ms]) => {
+        const c = PL.get(cid), [x, yy] = xy(c.lon, c.lat);
+        return { key: "city:" + cid, agg: true, cid, x, y: yy, ms, n: ms.length, w: ms.filter(m => m.p.focus).length };
+      })
+    : people.map(m => ({ ...m, key: m.p.id }));
+  const hasSel = d => d.agg ? d.ms.some(m => m.p.id === sel) : d.p.id === sel;
+  const dimmed = d => selN && (d.agg ? !d.ms.some(m => selN.has(m.p.id)) : !selN.has(d.p.id));
+  gNodes.selectAll("circle").data(nodes, d => d.key).join(
+      en => en.append("circle").attr("cx", d => d.x).attr("cy", d => d.y).attr("r", 0),
+      up => up, ex => ex.transition().duration(dur).attr("r", 0).remove())
+    .attr("class", d => "node" + (d.agg ? " agg" : "") + (hasSel(d) ? " sel" : "") + (dimmed(d) ? " dim" : ""))
+    .attr("fill", d => d.agg ? (d.w ? css("--women") : css("--men")) : nodeColor(d.p))
+    .on("mouseenter", (e, d) => showTip(e, d)).on("mousemove", (e, d) => showTip(e, d))
+    .on("mouseleave", () => tip.hidden = true)
+    .on("click", (e, d) => {
+      e.stopPropagation();
+      if (d.agg) { const c = PL.get(d.cid); tip.hidden = true; map.flyTo([c.lat, c.lon], 12, { duration: 0.9 }); return; }
+      select(d.p.id); openPopup(d.p.id);
+    })
+    .each(function (d) {  // never tween from an invalid position
+      if (!isFinite(+this.getAttribute("cx"))) d3.select(this).attr("cx", d.x).attr("cy", d.y);
+    })
+    .transition().duration(dur)
+    .attr("cx", d => d.x).attr("cy", d => d.y).attr("r", d => d.agg ? aggRadius(d.n) : d.p.focus ? 5.5 : 3.8)
+    .attr("opacity", d => d.agg ? 0.9 : d.w.carried ? 0.6 : 1)
+    .style("stroke", d => hasSel(d) ? css("--focus-ring") : d.agg || !state.rings ? css("--paper") : css("--c-" + worst(certPos(d.p.id, y) || [["y", ""]])))
+    .style("stroke-width", d => hasSel(d) ? 3 : !d.agg && state.rings ? 2 : 1.2);
+  gAggText.selectAll("text").data(nodes.filter(d => d.agg && d.n > 1), d => d.key).join("text").attr("class", "aggn")
+    .attr("x", d => d.x).attr("y", d => d.y + 3.5).text(d => d.n);
+
+  if (animate) panel(people, edges);
+}
+
+function showTip(e, d) {
+  if (d.agg) {
+    const box = map.getContainer().getBoundingClientRect();
+    tip.innerHTML = `<b>${PL.get(d.cid).name}</b><br>${d.w} woman artist${d.w === 1 ? "" : "s"} · ${d.n} ${d.n === 1 ? "person" : "people"} in ${state.year}` +
+      `<br>${d.ms.slice(0, 6).map(m => m.p.name).join(", ")}${d.n > 6 ? ", …" : ""}<br><span class="muted">Click to zoom in</span>`;
+    tip.hidden = false;
+    tip.style.left = Math.min(e.clientX - box.left + 12, box.width - 270) + "px";
+    tip.style.top = (e.clientY - box.top + 12) + "px";
+    return;
+  }
+  const box = map.getContainer().getBoundingClientRect(), pl = PL.get(d.w.place);
+  tip.innerHTML = `<b>${d.p.name}</b><br>${life(d.p)} · ${d.p.focus ? "woman artist" : d.p.role}<br>` +
+    `${pl.name}${pl.city ? ", " + PL.get(pl.city).name : ""} <span class="muted">(${d.w.kind}${d.w.carried ? ", no record this year" : ""})</span>` +
+    `<br>${(() => { const c = certPos(d.p.id, state.year), lv = c && worst(c); return c ? `<span class="cl ${lv}"></span>${LVLABEL[lv]}: ${c.filter(x => x[0] === lv)[0][1]}` : ""; })()}` +
+    `<br><span class="muted">Click for summary, links and certainty</span>`;
+  tip.hidden = false;
+  tip.style.left = Math.min(e.clientX - box.left + 12, box.width - 270) + "px";
+  tip.style.top = (e.clientY - box.top + 12) + "px";
+}
+const life = p => `${p.inferred_life ? "c. " : ""}${p.birth ?? "?"}–${p.death ?? "?"}`;
+const nameLink = id => { const p = P.get(id); return `<a class="pname${p.focus ? "" : " m"}" data-p="${id}">${p.name}</a>`; };
+const placeName = id => { const p = PL.get(id); return p.city ? `${p.name} (${PL.get(p.city).name})` : p.name; };
+const srcTitle = ids => ids.map(i => SRC.get(i)?.citation || i).join(" | ").replace(/"/g, "&quot;");
+
+// ---- certainty: every statement gets green / yellow / red with the reasons, shown on click ----
+const LV = { g: 0, y: 1, r: 2 }, LVN = ["g", "y", "r"];
+const LVLABEL = { g: "Well supported", y: "Some uncertainty", r: "Estimated or weakly supported" };
+const staysBy = d3.group(D.stays, s => s.person);
+const worst = rs => LVN[Math.max(0, ...rs.map(r => LV[r[0]]))];
+function citeReasons(ids) {
+  const named = ids.filter(i => i !== "WD").map(i => SRC.get(i)).filter(Boolean);
+  const online = named.filter(x => x.status === "seen_online");
+  if (!named.length) return [["y", "Only from Wikidata; not checked against the literature."]];
+  if (online.length) return [["g", `Matches a source checked online: ${online.map(x => x.id).join(", ")}.`]];
+  if (named.length >= 2) return [["g", `Given by ${named.length} independent references: ${named.map(x => x.id).join(", ")}.`]];
+  return [["y", `One reference (${named[0].id}), cited from the literature but not re-checked page by page.`]];
+}
+const noteReason = note => /approximate|not established|probab|debated|conflict|disagree/i.test(note || "") ? [["y", `Note: ${note}`]] : [];
+const confReason = c => c === "low" ? [["r", "Marked low confidence: the sources disagree or the date is not established."]]
+  : c === "medium" ? [["y", "Marked medium confidence: dates or place are approximate in the sources."]] : [];
+function certStay(s) {
+  const r = s.origin === "wikidata"
+    ? [["y", "From Wikidata, not checked against the literature."],
+       ...(/undated/.test(s.note) ? [["r", "Wikidata gives no dates for this place; it is spread over the whole career."]] : [])]
+    : [...citeReasons(s.sources), ...confReason(s.confidence)];
+  return [...r, ...noteReason(s.note)];
+}
+function certRel(rel) {
+  const r = rel.dating === "source" ? [["g", `The dates ${rel.from}–${rel.to} come from the cited sources.`]]
+    : rel.dating === "lifetimes" ? [["y", `Family tie, shown for the years both were alive (${rel.from}–${rel.to}); no source dates it more precisely.`]]
+    : [["r", `No source gives dates; ${rel.from}–${rel.to} is estimated from the two lifetimes.`]];
+  if (rel.origin === "wikidata") r.push(["y", "The relation itself comes from Wikidata and was not checked against the literature."]);
+  else r.push(...citeReasons(rel.sources), ...confReason(rel.confidence));
+  return [...r, ...noteReason(rel.note)];
+}
+function certLife(p) {
+  if (p.kind === "org") return [["g", "Institution; no life dates needed."]];
+  if (p.inferred_life) return [["r", "Only one of birth and death is recorded; the other is estimated (birth = death − 55, or death = birth + 60)."]];
+  if (/Wikidata (gives|birth)|conflict|impossible/i.test(p.note || "")) return [["y", `Corrected by hand: ${p.note}`]];
+  const first = (staysBy.get(p.id) || []).filter(s => s.origin === "curated").sort((a, b) => a.from - b.from)[0];
+  if (first && Math.abs(first.from - p.birth) <= 1) return [["g", "Wikidata dates agree with the start of the researched itinerary."]];
+  return [["y", "Life dates from Wikidata only; not checked against the literature."]];
+}
+function certPos(pid, y) {
+  const w = where(pid, y); if (!w) return null;
+  if (w.carried) return [["r", `No record for ${y}; the last known place (${placeName(w.place)}) is kept.`]];
+  const s = (staysBy.get(pid) || []).find(s => s.place === w.place && s.kind === w.kind && s.from <= y && y <= s.to);
+  return s ? certStay(s) : [["y", "Position derived from a nearby record."]];
+}
+const WHY = new Map(); let whyN = 0;
+function light(reasons, what) {
+  if (!reasons || !reasons.length) return "";
+  const lv = worst(reasons), k = "w" + (++whyN);
+  WHY.set(k, { lv, reasons, what });
+  return `<button type="button" class="cl ${lv}" data-why="${k}" aria-label="${LVLABEL[lv]}${what ? " – " + what : ""}: show why" title="${LVLABEL[lv]}: click for why"></button>`;
+}
+const whybox = document.getElementById("whybox");
+function showWhy(btn) { showWhyAt(btn.dataset.why || btn.getAttribute("data-why"), btn.getBoundingClientRect()); }
+function showWhyAt(key, r) {
+  const w = WHY.get(key); if (!w) return;
+  whybox.innerHTML = `<b>${LVLABEL[w.lv]}${w.what ? " · " + w.what : ""}</b><ul>${w.reasons.map(([l, t]) => `<li><span class="cl ${l}"></span><span>${t}</span></li>`).join("")}</ul>`;
+  whybox.hidden = false;
+  const bw = whybox.offsetWidth, bh = whybox.offsetHeight;
+  whybox.style.left = Math.max(8, Math.min(r.left - 8, innerWidth - bw - 8)) + "px";
+  whybox.style.top = (r.bottom + bh + 12 > innerHeight ? r.top - bh - 6 : r.bottom + 6) + "px";
+}
+document.addEventListener("click", e => {  // capture: Leaflet popups stop bubbling
+  const b = e.target.closest("[data-why]");
+  if (b) { e.preventDefault(); e.stopPropagation(); showWhy(b); return; }
+  if (!e.target.closest("#whybox")) whybox.hidden = true;
+  const a = e.target.closest("[data-p]");
+  if (a) { e.preventDefault(); e.stopPropagation(); select(a.dataset.p); }
+}, true);
+document.addEventListener("keydown", e => { if (e.key === "Escape") whybox.hidden = true; });
+
+// ---- states: city membership by year, and approximate border snapshots ----
+const ST = new Map(D.states.map(s => [s.id, s]));
+const csBy = d3.group(D.cityStates, c => c.place);
+const stateOf = (city, y) => (csBy.get(city) || []).find(c => c.from <= y && y < c.to) || (csBy.get(city) || []).find(c => c.from <= y && y <= c.to);
+function certCityState(cs, y) {
+  if (!cs) return [["r", `No state recorded for this place in ${y}.`]];
+  const st = ST.get(cs.state);
+  return [["g", `${st.name_en} in ${y} (recorded ${cs.from}–${cs.to}). Rulers: ${st.rulers}.`],
+    ...citeReasons(cs.sources), ...confReason(cs.confidence), ...(cs.note ? [[cs.confidence === "high" ? "g" : "y", `Note: ${cs.note}`]] : [])];
+}
+// Borders change over time: one map per period between two changes of any province.
+const PERIODS = D.borders.periods;
+const periodFor = y => PERIODS.find(p => p.from <= y && y < p.to) || (y < PERIODS[0].from ? PERIODS[0] : PERIODS[PERIODS.length - 1]);
+const periodLabel = p => `${p.from}–${p.to - 1}`;
+function certPeriod(per) {
+  return [per.from <= D.borders.shepherd && D.borders.shepherd < per.to
+    ? ["y", "Checked against Shepherd's map “Italy about 1494” (SHE), rebuilt from modern provinces."]
+    : ["y", "Assembled from modern provinces and dated changes in standard histories (WPS); not traced from a map of this period."],
+    ["y", "Each province is given to the state that held most of it, so enclaves, small fiefs and border strips are lost. Areas outside today's Italy (Corsica, Nice, Istria, Dalmatia) are not drawn."],
+    ["y", "Changes are dated to the year; a change late in a year shows from the next year."]];
+}
+function certStatePoly(f, per) {
+  const st = ST.get(f.state), low = f.provinces.filter(p => p.confidence === "low"), med = f.provinces.filter(p => p.confidence === "medium" && p.note);
+  return [["g", `${st.name_en}, ${periodLabel(per)}. Rulers: ${st.rulers}.`], ...certPeriod(per),
+    ...low.map(p => ["r", `Province of ${p.name}: ${p.note}`]), ...med.map(p => ["y", `Province of ${p.name}: ${p.note}`])];
+}
+const bordersPane = map.createPane("borders"); bordersPane.style.zIndex = 380;  // above base maps, below the network (650)
+const bordersRenderer = L.svg({ pane: "borders" });  // own renderer, so the outlines can never land in another pane
+let bordersLayer = null; state.period = null; state.borders = false; state.stateMarks = true;
+function drawBorders() {
+  const per = periodFor(state.year);
+  if (!state.borders) { if (bordersLayer) map.removeLayer(bordersLayer); bordersLayer = null; state.period = null; return; }
+  if (per === state.period && bordersLayer) return;
+  if (bordersLayer) map.removeLayer(bordersLayer);
+  state.period = per;
+  bordersLayer = L.layerGroup().addTo(map);
+  for (const f of per.states) {
+    const col = ST.get(f.state).color, coords = D.borders.geoms[f.g];
+    const latlngs = coords.map(poly => poly.map(ring => ring.map(([x, y]) => [y, x])));
+    // label the state at the centre of its largest piece, if that piece is big enough to hold a name
+    const big = coords.map(poly => poly[0]).sort((a, b) => Math.abs(d3.polygonArea(b)) - Math.abs(d3.polygonArea(a)))[0];
+    if (big && Math.abs(d3.polygonArea(big)) > 0.35) {
+      const [x, y] = d3.polygonCentroid(big);
+      L.tooltip({ permanent: true, direction: "center", className: "statelabel", pane: "borders" })
+        .setLatLng([y, x]).setContent(ST.get(f.state).name_en.replace(/\s*\(.*\)/, "").split(" / ")[0]).addTo(bordersLayer);
+    }
+    L.polygon(latlngs, { pane: "borders", renderer: bordersRenderer, color: col, weight: 2.4, opacity: .95, dashArray: "6 4",
+      fillColor: col, fillOpacity: .22, className: "borders-path" })
+      .on("click", e => {
+        const k = "w" + (++whyN), reasons = certStatePoly(f, per);
+        WHY.set(k, { lv: worst(reasons), reasons, what: `${ST.get(f.state).name_en}, ${periodLabel(per)}` });
+        const ev = e.originalEvent; showWhyAt(k, { left: ev.clientX, right: ev.clientX, top: ev.clientY, bottom: ev.clientY });
+      }).addTo(bordersLayer);
+  }
+}
+function statePanel(cityIds) {
+  const y = state.year, per = periodFor(y);
+  const present = new Map();
+  for (const c of cityIds) { const cs = stateOf(c, y); if (cs) present.set(cs.state, (present.get(cs.state) || 0) + 1); }
+  document.getElementById("stateh").innerHTML = `States in ${y}` + (state.borders ? ` · borders ${periodLabel(per)}${light(certPeriod(per), "borders")}` : "");
+  document.getElementById("states").innerHTML = [...present].sort((a, b) => b[1] - a[1]).map(([id, n]) =>
+    `<div><span class="sw" style="background:${ST.get(id).color}"></span>${ST.get(id).name_en} <span class="muted">${n}</span></div>`).join("")
+    || `<div class="muted">No cities on the map.</div>`;
+}
+
+function panel(nodes, edges) {
+  const y = state.year;
+  document.getElementById("year").textContent = y;
+  const women = nodes.filter(n => n.p.focus).length;
+  const moves = (eventsByYear.get(y) || []).filter(e => e.k === "move").length;
+  document.getElementById("stats").innerHTML =
+    [[women, "women on map"], [nodes.length, "people shown"], [edges.length, "active links"], [moves, "moves"]]
+      .map(([v, l]) => `<div><b>${v}</b><span>${l}</span></div>`).join("");
+  const evs = (eventsByYear.get(y) || []).filter(e => e.focus || state.mode === "net");
+  document.getElementById("evh").textContent = `In ${y}`;
+  document.getElementById("events").innerHTML = evs.length ? evs.slice(0, 30).map(e => {
+    if (e.k === "move") return `<li><span class="k">move</span>${light(certPos(e.p, y), "position in " + y)}${nameLink(e.p)}: ${PL.get(e.from).name} → ${PL.get(e.to).name}</li>`;
+    if (e.k === "born") return `<li><span class="k">born</span>${nameLink(e.p)} in ${PL.get(e.at).name}</li>`;
+    if (e.k === "rel") return `<li><span class="k">${e.r.type}</span>${light(certRel(e.r), "relation")}${nameLink(e.r.a)} ${VERB[e.r.type]} ${nameLink(e.r.b)}${e.r.note ? ` <span class="muted">${e.r.note}</span>` : ""}</li>`;
+    return `<li><span class="k">${e.k}</span>${nameLink(e.p)}, ${placeName(e.at)}${e.note ? ` <span class="muted">${e.note}</span>` : ""}</li>`;
+  }).join("") : `<li class="muted">No recorded events. Use “Event ▶︎” to jump to the next one.</li>`;
+  card();
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const ws = D.persons.filter(p => p.focus && (!q || p.name.toLowerCase().includes(q))).sort((a, b) => a.birth - b.birth);
+  document.getElementById("women").innerHTML = ws.map(p =>
+    `<li class="${where(p.id, y) ? "" : "off"}">${nameLink(p.id)} <span class="muted">${p.birth}</span></li>`).join("");
+  drawHistCursor();
+}
+
+function card() {
+  const el = document.getElementById("card"), id = state.sel;
+  if (!id) { el.innerHTML = `<h2>Selected</h2><p class="muted">Click a dot or a name to follow one artist through her itinerary and contacts.</p>`; return; }
+  const p = P.get(id), y = state.year, w = where(id, y);
+  const stays = D.stays.filter(s => s.person === id).sort((a, b) => a.from - b.from || a.to - b.to);
+  const rels = (neighbours.get(id) || []).sort((a, b) => a.r.from - b.r.from);
+  el.innerHTML = `<h2>Selected</h2><h3>${p.name}</h3>
+    <div class="life">${life(p)}${light(certLife(p), "life dates")} · ${p.focus ? "woman artist" : p.role}${p.qid ? ` · <a href="https://www.wikidata.org/wiki/${p.qid}" target="_blank" rel="noopener">${p.qid}</a>` : ""}
+    ${w ? `<br>In ${y}: ${placeName(w.place)}${light(certPos(id, y), "position in " + y)}${w.carried ? " (no record this year)" : ""}` : `<br>Not on the map in ${y}`}</div>
+    ${p.note ? `<p class="muted">${p.note}</p>` : ""}
+    <p style="margin:0 0 8px">${treeLink(id)}</p>
+    <div class="seg" style="margin-bottom:10px"><button id="goto">Zoom to her location</button><button id="clear">Clear</button></div>
+    <h2>Itinerary</h2><div class="itin">${stays.map(s => `<span class="y${s.from <= y && y <= s.to ? " now" : ""}">${s.from}${s.to !== s.from ? "–" + s.to : ""}</span>
+      <span class="${s.from <= y && y <= s.to ? "now" : ""}">${light(certStay(s), "stay")}${placeName(s.place)} · ${s.kind}${s.note ? `<br><span class="muted">${s.note}</span>` : ""}
+      <span class="src" title="${srcTitle(s.sources)}">[${s.sources.join(", ")}]</span></span>`).join("")}</div>
+    <h2 style="margin-top:12px">Connections (${rels.length})</h2>
+    <ul class="events">${rels.map(({ other, r }) => `<li><span class="k">${r.from}–${r.to}</span>${light(certRel(r), "relation")}${r.a === id ? VERB[r.type] : "← " + r.type} ${nameLink(other)} <span class="src muted" title="${srcTitle(r.sources)}">[${r.sources.join(", ")}]</span></li>`).join("")}</ul>
+    <p class="muted" style="font-size:11.5px">Click a coloured dot to see how certain a statement is and why.</p>`;
+  document.getElementById("goto").onclick = () => {
+    const w2 = where(id, state.year) || where(id, D.tracks[id][0][0]);
+    const pl = PL.get(w2.place);
+    map.flyTo([pl.lat, pl.lon], Math.max(map.getZoom(), 15), { duration: 0.9 });
+    map.once("moveend", () => openPopup(id));
+  };
+  document.getElementById("clear").onclick = () => select(null);
+}
+
+// ---- popup: summary of everything in the database about one person, plus every link we have ----
+const LINK_GROUPS = [
+  ["Encyclopedias", l => /Wikipedia|Treccani|Britannica|Universalis|Grove/.test(l.label)],
+  ["Art databases and collections", l => l.kind === "art" || l.label === "Getty ULAN"],
+  ["Authority files", l => l.kind === "authority" || l.kind === "data"],
+];
+const names = ns => {  // ns: [{other, r}] neighbour entries -> linked names, each with its certainty light
+  const seen = new Set(), u = ns.filter(n => !seen.has(n.other) && seen.add(n.other));
+  return u.length ? u.map(n => nameLink(n.other) + light(certRel(n.r), "relation")).join(", ").replace(/, ([^,]*)$/, " and $1") : "";
+};
+function summary(id) {
+  const p = P.get(id), me = s => s.person === id;
+  const all = D.stays.filter(me).sort((a, b) => a.from - b.from || a.to - b.to);
+  const born = all.find(s => s.kind === "birth"), died = all.find(s => s.kind === "death");
+  const route = [];
+  for (const s of all) { const c = PL.get(cityOf(s.place)).name; if (route[route.length - 1] !== c) route.push(c); }
+  const rel = (type, dir) => (neighbours.get(id) || []).filter(n => (Array.isArray(type) ? type.includes(n.r.type) : n.r.type === type) &&
+    (dir === "in" ? n.r.b === id : dir === "out" ? n.r.a === id : true));
+  const parts = [];
+  const who = p.focus ? "woman artist" : p.kind === "org" ? "institution" : p.role;
+  parts.push(`<b>${p.name}</b> (${life(p)}${light(certLife(p), "life dates")}) appears here as a ${who}.`);
+  if (born || died) parts.push([born && `Born in ${PL.get(cityOf(born.place)).name}${light(certStay(born), "birthplace")}`,
+    died && `died in ${PL.get(cityOf(died.place)).name}${light(certStay(died), "place of death")}`].filter(Boolean).join(", ") + ".");
+  if (route.length > 1) parts.push(`Recorded in ${route.length} successive places: ${route.join(" → ")}.`);
+  const add = (label, ids) => { const t = names(ids); if (t) parts.push(`${label} ${t}.`); };
+  add("Taught by", rel(["teacher"], "in"));
+  add("Influenced by", rel("influence", "in"));
+  add("Child of", rel("parent", "in"));
+  add("Parent of", rel("parent", "out"));
+  add("Sibling of", rel("sibling"));
+  add("Related to", rel("relative"));
+  add("Married to", rel("spouse"));
+  add("Patrons:", rel("patron", "in"));
+  add("Patron of", rel("patron", "out"));
+  add("Taught", rel("teacher", "out"));
+  add("Member of", rel("member", "out"));
+  add("Members:", rel("member", "in"));
+  add("In contact with", rel(["friend", "encounter", "collaborator"]));
+  add("Written about by", rel("mentions", "in"));
+  const works = all.filter(s => ["commission", "workshop", "court", "convent"].includes(s.kind) && s.note);
+  if (works.length) parts.push("Recorded work and posts: " + works.map(s => `${s.note} (${placeName(s.place)}, ${s.from}${s.to !== s.from ? "–" + s.to : ""})${light(certStay(s), "record")}`).join("; ") + ".");
+  if (p.note) parts.push(p.note + ".");
+  return parts.join(" ").replace(/\.\./g, ".");
+}
+function popupHtml(id) {
+  const p = P.get(id), links = p.links || [];
+  const desc = Object.entries(p.desc || {}).map(([l, t]) => `<i>${l}</i>${t}`).join("<br>");
+  const groups = LINK_GROUPS.map(([title, f]) => [title, links.filter(f)]).filter(([, ls]) => ls.length);
+  const srcIds = new Set([...D.stays.filter(s => s.person === id), ...(neighbours.get(id) || []).map(n => n.r)].flatMap(x => x.sources));
+  const srcs = [...srcIds].map(i => SRC.get(i)).filter(s => s && s.id !== "WD");
+  const a = (url, label) => `<a href="${url}" target="_blank" rel="noopener">${label}</a>`;
+  const wy = where(id, state.year);
+  return `<div class="pop"><h3>${p.name}</h3><div class="life">${life(p)}${light(certLife(p), "life dates")}${p.focus ? " · woman artist" : ""}
+    ${wy ? `<br>In ${state.year}: ${placeName(wy.place)}${light(certPos(id, state.year), "position in " + state.year)}` : ""}</div>
+    ${desc ? `<p class="desc">${desc}</p>` : ""}
+    <p class="sum">${summary(id)}</p>
+    <p style="margin:0 0 6px">${treeLink(id)}</p>
+    ${groups.map(([t, ls]) => `<h4>${t}</h4><div class="links">${ls.map(l => a(l.url, l.label)).join("")}</div>`).join("")}
+    ${srcs.length ? `<h4>Sources used in this atlas</h4><div class="links">${srcs.map(s => s.url ? a(s.url, s.id) : `<span title="${s.citation.replace(/"/g, "&quot;")}" class="muted">${s.id}</span>`).join("")}</div>
+      <p class="muted" style="font-size:11px;margin:4px 0 0">${srcs.map(s => `<b>${s.id}</b> ${s.citation}`).join("<br>")}</p>` : ""}
+    ${!links.length && !srcs.length ? `<p class="muted">No external links recorded.</p>` : ""}</div>`;
+}
+let popup = null;
+function openPopup(id) {
+  const w = where(id, state.year); if (!w) return;
+  const el = gNodes.selectAll("circle").filter(d => d.p && d.p.id === id).node(), n = el && d3.select(el).datum();
+  const ll = n ? map.containerPointToLatLng([n.x, n.y]) : L.latLng(PL.get(w.place).lat, PL.get(w.place).lon);
+  popup = L.popup({ maxWidth: 380, autoPanPaddingTopLeft: [20, 60], autoPanPaddingBottomRight: [20, 20], className: "artist-pop" }).setLatLng(ll).setContent(popupHtml(id)).openOn(map);
+}
+
+function select(id) {
+  state.sel = id;
+  if (id) { const p = P.get(id); if (!where(id, state.year)) state.year = Math.max(Y0, p.birth + 15); }
+  render(true);
+}
+document.getElementById("q").addEventListener("input", () => render(true));
+d3.selectAll("#mode button[data-m]").on("click", function () {
+  state.mode = this.dataset.m; d3.selectAll("#mode button[data-m]").attr("aria-pressed", function () { return this.dataset.m === state.mode; }); render(true);
+});
+
+// legend doubles as edge-type filter
+const legend = d3.select("#legend");
+map.on("popupopen", () => legend.node().hidden = true).on("popupclose", () => legend.node().hidden = false);
+legend.html(`<div class="row"><span><span class="dot" style="background:var(--women)"></span> woman artist</span>
+  <span><span class="dot" style="background:var(--men)"></span> other artist</span>
+  <span><span class="dot" style="background:var(--patron)"></span> patron</span>
+  <span><span class="dot" style="background:var(--org)"></span> academy</span></div>`);
+legend.selectAll("label").data(Object.keys(EDGE_LABEL)).join("label")
+  .html(g => `<input type="checkbox" checked> <span class="sw" style="border-color:var(--e-${g})"></span> ${EDGE_LABEL[g]}`)
+  .select("input").on("change", function (e, g) { this.checked ? state.hidden.delete(g) : state.hidden.add(g); render(false); });
+legend.append("div").html(`Certainty ring: <span class="cl g" style="cursor:default"></span>sourced <span class="cl y" style="cursor:default"></span>uncertain <span class="cl r" style="cursor:default"></span>estimated`);
+d3.select("#rings-toggle").on("change", function () { state.rings = this.checked; render(false); });
+d3.select("#borders-toggle").on("change", function () { state.borders = this.checked; state.period = null; render(false); });
+d3.select("#squares-toggle").on("change", function () { state.stateMarks = this.checked; render(false); });
+legend.append("div").attr("class", "muted").text("dashed: dates estimated · dotted arcs: recent travels");
+
+// ---- teacher–pupil lineages, in both directions ----
+const LN = new Map();
+for (const p of D.persons) LN.set(p.id, { ...p, onMap: true });
+for (const n of D.lineage.nodes) if (!LN.has(n.id)) LN.set(n.id, { ...n, focus: false, onMap: false });
+const TEACH = d3.group(D.lineage.edges, e => e.p), PUP = d3.group(D.lineage.edges, e => e.t);
+const certLin = e => e.origin === "wikidata-lineage"
+  ? [["y", "Teacher–pupil link from Wikidata, outside the curated part of the atlas; not checked against the literature."],
+     ["r", "No dates are recorded for this teaching relationship."]]
+  : certRel(e);
+function reach(id, up) {
+  const seen = new Set(), st = [id];
+  while (st.length) for (const e of ((up ? TEACH : PUP).get(st.pop()) || [])) {
+    const y = up ? e.t : e.p; if (y !== id && !seen.has(y)) { seen.add(y); st.push(y); }
+  }
+  return seen.size;
+}
+const lineageCounts = id => [reach(id, true), reach(id, false)];
+function treeOf(id, up, depth = 0, path = new Set()) {
+  const es = depth >= 6 || path.has(id) ? [] : ((up ? TEACH : PUP).get(id) || []);
+  const next = new Set(path).add(id);
+  return { id, children: es.map(e => ({ ...treeOf(up ? e.t : e.p, up, depth + 1, next), edge: e })) };
+}
+const treeLink = id => { const [u, d] = lineageCounts(id); return `<a href="#lineage-${id}" data-tree="${id}">Teacher–pupil lineage</a> <span class="muted">(↑${u} teachers · ↓${d} pupils)</span>`; };
+const lin = document.getElementById("lineage"), linsvg = d3.select("#linsvg"), linG = linsvg.append("g");
+const linZoom = d3.zoom().scaleExtent([0.2, 3]).on("zoom", e => linG.attr("transform", e.transform));
+linsvg.call(linZoom);
+let linRoot = null;
+function openTree(id) {
+  linRoot = id; lin.hidden = false; document.getElementById("linindex").hidden = true; linsvg.style("display", null);
+  const n = LN.get(id), [u, d] = lineageCounts(id);
+  document.getElementById("linh").textContent = `Teacher–pupil lineage of ${n.name}`;
+  document.getElementById("linsub").innerHTML = `${life(n)} · ↑ ${u} teachers and their teachers · ↓ ${d} pupils and their pupils. ` +
+    `Click a person to move the tree to them; click a line to see how certain the link is. Dashed boxes are people outside the map data (from Wikidata only).`;
+  document.getElementById("lin-map").disabled = !n.onMap;
+  drawTree(id);
+}
+function drawTree(id) {
+  linG.selectAll("*").remove();
+  const BW = 168, BH = 42, layout = d3.tree().nodeSize([BW + 18, 92]);
+  const up = layout(d3.hierarchy(treeOf(id, true))), down = layout(d3.hierarchy(treeOf(id, false)));
+  const place = (h, sign) => h.descendants().map(n => ({ n, x: n.x, y: sign * n.depth * 92 }));
+  const nodes = [...place(up, -1), ...place(down, 1).filter(d => d.n.depth > 0)];
+  const links = [...up.links().map(l => ({ s: l.source, t: l.target, sign: -1 })), ...down.links().map(l => ({ s: l.source, t: l.target, sign: 1 }))];
+  const gl = linG.append("g"), gn = linG.append("g");
+  gl.selectAll("path").data(links).join("path").attr("class", "llink")
+    .attr("stroke", l => css("--c-" + worst(certLin(l.t.data.edge))))
+    .attr("stroke-dasharray", l => worst(certLin(l.t.data.edge)) === "r" ? "5 4" : null)
+    .attr("d", l => d3.linkVertical()({ source: [l.s.x, l.sign * l.s.depth * 92 + l.sign * BH / 2], target: [l.t.x, l.sign * l.t.depth * 92 - l.sign * BH / 2] }))
+    .on("click", (e, l) => {
+      const k = "w" + (++whyN), r = certLin(l.t.data.edge), ed = l.t.data.edge;
+      WHY.set(k, { lv: worst(r), reasons: r, what: `${LN.get(ed.t).name} → ${LN.get(ed.p).name}` });
+      showWhyAt(k, { left: e.clientX, right: e.clientX, top: e.clientY, bottom: e.clientY }); e.stopPropagation();
+    }).append("title").text("Click to see how certain this teacher–pupil link is");
+  const g = gn.selectAll("g").data(nodes).join("g")
+    .attr("class", d => "lnode" + (d.n.depth === 0 ? " root" : "") + (LN.get(d.n.data.id).onMap ? "" : " off"))
+    .attr("transform", d => `translate(${d.x - BW / 2},${d.y - BH / 2})`)
+    .on("click", (e, d) => { e.stopPropagation(); if (d.n.data.id !== linRoot) openTree(d.n.data.id); });
+  g.append("rect").attr("width", BW).attr("height", BH);
+  g.append("rect").attr("class", "bar").attr("width", 4).attr("height", BH).attr("fill", d => { const p = LN.get(d.n.data.id); return p.focus || p.sex === "F" ? css("--women") : css("--men"); });
+  const short = t => t.length > 23 ? t.slice(0, 22) + "…" : t;
+  g.append("text").attr("x", 11).attr("y", 17).text(d => short(LN.get(d.n.data.id).name));
+  g.append("text").attr("class", "yrs").attr("x", 11).attr("y", 33).text(d => { const p = LN.get(d.n.data.id); return life(p) + (p.onMap ? "" : " · not on map"); });
+  g.append("title").text(d => `${LN.get(d.n.data.id).name}: click to centre the tree on this person`);
+  if (up.height) linG.append("text").attr("class", "gen").attr("x", -BW / 2).attr("y", -BH / 2 - 10).text("↑ teachers");
+  if (down.height) linG.append("text").attr("class", "gen").attr("x", -BW / 2).attr("y", BH / 2 + 18).text("↓ pupils");
+  // fit
+  const xs = nodes.map(d => d.x), ys = nodes.map(d => d.y), box = linsvg.node().getBoundingClientRect();
+  const w = d3.max(xs) - d3.min(xs) + BW + 40, h = d3.max(ys) - d3.min(ys) + BH + 60;
+  const k = Math.max(0.62, Math.min(1, box.width / w, box.height / h));  // stay readable; wide trees are panned
+  const cx = k * w > box.width ? 0 : (d3.max(xs) + d3.min(xs)) / 2, cy = (d3.max(ys) + d3.min(ys)) / 2;
+  linsvg.call(linZoom.transform, d3.zoomIdentity.translate(box.width / 2, box.height / 2).scale(k).translate(-cx, -cy));
+}
+function openIndex() {
+  lin.hidden = false; linRoot = null;
+  document.getElementById("linh").textContent = "Teacher–pupil lineages";
+  document.getElementById("linsub").textContent = "Teacher–pupil lineages of every woman artist in the atlas, from curated relations and Wikidata. Pick one to see her teachers above and her pupils below.";
+  document.getElementById("lin-map").disabled = true;
+  linsvg.style("display", "none");
+  const box = document.getElementById("linindex"); box.hidden = false;
+  const ws = D.persons.filter(p => p.focus).map(p => ({ p, c: lineageCounts(p.id) })).sort((a, b) => (b.c[0] + b.c[1]) - (a.c[0] + a.c[1]) || a.p.birth - b.p.birth);
+  box.innerHTML = `<input class="search" id="linq" placeholder="Find a painter" aria-label="Find a painter"><ul>${ws.map(({ p, c }) =>
+    `<li data-name="${p.name.toLowerCase()}"><a class="pname" href="#lineage-${p.id}" data-tree="${p.id}">${p.name}</a> <span class="muted">${p.birth}</span><span class="cnt">↑${c[0]} ↓${c[1]}</span></li>`).join("")}</ul>
+    <p class="muted" style="font-size:12px">Painters with ↑0 ↓0 have no recorded teacher or pupil yet. Many women trained in a father's or brother's workshop that the sources mention without naming dates.</p>`;
+  document.getElementById("linq").oninput = e => { const q = e.target.value.toLowerCase(); box.querySelectorAll("li").forEach(li => li.hidden = q && !li.dataset.name.includes(q)); };
+}
+document.getElementById("open-lineage").onclick = () => state.sel ? openTree(state.sel) : openIndex();
+document.getElementById("lin-index").onclick = openIndex;
+document.getElementById("lin-close").onclick = () => { lin.hidden = true; };
+document.getElementById("lin-map").onclick = () => { const id = linRoot; lin.hidden = true; if (id && LN.get(id).onMap) { select(id); document.getElementById("goto")?.click(); } };
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-tree]");
+  if (t) { e.preventDefault(); e.stopPropagation(); map.closePopup(); openTree(t.dataset.tree); }
+}, true);
+function fromHash() {  // #lineage-<id> (old links: #tree-<id>)
+  const m = location.hash.match(/^#(?:lineage|tree)-(.+)$/); if (m && LN.has(m[1])) openTree(m[1]);
+}
+window.addEventListener("hashchange", fromHash);
+
+// ---- histogram / timeline ----
+const hist = d3.select("#hist");
+const counts = d3.range(Y0, Y1 + 1).map(y => ({ y, w: D.persons.filter(p => p.focus && where(p.id, y)).length,
+  e: D.relations.filter(r => r.from <= y && y <= r.to).length }));
+let hx;
+function drawHist() {
+  const w = hist.node().getBoundingClientRect().width, h = 44;
+  hx = d3.scaleLinear([Y0, Y1 + 1], [0, w]);
+  const hy = d3.scaleLinear([0, d3.max(counts, c => Math.max(c.w, c.e / 3))], [0, h - 12]);
+  hist.selectAll("*").remove();
+  hist.selectAll(".bar.e").data(counts).join("rect").attr("class", "bar e").attr("x", d => hx(d.y)).attr("width", Math.max(1, hx(Y0 + 1) - hx(Y0)))
+    .attr("y", d => h - 12 - hy(d.e / 3)).attr("height", d => hy(d.e / 3));
+  hist.selectAll(".bar.w").data(counts).join("rect").attr("class", "bar").attr("x", d => hx(d.y)).attr("width", Math.max(1, hx(Y0 + 1) - hx(Y0)))
+    .attr("y", d => h - 12 - hy(d.w)).attr("height", d => hy(d.w));
+  hist.selectAll("text").data(d3.range(1500, Y1 + 1, 50)).join("text").attr("x", d => hx(d)).attr("y", h - 1).attr("text-anchor", "middle").text(d => d);
+  hist.append("line").attr("class", "cur").attr("y1", 0).attr("y2", h - 12);
+  drawHistCursor();
+}
+function drawHistCursor() { if (hx) hist.select(".cur").attr("x1", hx(state.year + .5)).attr("x2", hx(state.year + .5)); }
+let dragging = false;
+const setFromHist = e => { const [x] = d3.pointer(e, hist.node()); state.year = Math.max(Y0, Math.min(Y1, Math.floor(hx.invert(x)))); render(true); };
+hist.on("pointerdown", e => { dragging = true; hist.node().setPointerCapture(e.pointerId); setFromHist(e); })
+    .on("pointermove", e => dragging && setFromHist(e)).on("pointerup", () => dragging = false);
+
+// ---- playback ----
+const speedSel = document.getElementById("speed");
+const playDelay = () => speedSel.value === "ev" ? 1600 : 1000 / +speedSel.value;
+let timer = null;
+function step(dir) {
+  if (speedSel.value === "ev" || dir !== 0) {
+    const d = dir || 1, ys = d > 0 ? eventYears.filter(y => y > state.year) : eventYears.filter(y => y < state.year).reverse();
+    if (!ys.length) return false; state.year = ys[0];
+  } else { if (state.year >= Y1) return false; state.year++; }
+  render(true); return true;
+}
+function setPlaying(on) {
+  state.playing = on; document.getElementById("play").textContent = on ? "Pause" : "Play";
+  clearTimeout(timer);
+  const tick = () => { if (!state.playing) return; if (!step(0)) return setPlaying(false); timer = setTimeout(tick, playDelay()); };
+  if (on) timer = setTimeout(tick, 200);
+}
+document.getElementById("play").onclick = () => { if (!state.playing && state.year >= Y1) state.year = Y0; setPlaying(!state.playing); };
+document.getElementById("next").onclick = () => step(1);
+document.getElementById("prev").onclick = () => step(-1);
+speedSel.onchange = () => state.playing && setPlaying(true);
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT") return;
+  if (e.key === " ") { e.preventDefault(); document.getElementById("play").click(); }
+  if (e.key === "ArrowRight") { state.year = Math.min(Y1, state.year + 1); render(true); }
+  if (e.key === "ArrowLeft") { state.year = Math.max(Y0, state.year - 1); render(true); }
+});
+
+// ---- method ----
+const R = D.report, langs = d3.rollup(D.sources, v => v.length, s => s.lang);
+document.getElementById("method").innerHTML = `
+  <p>${R.women_artists} women artists born 1450–1660 were pulled from Wikidata, together with their teachers, families, spouses and academies
+  (${R.relations_total} relations, ${R.relations_curated} added by hand). ${R.stays_curated} dated stays come from catalogues and monographs;
+  ${R.stays_wikidata} more are birth, death and work places from Wikidata. Sites inside Bologna, Florence, Rome, Venice and Naples appear as you zoom in.</p>
+  <p><b>States.</b> Each city has a recorded state for every year (${D.cityStates.length} intervals), drawn as a coloured square beside its name; a dashed edge means the membership is uncertain.
+  The experimental borders change with the year: ${PERIODS.length} periods between ${PERIODS[0].from} and ${PERIODS[PERIODS.length - 1].to}, from dated changes of each province
+  (for example Ravenna to the Papal States in 1509, Siena to Florence in 1557, Ferrara in 1598, Urbino in 1631). They are assembled from today's provinces, each given to the state that held most of it,
+  so they are approximate by design; click a state area to see which provinces are doubtful. The period around 1494 was checked against Shepherd's historical atlas.</p>
+  <p>Every statement carries a light. <b>Green</b>: given by a source checked online, or by two or more references, with high confidence.
+  <b>Yellow</b>: from Wikidata only, from a single reference not re-checked page by page, approximate in the sources, or a family tie dated only by the two lifetimes.
+  <b>Red</b>: estimated (no source gives the date), marked low confidence, or a year with no record where the last known place is kept. Click any light to see the reasons.
+  Map dots have a ring in the colour of their position for the shown year.</p>
+  <p>Relation dates come in three kinds: ${R.relations_dating.source} are dated from a cited source; ${R.relations_dating.lifetimes} are family ties that last as long as both lives overlap;
+  ${R.relations_dating.inferred} have no dates in the sources and are estimated from the two lifetimes (for example a pupil aged 12–20, kept inside the teacher's life). Only the estimated ones are drawn dashed.
+  ${R.relations_dropped_impossible} Wikidata relations were dropped because the two people never lived at the same time.
+  Undated Wikidata work places are spread over the whole career. A faded dot means there is no record for that year and the last known place is kept.</p>
+  <p>Modern coastlines and Italian regional borders are a spatial reference only.</p>
+  <p><b>Sources by language:</b> ${[...langs].map(([l, n]) => `${l} ${n}`).join(" · ")}</p>
+  <ul>${D.sources.map(s => `<li><b>${s.id}</b> ${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.citation}</a>` : s.citation}</li>`).join("")}</ul>`;
+
+window.addEventListener("resize", () => { resize(); drawHist(); render(false); });
+goView(state.view, false); resize(); drawHist();
+setTimeout(fromHash, 0);
+state.year = 1616; select("artemisia-gentileschi");
+</script>

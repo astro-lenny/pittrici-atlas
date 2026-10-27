@@ -1,0 +1,2333 @@
+[
+{
+"qid": "Q1074555",
+"place": "Q6231",
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222,
+"start": 1665,
+"end": 1670
+},
+{
+"qid": "Q1074555",
+"place": "Q13329",
+"label": "Piacenza",
+"lat": 45.05,
+"lon": 9.7,
+"start": 1670,
+"end": 1682
+},
+{
+"qid": "Q1074555",
+"place": "Q29",
+"label": "Spain",
+"lat": 40.2,
+"lon": -3.5,
+"start": null,
+"end": null
+},
+{
+"qid": "Q1074555",
+"place": "Q495",
+"label": "Turin",
+"lat": 45.079166666666666,
+"lon": 7.676111111111111,
+"start": null,
+"end": null
+},
+{
+"qid": "Q107611592",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q107672609",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q107713804",
+"place": "Q490",
+"label": "Milan",
+"lat": 45.466944444444,
+"lon": 9.19,
+"start": 1672,
+"end": 1699
+},
+{
+"qid": "Q107907203",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q1083398",
+"place": "Q495",
+"label": "Turin",
+"lat": 45.079166666666666,
+"lon": 7.676111111111111,
+"start": null,
+"end": null
+},
+{
+"qid": "Q109061",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1599,
+"end": 1600
+},
+{
+"qid": "Q109061",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1600,
+"end": 1602
+},
+{
+"qid": "Q109061",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1603,
+"end": 1605
+},
+{
+"qid": "Q109061",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1605,
+"end": 1610
+},
+{
+"qid": "Q109061",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1611,
+"end": 1612
+},
+{
+"qid": "Q109061",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q109061",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1615,
+"end": 1616
+},
+{
+"qid": "Q109061",
+"place": "Q6247",
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111,
+"start": 1617,
+"end": 1621
+},
+{
+"qid": "Q109061",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1622,
+"end": 1629
+},
+{
+"qid": "Q109061",
+"place": "Q2634",
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112,
+"start": 1624,
+"end": 1626
+},
+{
+"qid": "Q109061",
+"place": "Q2634",
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112,
+"start": 1640,
+"end": 1642
+},
+{
+"qid": "Q109061",
+"place": "Q1449",
+"label": "Genoa",
+"lat": 44.407222222222224,
+"lon": 8.93388888888889,
+"start": null,
+"end": null
+},
+{
+"qid": "Q109061",
+"place": "Q279",
+"label": "Modena",
+"lat": 44.64582,
+"lon": 10.92572,
+"start": null,
+"end": null
+},
+{
+"qid": "Q109061",
+"place": "Q13364",
+"label": "Ravenna",
+"lat": 44.416111111111114,
+"lon": 12.201666666666666,
+"start": null,
+"end": null
+},
+{
+"qid": "Q1152279",
+"place": "Q617",
+"label": "Padua",
+"lat": 45.40777777777778,
+"lon": 11.873333333333333,
+"start": null,
+"end": null
+},
+{
+"qid": "Q1152279",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": 1614,
+"end": null
+},
+{
+"qid": "Q117034647",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q117034647",
+"place": "Q1449",
+"label": "Genoa",
+"lat": 44.407222222222224,
+"lon": 8.93388888888889,
+"start": null,
+"end": null
+},
+{
+"qid": "Q123950566",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q123950566",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q128027",
+"place": "Q13378",
+"label": "Arezzo",
+"lat": 43.463055555556,
+"lon": 11.878055555556,
+"start": null,
+"end": null
+},
+{
+"qid": "Q128027",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q128027",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q128027",
+"place": "Q2634",
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112,
+"start": null,
+"end": null
+},
+{
+"qid": "Q128027",
+"place": "Q13375",
+"label": "Pisa",
+"lat": 43.716666666667,
+"lon": 10.4,
+"start": null,
+"end": null
+},
+{
+"qid": "Q128027",
+"place": "Q13376",
+"label": "Pistoia",
+"lat": 43.933333333333,
+"lon": 10.916666666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q128027",
+"place": "Q13369",
+"label": "Rimini",
+"lat": 44.059444444444,
+"lon": 12.568333333333,
+"start": null,
+"end": null
+},
+{
+"qid": "Q128027",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q128027",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q131460806",
+"place": "Q2634",
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112,
+"start": null,
+"end": null
+},
+{
+"qid": "Q131460806",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q131927220",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q1433238",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1639,
+"end": 1645
+},
+{
+"qid": "Q1433238",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1646,
+"end": 1647
+},
+{
+"qid": "Q1433238",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q1433238",
+"place": "Q6247",
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111,
+"start": null,
+"end": null
+},
+{
+"qid": "Q1433238",
+"place": "Q617",
+"label": "Padua",
+"lat": 45.40777777777778,
+"lon": 11.873333333333333,
+"start": null,
+"end": null
+},
+{
+"qid": "Q1433238",
+"place": "Q617",
+"label": "Padua",
+"lat": 45.40777777777778,
+"lon": 11.873333333333333,
+"start": 1666,
+"end": 1667
+},
+{
+"qid": "Q1433238",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1667,
+"end": 1672
+},
+{
+"qid": "Q1433238",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1672,
+"end": 1677
+},
+{
+"qid": "Q1433238",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1677,
+"end": 1684
+},
+{
+"qid": "Q150679",
+"place": "Q880829",
+"label": "Blackfriars",
+"lat": 51.5125,
+"lon": -0.10416666666667,
+"start": 1641,
+"end": 1641
+},
+{
+"qid": "Q150679",
+"place": "Q90",
+"label": "Paris",
+"lat": 48.85666666666667,
+"lon": 2.352222222222222,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q12892",
+"label": "Antwerp",
+"lat": 51.221111111111114,
+"lon": 4.3997222222222225,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q84",
+"label": "London",
+"lat": 51.507222222222,
+"lon": -0.1275,
+"start": 1632,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q239",
+"label": "Brussels",
+"lat": 50.846666666666664,
+"lon": 4.351666666666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q9920",
+"label": "Haarlem",
+"lat": 52.381388888888885,
+"lon": 4.635555555555555,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q36600",
+"label": "The Hague",
+"lat": 52.08,
+"lon": 4.31,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q1449",
+"label": "Genoa",
+"lat": 44.407222222222224,
+"lon": 8.93388888888889,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q2656",
+"label": "Palermo",
+"lat": 38.115658055555556,
+"lon": 13.361261944444445,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q6247",
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q28898",
+"label": "Zaventem",
+"lat": 50.883333333333,
+"lon": 4.4666666666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q47465",
+"label": "Aix-en-Provence",
+"lat": 43.527777777778,
+"lon": 5.4455555555556,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q23482",
+"label": "Marseille",
+"lat": 43.296666666667,
+"lon": 5.3763888888889,
+"start": null,
+"end": null
+},
+{
+"qid": "Q150679",
+"place": "Q2634",
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112,
+"start": null,
+"end": null
+},
+{
+"qid": "Q1526234",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1651,
+"end": 1665
+},
+{
+"qid": "Q1528623",
+"place": "Q490",
+"label": "Milan",
+"lat": 45.466944444444,
+"lon": 9.19,
+"start": 1644,
+"end": 1654
+},
+{
+"qid": "Q1528623",
+"place": "Q2634",
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112,
+"start": 1654,
+"end": 1695
+},
+{
+"qid": "Q1528623",
+"place": "Q29",
+"label": "Spain",
+"lat": 40.2,
+"lon": -3.5,
+"start": null,
+"end": null
+},
+{
+"qid": "Q1529806",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": 1640,
+"end": 1673
+},
+{
+"qid": "Q1529806",
+"place": "Q6537",
+"label": "Vicenza",
+"lat": 45.55,
+"lon": 11.55,
+"start": null,
+"end": null
+},
+{
+"qid": "Q1529806",
+"place": "Q2028",
+"label": "Verona",
+"lat": 45.43861111111111,
+"lon": 10.992777777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q160538",
+"place": "Q38",
+"label": "Italy",
+"lat": 42.5,
+"lon": 12.5,
+"start": null,
+"end": null
+},
+{
+"qid": "Q160538",
+"place": "Q90",
+"label": "Paris",
+"lat": 48.85666666666667,
+"lon": 2.352222222222222,
+"start": null,
+"end": null
+},
+{
+"qid": "Q160538",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q160538",
+"place": "Q2751",
+"label": "Siena",
+"lat": 43.318333333333,
+"lon": 11.331388888889,
+"start": null,
+"end": null
+},
+{
+"qid": "Q170395",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q170395",
+"place": "Q170174",
+"label": "Papal States",
+"lat": 41.9,
+"lon": 12.4875,
+"start": null,
+"end": null
+},
+{
+"qid": "Q1727824",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": 1614,
+"end": 1648
+},
+{
+"qid": "Q182021",
+"place": "Q142",
+"label": "France",
+"lat": 47,
+"lon": 2,
+"start": 1600,
+"end": 1630
+},
+{
+"qid": "Q182021",
+"place": "Q36600",
+"label": "The Hague",
+"lat": 52.08,
+"lon": 4.31,
+"start": null,
+"end": null
+},
+{
+"qid": "Q182021",
+"place": "Q727",
+"label": "Amsterdam",
+"lat": 52.36666666666667,
+"lon": 4.883333333333333,
+"start": 1638,
+"end": 1638
+},
+{
+"qid": "Q192488",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q192488",
+"place": "Q617",
+"label": "Padua",
+"lat": 45.40777777777778,
+"lon": 11.873333333333333,
+"start": null,
+"end": null
+},
+{
+"qid": "Q192488",
+"place": "Q2759",
+"label": "Urbino",
+"lat": 43.725238888889,
+"lon": 12.6372,
+"start": null,
+"end": null
+},
+{
+"qid": "Q192488",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q19569575",
+"place": "Q2634",
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112,
+"start": null,
+"end": null
+},
+{
+"qid": "Q19569575",
+"place": "Q2807",
+"label": "Madrid",
+"lat": 40.41694444444445,
+"lon": -3.703333333333333,
+"start": null,
+"end": null
+},
+{
+"qid": "Q19569683",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q212657",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": 1610,
+"end": 1620
+},
+{
+"qid": "Q212657",
+"place": "Q1449",
+"label": "Genoa",
+"lat": 44.407222222222224,
+"lon": 8.93388888888889,
+"start": null,
+"end": null
+},
+{
+"qid": "Q212657",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1622,
+"end": 1626
+},
+{
+"qid": "Q212657",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q212657",
+"place": "Q2634",
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112,
+"start": null,
+"end": null
+},
+{
+"qid": "Q23583709",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1577,
+"end": 1621
+},
+{
+"qid": "Q236038",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q236038",
+"place": "Q2807",
+"label": "Madrid",
+"lat": 40.41694444444445,
+"lon": -3.703333333333333,
+"start": null,
+"end": null
+},
+{
+"qid": "Q236038",
+"place": "Q2656",
+"label": "Palermo",
+"lat": 38.115658055555556,
+"lon": 13.361261944444445,
+"start": null,
+"end": null
+},
+{
+"qid": "Q236050",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1579,
+"end": 1601
+},
+{
+"qid": "Q236050",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1600,
+"end": 1614
+},
+{
+"qid": "Q2428749",
+"place": "Q490",
+"label": "Milan",
+"lat": 45.466944444444,
+"lon": 9.19,
+"start": 1595,
+"end": 1630
+},
+{
+"qid": "Q2428749",
+"place": "Q495",
+"label": "Turin",
+"lat": 45.079166666666666,
+"lon": 7.676111111111111,
+"start": null,
+"end": null
+},
+{
+"qid": "Q2600590",
+"place": "Q2028",
+"label": "Verona",
+"lat": 45.43861111111111,
+"lon": 10.992777777777778,
+"start": 1560,
+"end": 1557
+},
+{
+"qid": "Q2600590",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": 1557,
+"end": 1571
+},
+{
+"qid": "Q2600590",
+"place": "Q2028",
+"label": "Verona",
+"lat": 45.43861111111111,
+"lon": 10.992777777777778,
+"start": 1571,
+"end": 1605
+},
+{
+"qid": "Q271475",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q27955543",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": 1660,
+"end": 1700
+},
+{
+"qid": "Q2880655",
+"place": "Q279",
+"label": "Modena",
+"lat": 44.64582,
+"lon": 10.92572,
+"start": 1652,
+"end": 1678
+},
+{
+"qid": "Q28927625",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1600,
+"end": 1649
+},
+{
+"qid": "Q293106",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1516,
+"end": 1530
+},
+{
+"qid": "Q2943711",
+"place": "Q2028",
+"label": "Verona",
+"lat": 45.43861111111111,
+"lon": 10.992777777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q2979583",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": 1630,
+"end": 1715
+},
+{
+"qid": "Q2979648",
+"place": "Q12892",
+"label": "Antwerp",
+"lat": 51.221111111111114,
+"lon": 4.3997222222222225,
+"start": 1607,
+"end": 1616
+},
+{
+"qid": "Q2979648",
+"place": "Q2683",
+"label": "Parma",
+"lat": 44.801472222222,
+"lon": 10.328,
+"start": 1616,
+"end": 1617
+},
+{
+"qid": "Q2979648",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1617,
+"end": 1625
+},
+{
+"qid": "Q2979648",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": 1626,
+"end": 1667
+},
+{
+"qid": "Q2979648",
+"place": "Q279",
+"label": "Modena",
+"lat": 44.64582,
+"lon": 10.92572,
+"start": 1638,
+"end": 1639
+},
+{
+"qid": "Q2979648",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q2979648",
+"place": "Q6247",
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3026163",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3026163",
+"place": "Q38",
+"label": "Italy",
+"lat": 42.5,
+"lon": 12.5,
+"start": null,
+"end": null
+},
+{
+"qid": "Q307",
+"place": "Q13375",
+"label": "Pisa",
+"lat": 43.716666666667,
+"lon": 10.4,
+"start": null,
+"end": null
+},
+{
+"qid": "Q307",
+"place": "Q617",
+"label": "Padua",
+"lat": 45.40777777777778,
+"lon": 11.873333333333333,
+"start": null,
+"end": null
+},
+{
+"qid": "Q307",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3071876",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3081102",
+"place": "Q279",
+"label": "Modena",
+"lat": 44.64582,
+"lon": 10.92572,
+"start": 1661,
+"end": 1709
+},
+{
+"qid": "Q3107034",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3107038",
+"place": "Q495",
+"label": "Turin",
+"lat": 45.079166666666666,
+"lon": 7.676111111111111,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3107038",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3107038",
+"place": "Q2634",
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112,
+"start": null,
+"end": 1688
+},
+{
+"qid": "Q3107042",
+"place": "Q2028",
+"label": "Verona",
+"lat": 45.43861111111111,
+"lon": 10.992777777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3107042",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3107042",
+"place": "Q1741",
+"label": "Vienna",
+"lat": 48.208333333333336,
+"lon": 16.3725,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3107069",
+"place": "Q6247",
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111,
+"start": 1518,
+"end": 1575
+},
+{
+"qid": "Q3107339",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q31146",
+"place": "Q13364",
+"label": "Ravenna",
+"lat": 44.416111111111114,
+"lon": 12.201666666666666,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3154328",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q317920",
+"place": "Q90",
+"label": "Paris",
+"lat": 48.85666666666667,
+"lon": 2.352222222222222,
+"start": null,
+"end": null
+},
+{
+"qid": "Q317920",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q317920",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q317920",
+"place": "Q1449",
+"label": "Genoa",
+"lat": 44.407222222222224,
+"lon": 8.93388888888889,
+"start": null,
+"end": null
+},
+{
+"qid": "Q317920",
+"place": "Q279",
+"label": "Modena",
+"lat": 44.64582,
+"lon": 10.92572,
+"start": null,
+"end": null
+},
+{
+"qid": "Q317920",
+"place": "Q2683",
+"label": "Parma",
+"lat": 44.801472222222,
+"lon": 10.328,
+"start": null,
+"end": null
+},
+{
+"qid": "Q317920",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q317920",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q317920",
+"place": "Q84",
+"label": "London",
+"lat": 51.507222222222,
+"lon": -0.1275,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3218663",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q333369",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q333369",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q333369",
+"place": "Q13375",
+"label": "Pisa",
+"lat": 43.716666666667,
+"lon": 10.4,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3513703",
+"place": "Q1449",
+"label": "Genoa",
+"lat": 44.407222222222224,
+"lon": 8.93388888888889,
+"start": null,
+"end": null
+},
+{
+"qid": "Q367360",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q367360",
+"place": "Q13145",
+"label": "Fabriano",
+"lat": 43.338561111111,
+"lon": 12.908519444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q367360",
+"place": "Q1449",
+"label": "Genoa",
+"lat": 44.407222222222224,
+"lon": 8.93388888888889,
+"start": null,
+"end": null
+},
+{
+"qid": "Q367360",
+"place": "Q90",
+"label": "Paris",
+"lat": 48.85666666666667,
+"lon": 2.352222222222222,
+"start": null,
+"end": null
+},
+{
+"qid": "Q367360",
+"place": "Q84",
+"label": "London",
+"lat": 51.507222222222,
+"lon": -0.1275,
+"start": null,
+"end": null
+},
+{
+"qid": "Q380553",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q380553",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q380553",
+"place": "Q2683",
+"label": "Parma",
+"lat": 44.801472222222,
+"lon": 10.328,
+"start": null,
+"end": null
+},
+{
+"qid": "Q380553",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3839037",
+"place": "Q6247",
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3839904",
+"place": "Q6231",
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222,
+"start": 1640,
+"end": 1654
+},
+{
+"qid": "Q3839904",
+"place": "Q490",
+"label": "Milan",
+"lat": 45.466944444444,
+"lon": 9.19,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3839904",
+"place": "Q13329",
+"label": "Piacenza",
+"lat": 45.05,
+"lon": 9.7,
+"start": null,
+"end": null
+},
+{
+"qid": "Q3906452",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": 1538,
+"end": 1588
+},
+{
+"qid": "Q395741",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q4014505",
+"place": "Q90",
+"label": "Paris",
+"lat": 48.85666666666667,
+"lon": 2.352222222222222,
+"start": null,
+"end": null
+},
+{
+"qid": "Q4014505",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q447730",
+"place": "Q13329",
+"label": "Piacenza",
+"lat": 45.05,
+"lon": 9.7,
+"start": null,
+"end": null
+},
+{
+"qid": "Q447730",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q447730",
+"place": "Q2683",
+"label": "Parma",
+"lat": 44.801472222222,
+"lon": 10.328,
+"start": null,
+"end": null
+},
+{
+"qid": "Q447730",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1612,
+"end": 1631
+},
+{
+"qid": "Q447730",
+"place": "Q2634",
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112,
+"start": 1634,
+"end": 1646
+},
+{
+"qid": "Q447730",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1646,
+"end": 1647
+},
+{
+"qid": "Q447730",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q465443",
+"place": "Q6231",
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222,
+"start": null,
+"end": null
+},
+{
+"qid": "Q4680183",
+"place": "Q6247",
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111,
+"start": null,
+"end": null
+},
+{
+"qid": "Q4680183",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1565,
+"end": 1566
+},
+{
+"qid": "Q47523026",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q47551",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q47551",
+"place": "Q617",
+"label": "Padua",
+"lat": 45.40777777777778,
+"lon": 11.873333333333333,
+"start": null,
+"end": null
+},
+{
+"qid": "Q47551",
+"place": "Q490",
+"label": "Milan",
+"lat": 45.466944444444,
+"lon": 9.19,
+"start": null,
+"end": null
+},
+{
+"qid": "Q47551",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1545,
+"end": 1546
+},
+{
+"qid": "Q47551",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q47551",
+"place": "Q2749",
+"label": "Augsburg",
+"lat": 48.36888888888889,
+"lon": 10.897777777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q47551",
+"place": "Q2749",
+"label": "Augsburg",
+"lat": 48.36888888888889,
+"lon": 10.897777777777778,
+"start": 1550,
+"end": 1551
+},
+{
+"qid": "Q4865508",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1630,
+"end": 1647
+},
+{
+"qid": "Q4865508",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q4940622",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q503322",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": 1636,
+"end": 1686
+},
+{
+"qid": "Q503322",
+"place": "Q1735",
+"label": "Innsbruck",
+"lat": 47.268333333333,
+"lon": 11.393333333333,
+"start": null,
+"end": null
+},
+{
+"qid": "Q5051917",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q507765",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": 1616,
+"end": 1630
+},
+{
+"qid": "Q507765",
+"place": "Q2634",
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112,
+"start": 1630,
+"end": 1631
+},
+{
+"qid": "Q507765",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1631,
+"end": 1632
+},
+{
+"qid": "Q507765",
+"place": "Q495",
+"label": "Turin",
+"lat": 45.079166666666666,
+"lon": 7.676111111111111,
+"start": 1632,
+"end": 1638
+},
+{
+"qid": "Q507765",
+"place": "Q142",
+"label": "France",
+"lat": 47,
+"lon": 2,
+"start": 1638,
+"end": 1641
+},
+{
+"qid": "Q507765",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": 1641,
+"end": 1651
+},
+{
+"qid": "Q507765",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1651,
+"end": 1670
+},
+{
+"qid": "Q5186479",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1590,
+"end": 1610
+},
+{
+"qid": "Q526155",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1638,
+"end": 1672
+},
+{
+"qid": "Q53500766",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q5371956",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q5371956",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q539786",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q539786",
+"place": "Q6247",
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111,
+"start": 1637,
+"end": null
+},
+{
+"qid": "Q544173",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": 1570,
+"end": 1590
+},
+{
+"qid": "Q551695",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": 1614
+},
+{
+"qid": "Q551695",
+"place": "Q6247",
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111,
+"start": 1614,
+"end": 1622
+},
+{
+"qid": "Q551695",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q551695",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": 1619,
+"end": 1623
+},
+{
+"qid": "Q5592",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": 1487,
+"end": 1494
+},
+{
+"qid": "Q5592",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1494,
+"end": 1496
+},
+{
+"qid": "Q5592",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1496,
+"end": 1501
+},
+{
+"qid": "Q5592",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": 1501,
+"end": 1505
+},
+{
+"qid": "Q5592",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1505,
+"end": 1506
+},
+{
+"qid": "Q5592",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": 1506,
+"end": 1508
+},
+{
+"qid": "Q5592",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1508,
+"end": 1516
+},
+{
+"qid": "Q5592",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": 1516,
+"end": 1534
+},
+{
+"qid": "Q5592",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q5592",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": 1529,
+"end": 1532
+},
+{
+"qid": "Q5592",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1532,
+"end": 1533
+},
+{
+"qid": "Q5592",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q5592",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q5592",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": 1533,
+"end": 1534
+},
+{
+"qid": "Q5592",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1534,
+"end": 1564
+},
+{
+"qid": "Q5597",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": 1504,
+"end": 1508
+},
+{
+"qid": "Q5597",
+"place": "Q3437",
+"label": "Perugia",
+"lat": 43.11191816,
+"lon": 12.38854847,
+"start": 1501,
+"end": 1502
+},
+{
+"qid": "Q5597",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1508,
+"end": 1520
+},
+{
+"qid": "Q5597",
+"place": "Q2751",
+"label": "Siena",
+"lat": 43.318333333333,
+"lon": 11.331388888889,
+"start": 1503,
+"end": 1504
+},
+{
+"qid": "Q5597",
+"place": "Q2759",
+"label": "Urbino",
+"lat": 43.725238888889,
+"lon": 12.6372,
+"start": null,
+"end": null
+},
+{
+"qid": "Q6078056",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q64585350",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q6695922",
+"place": "Q13364",
+"label": "Ravenna",
+"lat": 44.416111111111114,
+"lon": 12.201666666666666,
+"start": null,
+"end": null
+},
+{
+"qid": "Q706519",
+"place": "Q6247",
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111,
+"start": null,
+"end": null
+},
+{
+"qid": "Q706519",
+"place": "Q13362",
+"label": "Ferrara",
+"lat": 44.839166666666664,
+"lon": 11.6175,
+"start": null,
+"end": null
+},
+{
+"qid": "Q706519",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q709383",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1625,
+"end": 1670
+},
+{
+"qid": "Q728375",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1500,
+"end": 1510
+},
+{
+"qid": "Q728375",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1510,
+"end": 1527
+},
+{
+"qid": "Q728375",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1527,
+"end": 1534
+},
+{
+"qid": "Q748699",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q748699",
+"place": "Q103305",
+"label": "Volterra",
+"lat": 43.4,
+"lon": 10.866666666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q7780",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q7824",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": 1578,
+"end": 1595
+},
+{
+"qid": "Q7824",
+"place": "Q2683",
+"label": "Parma",
+"lat": 44.801472222222,
+"lon": 10.328,
+"start": null,
+"end": null
+},
+{
+"qid": "Q7824",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q7824",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": 1595,
+"end": 1609
+},
+{
+"qid": "Q81506",
+"place": "Q84",
+"label": "London",
+"lat": 51.507222222222,
+"lon": -0.1275,
+"start": 1625,
+"end": 1649
+},
+{
+"qid": "Q83029",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q9319",
+"place": "Q641",
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444,
+"start": null,
+"end": null
+},
+{
+"qid": "Q948226",
+"place": "Q2044",
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667,
+"start": null,
+"end": null
+},
+{
+"qid": "Q948226",
+"place": "Q1891",
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q948226",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q96312519",
+"place": "Q220",
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778,
+"start": null,
+"end": null
+},
+{
+"qid": "Q982384",
+"place": "Q2634",
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112,
+"start": null,
+"end": null
+}
+]

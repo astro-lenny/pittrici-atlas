@@ -1,0 +1,44 @@
+province,state,from,to,confidence,note
+Asti,FRA,1450,1531,low,County of Asti held by the Orléans / French crown; south of the province Monferrato
+Asti,SAV,1531,1720,low,Asti ceded to Savoy 1531; south of the province Monferrato
+Torino,SAV,1450,1536,high,
+Torino,FRA,1536,1562,medium,French occupation of Piedmont; Turin returned 1562
+Torino,SAV,1562,1720,high,
+Cuneo,SAV,1450,1536,low,Marquisate of Saluzzo separate
+Cuneo,FRA,1536,1559,low,French occupation of Piedmont
+Cuneo,SAV,1559,1720,low,Saluzzo French until 1601
+Sondrio,MIL,1450,1512,high,
+Sondrio,SWI,1512,1720,high,Valtellina under the Grisons
+Cremona,MIL,1450,1499,medium,
+Cremona,VEN,1499,1509,medium,Cremona and the Ghiara d'Adda Venetian after the French conquest of Milan
+Cremona,MIL,1509,1720,medium,Crema stayed Venetian
+Piacenza,MIL,1450,1512,high,
+Piacenza,PAP,1512,1545,medium,Papal; briefly French 1515-1521
+Piacenza,PAR,1545,1720,high,Farnese duchy
+Parma,MIL,1450,1512,medium,
+Parma,PAP,1512,1545,medium,Papal; briefly French 1515-1521
+Parma,PAR,1545,1720,medium,Farnese duchy; small fiefs not shown
+Reggio nell'Emilia,EST,1450,1512,medium,
+Reggio nell'Emilia,PAP,1512,1523,medium,Held by the popes
+Reggio nell'Emilia,EST,1523,1720,medium,Correggio and Guastalla separate
+Modena,EST,1450,1510,medium,
+Modena,PAP,1510,1527,low,Taken by Julius II; papal or imperial until 1527
+Modena,EST,1527,1720,medium,Mirandola and Carpi separate
+Ferrara,EST,1450,1598,high,
+Ferrara,PAP,1598,1720,high,Devolved to the Papal States
+Ravenna,VEN,1450,1509,medium,Venetian since 1441; lost after Agnadello
+Ravenna,PAP,1509,1720,medium,Lugo area Este
+Rimini,PAP,1450,1503,medium,Malatesta papal vicars
+Rimini,VEN,1503,1509,medium,Venetian after Cesare Borgia's fall
+Rimini,PAP,1509,1720,high,
+Pesaro e Urbino,URB,1450,1631,medium,Pesaro Sforza to 1512; Medici dukes under Leo X 1516-1521
+Pesaro e Urbino,PAP,1631,1720,high,Devolved to the Papal States
+Pisa,FLO,1450,1495,high,Revolt began in November 1494
+Pisa,PIS,1495,1509,high,Pisan revolt against Florence (from November 1494)
+Pisa,FLO,1509,1720,high,
+Siena,SIE,1450,1555,high,
+Siena,ESP,1555,1557,medium,Imperial-Spanish occupation; the republic continued at Montalcino to 1559
+Siena,FLO,1557,1720,high,Enfeoffed to Cosimo I
+Grosseto,SIE,1450,1555,medium,Pitigliano Orsini
+Grosseto,ESP,1555,1557,medium,Imperial-Spanish occupation
+Grosseto,FLO,1557,1720,medium,Coastal Stato dei Presidi Spanish from 1557

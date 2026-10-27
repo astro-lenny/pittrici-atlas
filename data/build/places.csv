@@ -1,0 +1,106 @@
+id,name,name_it,kind,city,lat,lon,origin,note
+rome,Rome,Roma,city,,41.9028,12.4964,curated,
+florence,Florence,Firenze,city,,43.7696,11.2558,curated,
+bologna,Bologna,Bologna,city,,44.4949,11.3426,curated,
+venice,Venice,Venezia,city,,45.4408,12.3155,curated,
+naples,Naples,Napoli,city,,40.8518,14.2681,curated,
+milan,Milan,Milano,city,,45.4642,9.19,curated,
+cremona,Cremona,Cremona,city,,45.1333,10.0227,curated,
+genoa,Genoa,Genova,city,,44.4056,8.9463,curated,
+palermo,Palermo,Palermo,city,,38.1157,13.3615,curated,
+paterno,Paternò,Paternò,city,,37.5667,14.9,curated,Moncada fief in Sicily
+pisa,Pisa,Pisa,city,,43.7228,10.4017,curated,
+livorno,Livorno,Livorno,city,,43.5485,10.3106,curated,
+mantua,Mantua,Mantova,city,,45.1564,10.7914,curated,
+ravenna,Ravenna,Ravenna,city,,44.4184,12.2035,curated,
+padua,Padua,Padova,city,,45.4064,11.8768,curated,
+turin,Turin,Torino,city,,45.0703,7.6869,curated,
+verona,Verona,Verona,city,,45.4384,10.9916,curated,
+parma,Parma,Parma,city,,44.8015,10.3279,curated,
+imola,Imola,Imola,city,,44.3533,11.7143,curated,
+ascoli,Ascoli Piceno,Ascoli Piceno,city,,42.854,13.5745,curated,
+velletri,Velletri,Velletri,city,,41.6867,12.777,curated,
+spilimbergo,Spilimbergo,Spilimbergo,city,,46.1105,12.902,curated,
+moncalvo,Moncalvo,Moncalvo,city,,45.051,8.265,curated,
+bianze,Bianzè,Bianzè,city,,45.311,8.122,curated,
+siena,Siena,Siena,city,,43.3188,11.3308,curated,
+perugia,Perugia,Perugia,city,,43.1107,12.3908,curated,
+madrid,Madrid,Madrid,city,,40.4168,-3.7038,curated,Spanish court
+paris,Paris,Parigi,city,,48.8566,2.3522,curated,
+london,London,Londra,city,,51.5074,-0.1278,curated,
+bo-sanpetronio,San Petronio,Basilica di San Petronio,site,bologna,44.493,11.3433,curated,Properzia de' Rossi's marble reliefs for the façade (1525-26)
+bo-casasirani,Sirani house and workshop,Casa Sirani (via Urbana),site,bologna,44.4893,11.3378,curated,Workshop where Elisabetta Sirani trained other women
+bo-sandomenico,San Domenico,San Domenico,site,bologna,44.4898,11.3443,curated,Elisabetta Sirani buried beside Guido Reni (1665)
+bo-palazzofava,Palazzo Fava,Palazzo Fava,site,bologna,44.4975,11.3432,curated,Carracci frescoes; circle of the Accademia degli Incamminati
+fi-santacaterina,Convent of Santa Caterina da Siena,Convento di Santa Caterina da Siena,site,florence,43.7782,11.2595,curated,Plautilla Nelli's convent workshop on Piazza San Marco
+fi-casabuonarroti,Casa Buonarroti,Casa Buonarroti,site,florence,43.7703,11.262,curated,Artemisia's Allegory of Inclination for Michelangelo the Younger (1615-16)
+fi-accademia,Accademia delle Arti del Disegno,Accademia delle Arti del Disegno,site,florence,43.7769,11.2606,curated,Artemisia admitted 1616; met at Santissima Annunziata
+fi-pitti,Palazzo Pitti,Palazzo Pitti,site,florence,43.7651,11.25,curated,Medici court
+fi-arcetri,"Villa Il Gioiello, Arcetri","Villa Il Gioiello, Arcetri",site,florence,43.7497,11.2531,curated,Galileo's house arrest 1631-1642
+ro-sanluca,Accademia di San Luca,Accademia di San Luca (SS. Luca e Martina),site,rome,41.8935,12.4848,curated,Painters' academy; admitted Lavinia Fontana and Giovanna Garzoni
+ro-vatican,Vatican palaces,Palazzi Vaticani,site,rome,41.9029,12.4534,curated,Papal court
+ro-sanpaolo,San Paolo fuori le Mura,San Paolo fuori le Mura,site,rome,41.8587,12.4769,curated,Lavinia Fontana's Stoning of St Stephen (destroyed in the 1823 fire)
+ro-barberini,Palazzo Barberini,Palazzo Barberini,site,rome,41.9035,12.4903,curated,Barberini patronage
+ro-benedetta,Villa Benedetta,Villa Benedetta (il Vascello),site,rome,41.8856,12.4622,curated,Designed by Plautilla Bricci (1663)
+ro-sanluigi,San Luigi dei Francesi,San Luigi dei Francesi,site,rome,41.8995,12.4747,curated,Chapel of St Louis by Plautilla Bricci
+ro-macel,Michelangelo's house,Casa di Michelangelo (Macel de' Corvi),site,rome,41.8963,12.4836,curated,
+ro-dalpozzo,Cassiano dal Pozzo's house,Casa dal Pozzo (via dei Chiavari),site,rome,41.8946,12.4734,curated,Paper Museum circle
+ve-tintoretto,Tintoretto's house,Casa del Tintoretto (Fondamenta dei Mori),site,venice,45.444,12.3335,curated,Family workshop of Marietta Robusti
+ve-madonnaorto,Madonna dell'Orto,Madonna dell'Orto,site,venice,45.4462,12.3326,curated,Burial place of Tintoretto and Marietta
+ve-tiziano,Titian's house,Casa di Tiziano (Biri Grande),site,venice,45.4418,12.3423,curated,
+na-palazzoreale,Royal Palace (viceroy's court),Palazzo Reale,site,naples,40.8361,14.2489,curated,
+na-sanmartino,Certosa di San Martino,Certosa di San Martino,site,naples,40.8434,14.2394,curated,
+na-pozzuoli,Pozzuoli Cathedral,Duomo di Pozzuoli,site,naples,40.8226,14.1215,curated,Three canvases by Artemisia (1635-37)
+mi-sancelso,Santa Maria presso San Celso,Santa Maria presso San Celso,site,milan,45.4553,9.1879,curated,Fede Galizia's Noli me tangere (1616)
+to-palazzoreale,Royal Palace,Palazzo Reale,site,turin,45.0726,7.6862,curated,Savoy court of Christine of France
+ma-alcazar,Royal Alcázar,Real Alcázar,site,madrid,40.418,-3.7143,curated,Court of Philip II and Elisabeth of Valois
+lo-queenshouse,"Queen's House, Greenwich","Queen's House, Greenwich",site,london,51.481,-0.0036,curated,Ceiling by Orazio (and probably Artemisia) Gentileschi
+pa-luxembourg,Luxembourg Palace,Palais du Luxembourg,site,paris,48.8462,2.3371,curated,Marie de' Medici's palace
+wd-orvieto,Orvieto,Orvieto,city,,42.7182,12.1083,wikidata,
+wd-empoli,Empoli,Empoli,city,,43.7167,10.95,wikidata,
+wd-montabone,Montabone,Montabone,city,,44.6997,8.3917,wikidata,
+wd-arezzo,Arezzo,Arezzo,city,,43.4631,11.8781,wikidata,
+wd-italy,Italy,Italy,city,,42.5,12.5,wikidata,
+wd-antwerp,Antwerp,Antwerp,city,,51.2211,4.3997,wikidata,
+wd-alicante,Alicante,Alicante,city,,38.3453,-0.4831,wikidata,
+wd-vicenza,Vicenza,Vicenza,city,,45.55,11.55,wikidata,
+wd-fano,Fano,Fano,city,,43.8425,13.0136,wikidata,
+wd-fontainebleau,Fontainebleau,Fontainebleau,city,,48.4089,2.7017,wikidata,
+wd-aranjuez,Aranjuez,Aranjuez,city,,40.0333,-3.6028,wikidata,
+wd-cologne,Cologne,Cologne,city,,50.9422,6.9578,wikidata,
+wd-pratovecchio,Pratovecchio,Pratovecchio,city,,43.7878,11.7244,wikidata,
+wd-gubbio,Gubbio,Gubbio,city,,43.353,12.5793,wikidata,
+wd-brussels,Brussels,Brussels,city,,50.8467,4.3517,wikidata,
+wd-forli,Forlì,Forlì,city,,44.2228,12.0414,wikidata,
+wd-modena,Modena,Modena,city,,44.6458,10.9257,wikidata,
+wd-maubeuge,Maubeuge,Maubeuge,city,,50.2769,3.9725,wikidata,
+wd-rovigo,Rovigo,Rovigo,city,,45.0809,11.794,wikidata,
+wd-gaeta,Gaeta,Gaeta,city,,41.2167,13.5667,wikidata,
+wd-trento,Trento,Trento,city,,46.0667,11.1167,wikidata,
+wd-palacio-de-pimentel,Palacio de Pimentel,Palacio de Pimentel,city,,41.6564,-4.7244,wikidata,
+wd-royal-monastery-of-san-lorenzo-de-el-escorial,Royal Monastery of San Lorenzo de El Escorial,Royal Monastery of San Lorenzo de El Escorial,city,,40.5892,-4.1478,wikidata,
+wd-rovio,Rovio,Rovio,city,,45.9333,8.9833,wikidata,
+wd-castel-goffredo,Castel Goffredo,Castel Goffredo,city,,45.2981,10.475,wikidata,
+wd-ponzano-romano,Ponzano Romano,Ponzano Romano,city,,42.2581,12.5717,wikidata,
+wd-reggio-emilia,Reggio Emilia,Reggio Emilia,city,,44.7,10.6333,wikidata,
+wd-munich,Munich,Munich,city,,48.1375,11.575,wikidata,
+wd-pieve-di-cadore,Pieve di Cadore,Pieve di Cadore,city,,46.4287,12.3753,wikidata,
+wd-nuremberg,Nuremberg,Nuremberg,city,,49.4539,11.0775,wikidata,
+wd-caprese-michelangelo,Caprese Michelangelo,Caprese Michelangelo,city,,43.6408,11.9858,wikidata,
+wd-urbino,Urbino,Urbino,city,,43.7252,12.6372,wikidata,
+wd-bergamo,Bergamo,Bergamo,city,,45.695,9.67,wikidata,
+wd-molinella,Molinella,Molinella,city,,44.6167,11.6667,wikidata,
+wd-volterra,Volterra,Volterra,city,,43.4,10.8667,wikidata,
+wd-dunfermline-palace,Dunfermline Palace,Dunfermline Palace,city,,56.0695,-3.4646,wikidata,
+wd-pavia,Pavia,Pavia,city,,45.1853,9.155,wikidata,
+wd-alatri,Alatri,Alatri,city,,41.7264,13.3422,wikidata,
+wd-piacenza,Piacenza,Piacenza,city,,45.05,9.7,wikidata,
+wd-spain,Spain,Spain,city,,40.2,-3.5,wikidata,
+wd-pistoia,Pistoia,Pistoia,city,,43.9333,10.9167,wikidata,
+wd-rimini,Rimini,Rimini,city,,44.0594,12.5683,wikidata,
+wd-france,France,France,city,,47,2,wikidata,
+wd-amsterdam,Amsterdam,Amsterdam,city,,52.3667,4.8833,wikidata,
+wd-vienna,Vienna,Vienna,city,,48.2083,16.3725,wikidata,
+wd-augsburg,Augsburg,Augsburg,city,,48.3689,10.8978,wikidata,
+wd-innsbruck,Innsbruck,Innsbruck,city,,47.2683,11.3933,wikidata,
+wd-ferrara,Ferrara,Ferrara,city,,44.8392,11.6175,wikidata,

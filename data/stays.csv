@@ -1,0 +1,141 @@
+person,place,from,to,kind,confidence,sources,note
+sofonisba-anguissola,cremona,1532,1559,residence,high,PER;CRE,Family house in Cremona
+sofonisba-anguissola,cremona,1546,1549,training,high,PER;VAS,Trained with Bernardino Campi
+sofonisba-anguissola,cremona,1549,1552,training,medium,PER,Trained with Bernardino Gatti
+sofonisba-anguissola,ro-macel,1554,1554,visit,medium,PER;NEWS,Visits Rome and meets Michelangelo
+sofonisba-anguissola,milan,1558,1558,visit,medium,PER,Portrait of the Duke of Sessa; leads to the Spanish invitation
+sofonisba-anguissola,ma-alcazar,1559,1573,court,high,PER;PRA,Lady-in-waiting and painter to Elisabeth of Valois
+sofonisba-anguissola,paterno,1573,1578,residence,medium,PER,Married to Fabrizio de Moncada
+sofonisba-anguissola,palermo,1578,1579,residence,medium,PER,Widowed
+sofonisba-anguissola,pisa,1579,1580,visit,medium,PER,Marries Orazio Lomellino
+sofonisba-anguissola,genoa,1580,1615,residence,high,PER;SOP,
+sofonisba-anguissola,palermo,1615,1625,residence,high,PER;VDY;NEWS,Van Dyck visits her on 12 July 1624
+elena-anguissola,cremona,1532,1555,residence,medium,CRE,
+elena-anguissola,mantua,1555,1584,convent,medium,CRE;WD,Nun at San Vincenzo (as Sister Minerva)
+lucia-anguissola,cremona,1536,1565,residence,high,CRE;WD,
+lavinia-fontana,bologna,1552,1604,residence,high,MUR;FOR,Trained in the workshop of her father Prospero
+lavinia-fontana,ro-sanpaolo,1603,1604,commission,high,MUR,Stoning of St Stephen for San Paolo fuori le Mura
+lavinia-fontana,rome,1604,1614,residence,high,MUR;FOR;PRA,Moves to Rome with her family
+lavinia-fontana,ro-sanluca,1604,1614,member,low,LAVI;MUR,Elected to the Accademia di San Luca; year not established
+artemisia-gentileschi,rome,1593,1613,residence,high,GAR;CHR,Trained in her father's workshop
+artemisia-gentileschi,florence,1613,1620,residence,high,GAR;CHR,
+artemisia-gentileschi,fi-casabuonarroti,1615,1616,commission,high,CHR,Allegory of Inclination
+artemisia-gentileschi,fi-accademia,1616,1620,member,high,GAR;CHR,First woman admitted to the Accademia delle Arti del Disegno
+artemisia-gentileschi,rome,1620,1627,residence,high,CHR,
+artemisia-gentileschi,venice,1627,1630,residence,medium,CHR,
+artemisia-gentileschi,naples,1630,1638,residence,high,CHR;NAP,
+artemisia-gentileschi,na-pozzuoli,1635,1637,commission,high,CHR,Three canvases for Pozzuoli Cathedral
+artemisia-gentileschi,lo-queenshouse,1638,1640,court,medium,CHR,Joins Orazio at the court of Charles I
+artemisia-gentileschi,naples,1641,1653,residence,high,CHR;JAC,
+orazio-gentileschi,rome,1578,1621,residence,high,CHR,
+orazio-gentileschi,genoa,1621,1624,residence,high,CHR;SOP,
+orazio-gentileschi,pa-luxembourg,1624,1626,court,high,CHR,For Marie de' Medici
+orazio-gentileschi,london,1626,1639,court,high,CHR,Court painter to Charles I
+orazio-gentileschi,lo-queenshouse,1635,1638,commission,high,CHR,Ceiling of the Queen's House
+agostino-tassi,rome,1610,1644,residence,medium,CHR,
+simon-vouet,rome,1614,1627,residence,high,CHR,Principe of the Accademia di San Luca 1624
+simon-vouet,paris,1627,1649,court,high,CHR,First painter to Louis XIII
+virginia-vezzi,rome,1620,1627,residence,medium,NMWA,Marries Simon Vouet 1626
+virginia-vezzi,paris,1627,1638,residence,high,NMWA;WD,
+michelangelo,florence,1490,1534,residence,high,VAS,
+michelangelo,ro-macel,1534,1564,residence,high,VAS,
+titian,ve-tiziano,1531,1576,residence,high,VAS;RID,
+irene-di-spilimbergo,venice,1546,1559,residence,medium,RID,Lessons in Titian's circle
+jacopo-tintoretto,venice,1518,1574,residence,high,RID,
+jacopo-tintoretto,ve-tintoretto,1574,1594,residence,high,RID,
+marietta-robusti,venice,1554,1574,residence,high,RID,
+marietta-robusti,ve-tintoretto,1574,1590,residence,high,RID,Works in her father's workshop
+marietta-robusti,ve-madonnaorto,1590,1590,burial,high,RID,
+plautilla-nelli,florence,1524,1538,residence,high,NEL,
+plautilla-nelli,fi-santacaterina,1538,1588,convent,high,NEL;VAS,Prioress and head of the convent workshop
+fra-bartolomeo,florence,1500,1517,residence,high,VAS,
+properzia-de-rossi,bologna,1490,1530,residence,high,VAS,
+properzia-de-rossi,bo-sanpetronio,1525,1526,commission,high,VAS,Marble reliefs for the façade
+marcantonio-raimondi,bologna,1500,1510,residence,medium,VAS,
+marcantonio-raimondi,rome,1510,1527,residence,high,VAS,
+marcantonio-raimondi,bologna,1527,1534,residence,medium,VAS,
+diana-scultori,mantua,1547,1575,residence,high,LIN,
+diana-scultori,rome,1575,1612,residence,high,LIN,Papal privilege for her prints 1575
+giulio-romano,mantua,1524,1546,court,high,VAS,
+barbara-longhi,ravenna,1552,1638,residence,high,NMWA,
+luca-longhi,ravenna,1507,1580,residence,high,VAS,
+fede-galizia,milan,1578,1630,residence,high,NMWA;MIL,
+fede-galizia,mi-sancelso,1616,1616,commission,medium,NMWA,Noli me tangere
+lucrezia-quistelli,florence,1541,1594,residence,medium,NMWA,
+alessandro-allori,florence,1535,1607,residence,high,VAS,
+giovanna-garzoni,ascoli,1600,1615,residence,medium,GZN,
+giovanna-garzoni,venice,1615,1630,residence,medium,GZN,
+giovanna-garzoni,naples,1630,1631,court,medium,GZN,Works for the viceroy Duke of Alcalá
+giovanna-garzoni,to-palazzoreale,1632,1637,court,medium,GZN,Savoy court of Christine of France
+giovanna-garzoni,fi-pitti,1642,1651,court,medium,GZN,Medici patronage
+giovanna-garzoni,rome,1651,1670,residence,high,GZN,
+giovanna-garzoni,ro-sanluca,1651,1670,member,medium,GZN,Leaves her estate to the Accademia di San Luca
+arcangela-paladini,pisa,1599,1616,residence,medium,NMWA,
+arcangela-paladini,fi-pitti,1616,1622,court,high,NMWA,At the court of Maria Maddalena of Austria
+chiara-varotari,padua,1584,1614,residence,medium,NMWA,
+chiara-varotari,venice,1614,1660,residence,medium,NMWA;WD,
+alessandro-varotari,padua,1588,1614,residence,medium,RID,
+alessandro-varotari,venice,1615,1649,residence,high,RID,
+orsola-maddalena-caccia,moncalvo,1596,1620,residence,high,NMWA,
+orsola-maddalena-caccia,bianze,1620,1625,convent,medium,NMWA,
+orsola-maddalena-caccia,moncalvo,1625,1676,convent,high,NMWA;GNT,Ursuline convent founded by her father
+guglielmo-caccia,moncalvo,1593,1625,residence,high,NMWA,
+lucrina-fetti,rome,1600,1614,residence,medium,NMWA,
+lucrina-fetti,mantua,1614,1651,convent,high,NMWA;WD,Nun at Sant'Orsola
+domenico-fetti,rome,1589,1613,residence,high,NMWA,
+domenico-fetti,mantua,1613,1622,court,high,NMWA,
+domenico-fetti,venice,1622,1623,residence,high,NMWA,
+anna-maria-vaiani,florence,1604,1630,residence,medium,NMWA,
+anna-maria-vaiani,rome,1630,1655,residence,medium,NMWA;WD,
+plautilla-bricci,rome,1616,1705,residence,high,BRI,
+plautilla-bricci,ro-benedetta,1663,1665,commission,high,BRI,Designs Villa Benedetta for Elpidio Benedetti
+plautilla-bricci,ro-sanluigi,1676,1680,commission,medium,BRI,Chapel of St Louis
+teresa-del-po,rome,1649,1683,residence,medium,NMWA,
+teresa-del-po,ro-sanluca,1678,1683,member,medium,NMWA,
+teresa-del-po,naples,1683,1713,residence,medium,NMWA;WD,
+pietro-del-po,rome,1630,1683,residence,medium,NMWA,
+pietro-del-po,naples,1683,1692,residence,medium,NMWA,
+aniella-di-beltrano,naples,1613,1649,residence,high,NAP;WD,
+massimo-stanzione,naples,1617,1656,residence,high,NAP,
+rosalia-novelli,palermo,1628,1688,residence,high,NMWA,
+pietro-novelli,palermo,1620,1647,residence,high,NMWA,
+elisabetta-sirani,bologna,1638,1665,residence,high,MOD;SIR,
+elisabetta-sirani,bo-casasirani,1655,1665,workshop,medium,MOD;SIR;PUL,Runs the family workshop and trains women painters
+elisabetta-sirani,bo-sandomenico,1665,1665,burial,high,MOD,Buried beside Guido Reni
+giovanni-andrea-sirani,bologna,1610,1670,residence,high,MAL,
+guido-reni,bologna,1575,1601,residence,high,MAL,
+guido-reni,rome,1601,1614,residence,high,MAL,
+guido-reni,bologna,1614,1642,residence,high,MAL,
+guido-reni,bo-sandomenico,1642,1642,burial,high,MAL,
+ginevra-cantofoli,bologna,1618,1672,residence,high,MAL;WD,
+ludovico-carracci,bologna,1555,1619,residence,high,MAL,
+ludovico-carracci,bo-palazzofava,1584,1584,commission,high,MAL,Frieze of Jason and Medea with Annibale and Agostino
+annibale-carracci,bologna,1560,1595,residence,high,MAL,
+annibale-carracci,rome,1595,1609,residence,high,MAL,
+prospero-fontana,bologna,1512,1597,residence,high,MAL,
+galileo-galilei,padua,1592,1610,residence,high,GAL,
+galileo-galilei,florence,1610,1631,residence,high,GAL,
+galileo-galilei,fi-arcetri,1631,1642,residence,high,GAL,
+michelangelo-younger,fi-casabuonarroti,1612,1646,residence,high,CHR,
+cassiano-dal-pozzo,ro-dalpozzo,1612,1657,residence,high,CHR,
+anthony-van-dyck,genoa,1621,1627,residence,high,SOP,
+anthony-van-dyck,palermo,1624,1624,visit,high,VDY,
+anthony-van-dyck,london,1632,1641,court,high,CHR,
+philip-ii-of-spain,ma-alcazar,1559,1598,court,high,PER,
+elisabeth-of-valois,ma-alcazar,1559,1568,court,high,PER,
+charles-i-of-england,london,1625,1649,court,high,CHR,
+marie-de-medici,pa-luxembourg,1615,1631,court,high,CHR,
+cosimo-ii,fi-pitti,1609,1621,court,high,CHR,
+maria-maddalena,fi-pitti,1608,1631,court,high,NMWA,
+ferdinando-ii,fi-pitti,1621,1670,court,high,GZN,
+christine-of-france,to-palazzoreale,1619,1663,court,high,GZN,
+duke-of-alcala,na-palazzoreale,1629,1631,court,high,GZN,
+francesco-barberini,ro-barberini,1623,1679,residence,high,CHR,
+francesco-capriani,rome,1570,1594,residence,high,LIN,
+clement-viii,ro-vatican,1592,1605,court,high,MUR,
+gregory-xiii,ro-vatican,1572,1585,court,high,LIN,
+elpidio-benedetti,rome,1630,1690,residence,high,BRI,
+tiberio-tinelli,venice,1586,1638,residence,high,GZN,
+gian-paolo-zappi,bologna,1577,1604,residence,high,MUR,
+gian-paolo-zappi,rome,1604,1615,residence,high,MUR,
+pierantonio-stiattesi,florence,1612,1623,residence,medium,CHR,

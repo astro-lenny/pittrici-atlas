@@ -1,0 +1,3829 @@
+[
+{
+"qid": "Q104533864",
+"label": "Rosa Agnese Bruni",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1650,
+"death": 1720,
+"birth_place": {
+"label": "Orvieto",
+"lat": 42.71820031,
+"lon": 12.10826941
+},
+"death_place": null,
+"occupations": [
+"Q1028181",
+"Q49757",
+"Q6673651"
+]
+},
+{
+"qid": "Q1048333",
+"label": "Cassiano dal Pozzo",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1588,
+"death": 1657,
+"birth_place": {
+"label": "Turin",
+"lat": 45.079166666666666,
+"lon": 7.676111111111111
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q901",
+"Q2468727"
+]
+},
+{
+"qid": "Q104964223",
+"label": "Costanza Francini",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1597,
+"death": 1657,
+"birth_place": {
+"label": "Empoli",
+"lat": 43.716666666667,
+"lon": 10.95
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q1074555",
+"label": "Margherita Caffi",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1648,
+"death": 1710,
+"birth_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"death_place": {
+"label": "Milan",
+"lat": 45.466944444444,
+"lon": 9.19
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q107611592",
+"label": "Lucrezia Bianchi",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1650,
+"death": null,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q107612446",
+"label": "Giulia Canuti Bonaveri",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1636,
+"death": 1696,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q107672609",
+"label": "Barbara Sirani",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1641,
+"death": 1692,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q107713804",
+"label": "Francesca Vicenzina",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1657,
+"death": 1700,
+"birth_place": {
+"label": "Milan",
+"lat": 45.466944444444,
+"lon": 9.19
+},
+"death_place": {
+"label": "Milan",
+"lat": 45.466944444444,
+"lon": 9.19
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q107713846",
+"label": "Vincenzo Volò",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1601,
+"death": 1671,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q107713906",
+"label": "Giovanna Volò",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1652,
+"death": 1680,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q107907203",
+"label": "Caterina Mongardi",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1645,
+"death": 1672,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q107907356",
+"label": "Isabella Sandri Orfei",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1658,
+"death": 1730,
+"birth_place": {
+"label": "Medicina",
+"lat": 44.483333333333,
+"lon": 11.633333333333
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q1083398",
+"label": "Christine of France",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1606,
+"death": 1663,
+"birth_place": {
+"label": "Louvre Palace",
+"lat": 48.861028,
+"lon": 2.335886
+},
+"death_place": {
+"label": "Turin",
+"lat": 45.079166666666666,
+"lon": 7.676111111111111
+},
+"occupations": [
+"Q82955"
+]
+},
+{
+"qid": "Q108380850",
+"label": "Maria Eufrasia della Croce",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1597,
+"death": 1676,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181",
+"Q191808"
+]
+},
+{
+"qid": "Q109061",
+"label": "Guido Reni",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1575,
+"death": 1642,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181",
+"Q644687",
+"Q15296811",
+"Q2079935",
+"Q10862983",
+"Q5322166",
+"Q3391743",
+"Q984276",
+"Q1183704",
+"Q22669155"
+]
+},
+{
+"qid": "Q110921109",
+"label": "Geronima Parasole",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1569,
+"death": 1622,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q47005195"
+]
+},
+{
+"qid": "Q111996911",
+"label": "Prudenzia di Ottaviano Montoni",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": null,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": []
+},
+{
+"qid": "Q1136794",
+"label": "Guglielmo Caccia",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1568,
+"death": 1625,
+"birth_place": {
+"label": "Montabone",
+"lat": 44.699722222222,
+"lon": 8.3916666666667
+},
+"death_place": {
+"label": "Moncalvo",
+"lat": 45.051111111111,
+"lon": 8.2663888888889
+},
+"occupations": [
+"Q1028181",
+"Q15296811",
+"Q483501"
+]
+},
+{
+"qid": "Q1152279",
+"label": "Chiara Varotari",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1584,
+"death": 1660,
+"birth_place": {
+"label": "Padua",
+"lat": 45.40777777777778,
+"lon": 11.873333333333333
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q1028181",
+"Q21178131"
+]
+},
+{
+"qid": "Q117034641",
+"label": "Giovanni Paolo Zanardi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1658,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q117034647",
+"label": "Sebastiano Monchi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": null,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q1234790",
+"label": "Vincenzo Danti",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1530,
+"death": 1576,
+"birth_place": {
+"label": "Perugia",
+"lat": 43.11191816,
+"lon": 12.38854847
+},
+"death_place": {
+"label": "Perugia",
+"lat": 43.11191816,
+"lon": 12.38854847
+},
+"occupations": [
+"Q1281618",
+"Q42973",
+"Q81096",
+"Q36180",
+"Q211423",
+"Q1792450",
+"Q483501"
+]
+},
+{
+"qid": "Q123785865",
+"label": "Giuseppe Volo Vicenzino",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1662,
+"death": 1700,
+"birth_place": {
+"label": "Milan",
+"lat": 45.466944444444,
+"lon": 9.19
+},
+"death_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q123950566",
+"label": "Lucretia Régnier",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": null,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q123950770",
+"label": "Angelica Regnier",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": null,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q123950821",
+"label": "Anna Regnier",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": null,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q124325434",
+"label": "Gian Paolo Zappi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1555,
+"death": 1615,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q128027",
+"label": "Giorgio Vasari",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1511,
+"death": 1574,
+"birth_place": {
+"label": "Arezzo",
+"lat": 43.463055555556,
+"lon": 11.878055555556
+},
+"death_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"occupations": [
+"Q1028181",
+"Q42973",
+"Q1792450",
+"Q36180",
+"Q864380",
+"Q17391638",
+"Q21550346",
+"Q2079935",
+"Q3391743",
+"Q11613590"
+]
+},
+{
+"qid": "Q131360389",
+"label": "Lodovico Mongardi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": null,
+"death": 1686,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q131460806",
+"label": "Angela Beinaschi",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1666,
+"death": null,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q131927220",
+"label": "Pompeo Vezzi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": null,
+"death": null,
+"birth_place": {
+"label": "Velletri",
+"lat": 41.666666666667,
+"lon": 12.783333333333
+},
+"death_place": null,
+"occupations": [
+"Q1028181",
+"Q113995639",
+"Q1549283"
+]
+},
+{
+"qid": "Q131986160",
+"label": "Pietro Gaia",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1570,
+"death": null,
+"birth_place": {
+"label": "Ascoli Piceno",
+"lat": 42.854722222222,
+"lon": 13.575277777778
+},
+"death_place": null,
+"occupations": [
+"Q1028181",
+"Q211423"
+]
+},
+{
+"qid": "Q132005780",
+"label": "Ludovico Caffi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": null,
+"death": 1691,
+"birth_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q132009272",
+"label": "Bonaveri",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": null,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q11569986"
+]
+},
+{
+"qid": "Q1327840",
+"label": "Elena Anguissola",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1532,
+"death": 1584,
+"birth_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"death_place": {
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q1375207",
+"label": "Europa Anguissola",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1600,
+"death": 1600,
+"birth_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"death_place": {
+"label": "Italy",
+"lat": 42.5,
+"lon": 12.5
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q1394894",
+"label": "Pietro Novelli",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1603,
+"death": 1647,
+"birth_place": {
+"label": "Monreale",
+"lat": 38.081666666667,
+"lon": 13.288888888889
+},
+"death_place": {
+"label": "Palermo",
+"lat": 38.115658055555556,
+"lon": 13.361261944444445
+},
+"occupations": [
+"Q1028181",
+"Q42973"
+]
+},
+{
+"qid": "Q1433238",
+"label": "Domenico Maria Canuti",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1625,
+"death": 1684,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181",
+"Q1925963"
+]
+},
+{
+"qid": "Q150679",
+"label": "Anthony van Dyck",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1599,
+"death": 1641,
+"birth_place": {
+"label": "Antwerp",
+"lat": 51.221111111111114,
+"lon": 4.3997222222222225
+},
+"death_place": {
+"label": "London",
+"lat": 51.507222222222,
+"lon": -0.1275
+},
+"occupations": [
+"Q1028181",
+"Q10862983",
+"Q487596",
+"Q3387717",
+"Q333634",
+"Q214917",
+"Q984276",
+"Q15296811",
+"Q2079935",
+"Q3391743",
+"Q1925963",
+"Q483501"
+]
+},
+{
+"qid": "Q1526234",
+"label": "Giovanni Maria Galli da Bibiena",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1619,
+"death": 1665,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181",
+"Q289612"
+]
+},
+{
+"qid": "Q1528623",
+"label": "Giuseppe Recco",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1634,
+"death": 1695,
+"birth_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"death_place": {
+"label": "Alicante",
+"lat": 38.345277777778,
+"lon": -0.48305555555556
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q1529806",
+"label": "Pietro della Vecchia",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1603,
+"death": 1678,
+"birth_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"death_place": {
+"label": "Vicenza",
+"lat": 45.55,
+"lon": 11.55
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q16010690",
+"label": "Amilcare Anguissola",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1494,
+"death": 1573,
+"birth_place": {
+"label": "Genoa",
+"lat": 44.407222222222224,
+"lon": 8.93388888888889
+},
+"death_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"occupations": [
+"Q2478141"
+]
+},
+{
+"qid": "Q160538",
+"label": "Gian Lorenzo Bernini",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1598,
+"death": 1680,
+"birth_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1281618",
+"Q483501",
+"Q1028181",
+"Q42973",
+"Q2079935",
+"Q5322166"
+]
+},
+{
+"qid": "Q16853931",
+"label": "Leonardo Parasole",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1560,
+"death": 1640,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": null,
+"occupations": [
+"Q11569986",
+"Q19507792",
+"Q2516866",
+"Q47005195",
+"Q644687"
+]
+},
+{
+"qid": "Q16853979",
+"label": "Gioacchino Pizzoli",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1651,
+"death": 1733,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q16859805",
+"label": "Arcangela Paladini",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1599,
+"death": 1622,
+"birth_place": {
+"label": "Pisa",
+"lat": 43.716666666667,
+"lon": 10.4
+},
+"death_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"occupations": [
+"Q177220",
+"Q1028181",
+"Q49757"
+]
+},
+{
+"qid": "Q170395",
+"label": "Clement VIII",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1536,
+"death": 1605,
+"birth_place": {
+"label": "Fano",
+"lat": 43.8425,
+"lon": 13.01361111111111
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q193391",
+"Q250867",
+"Q185351",
+"Q212624"
+]
+},
+{
+"qid": "Q1727693",
+"label": "Dario Varotari the Elder",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1539,
+"death": 1596,
+"birth_place": {
+"label": "Verona",
+"lat": 45.43861111111111,
+"lon": 10.992777777777778
+},
+"death_place": {
+"label": "Padua",
+"lat": 45.40777777777778,
+"lon": 11.873333333333333
+},
+"occupations": [
+"Q1028181",
+"Q42973",
+"Q1281618"
+]
+},
+{
+"qid": "Q1727824",
+"label": "Alessandro Varotari",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1588,
+"death": 1649,
+"birth_place": {
+"label": "Padua",
+"lat": 45.40777777777778,
+"lon": 11.873333333333333
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q1760178",
+"label": "Accademia delle Arti del Disegno",
+"sex": null,
+"inst": "Q383092",
+"birth": null,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": []
+},
+{
+"qid": "Q176041",
+"label": "Elisabeth of Valois",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1545,
+"death": 1568,
+"birth_place": {
+"label": "Fontainebleau",
+"lat": 48.408888888889,
+"lon": 2.7016666666667
+},
+"death_place": {
+"label": "Aranjuez",
+"lat": 40.033333333333,
+"lon": -3.6027777777778
+},
+"occupations": [
+"Q2478141"
+]
+},
+{
+"qid": "Q182021",
+"label": "Marie de' Medici",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1575,
+"death": 1642,
+"birth_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"death_place": {
+"label": "Cologne",
+"lat": 50.942222222222,
+"lon": 6.9577777777778
+},
+"occupations": [
+"Q3068305",
+"Q10732476",
+"Q82955"
+]
+},
+{
+"qid": "Q192488",
+"label": "Paolo Uccello",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1397,
+"death": 1475,
+"birth_place": {
+"label": "Pratovecchio",
+"lat": 43.787777777778,
+"lon": 11.724444444444
+},
+"death_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"occupations": [
+"Q1028181",
+"Q282718"
+]
+},
+{
+"qid": "Q1930983",
+"label": "Michelangelo Buonarroti",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1568,
+"death": 1646,
+"birth_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"death_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"occupations": [
+"Q36180",
+"Q49757"
+]
+},
+{
+"qid": "Q19402473",
+"label": "Agnese Dolci",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1659,
+"death": 1689,
+"birth_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q19569575",
+"label": "Elena Recco",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1654,
+"death": 1700,
+"birth_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q19569683",
+"label": "Giacomo Piccini",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1617,
+"death": 1669,
+"birth_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q10862983",
+"Q329439",
+"Q644687",
+"Q1028181",
+"Q5322166"
+]
+},
+{
+"qid": "Q19772104",
+"label": "Lucrezia Quistelli",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1541,
+"death": 1594,
+"birth_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q1988115",
+"label": "Francesco Allegrini da Gubbio",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1587,
+"death": 1663,
+"birth_place": {
+"label": "Gubbio",
+"lat": 43.35300701,
+"lon": 12.57928848
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q2023754",
+"label": "Francesco da Volterra",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1350,
+"death": null,
+"birth_place": {
+"label": "Volterra",
+"lat": 43.4,
+"lon": 10.866666666667
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q21055293",
+"label": "Girolamo Danti",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1547,
+"death": 1580,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q212657",
+"label": "Artemisia Gentileschi",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1593,
+"death": 1653,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"occupations": [
+"Q1028181",
+"Q483501"
+]
+},
+{
+"qid": "Q215305",
+"label": "Giulio Romano",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1499,
+"death": 1546,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": {
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111
+},
+"occupations": [
+"Q42973",
+"Q1028181",
+"Q1281618",
+"Q3391743",
+"Q1340643"
+]
+},
+{
+"qid": "Q2166524",
+"label": "Rosalia Novelli",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1628,
+"death": 1688,
+"birth_place": {
+"label": "Palermo",
+"lat": 38.115658055555556,
+"lon": 13.361261944444445
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q21844809",
+"label": "Clemente Pietra",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": null,
+"death": 1574,
+"birth_place": null,
+"death_place": null,
+"occupations": []
+},
+{
+"qid": "Q22957925",
+"label": "Gentile Zanardi",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1660,
+"death": 1700,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q2297219",
+"label": "Domenico Riccio",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1516,
+"death": 1567,
+"birth_place": {
+"label": "Verona",
+"lat": 45.43861111111111,
+"lon": 10.992777777777778
+},
+"death_place": {
+"label": "Verona",
+"lat": 45.43861111111111,
+"lon": 10.992777777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q23012277",
+"label": "Bianca Ponzoni Anguissola",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": null,
+"death": null,
+"birth_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"death_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"occupations": []
+},
+{
+"qid": "Q23583709",
+"label": "Francesco da Castello",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1540,
+"death": 1621,
+"birth_place": {
+"label": "Brussels",
+"lat": 50.846666666666664,
+"lon": 4.351666666666667
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q998628",
+"Q1028181"
+]
+},
+{
+"qid": "Q236038",
+"label": "Sofonisba Anguissola",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1531,
+"death": 1625,
+"birth_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"death_place": {
+"label": "Palermo",
+"lat": 38.115658055555556,
+"lon": 13.361261944444445
+},
+"occupations": [
+"Q1028181",
+"Q483501",
+"Q3391743",
+"Q5322166"
+]
+},
+{
+"qid": "Q236050",
+"label": "Lavinia Fontana",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1552,
+"death": 1614,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181",
+"Q2079935",
+"Q59923567",
+"Q21178131"
+]
+},
+{
+"qid": "Q23766755",
+"label": "Teodora Danti",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1498,
+"death": 1573,
+"birth_place": {
+"label": "Perugia",
+"lat": 43.11191816,
+"lon": 12.38854847
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q239980",
+"label": "Carlo Cignani",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1628,
+"death": 1719,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Forlì",
+"lat": 44.22277777777778,
+"lon": 12.04138888888889
+},
+"occupations": [
+"Q1028181",
+"Q15296811"
+]
+},
+{
+"qid": "Q2415445",
+"label": "Mariangiola Criscuolo",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1548,
+"death": 1630,
+"birth_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q2428749",
+"label": "Fede Galizia",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1578,
+"death": 1630,
+"birth_place": {
+"label": "Milan",
+"lat": 45.466944444444,
+"lon": 9.19
+},
+"death_place": {
+"label": "Milan",
+"lat": 45.466944444444,
+"lon": 9.19
+},
+"occupations": [
+"Q1028181",
+"Q483501"
+]
+},
+{
+"qid": "Q2543592",
+"label": "Marcantonio Franceschini",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1648,
+"death": 1729,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181",
+"Q13365770",
+"Q15296811"
+]
+},
+{
+"qid": "Q2600590",
+"label": "Felice Riccio",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1542,
+"death": 1605,
+"birth_place": {
+"label": "Verona",
+"lat": 45.43861111111111,
+"lon": 10.992777777777778
+},
+"death_place": {
+"label": "Verona",
+"lat": 45.43861111111111,
+"lon": 10.992777777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q271475",
+"label": "Elisabetta Sirani",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1638,
+"death": 1665,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181",
+"Q11569986",
+"Q10862983"
+]
+},
+{
+"qid": "Q27955543",
+"label": "Isabella Piccini",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1644,
+"death": 1734,
+"birth_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q1646408",
+"Q2516866",
+"Q10862983",
+"Q11569986",
+"Q191808",
+"Q1925963",
+"Q3391743",
+"Q13365770",
+"Q2259532"
+]
+},
+{
+"qid": "Q2849401",
+"label": "Angiola Guglielma Butteri",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1650,
+"death": null,
+"birth_place": {
+"label": "Piedmont",
+"lat": 45.25,
+"lon": 7.9166666666667
+},
+"death_place": null,
+"occupations": [
+"Q1028181",
+"Q191808"
+]
+},
+{
+"qid": "Q2849937",
+"label": "Aniella di Beltrano",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1613,
+"death": 1649,
+"birth_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"death_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q2850453",
+"label": "Anna Angelica Allegrini",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1505,
+"death": null,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q28599878",
+"label": "Veronica Fontana",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1651,
+"death": 1690,
+"birth_place": {
+"label": "Parma",
+"lat": 44.801472222222,
+"lon": 10.328
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q11569986",
+"Q644687",
+"Q1437754",
+"Q13365770",
+"Q1028181"
+]
+},
+{
+"qid": "Q28669714",
+"label": "Madonna Fitta de Milano",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1610,
+"death": 1660,
+"birth_place": {
+"label": "Milan",
+"lat": 45.466944444444,
+"lon": 9.19
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q2880655",
+"label": "Baldassare Bianchi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1614,
+"death": 1678,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Modena",
+"lat": 44.64582,
+"lon": 10.92572
+},
+"occupations": [
+"Q1028181",
+"Q42973",
+"Q1183704",
+"Q15296811",
+"Q2707485",
+"Q10862983",
+"Q11569986",
+"Q483501",
+"Q13365770",
+"Q22811707"
+]
+},
+{
+"qid": "Q28927625",
+"label": "Maddalena Corvina",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1607,
+"death": 1664,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181",
+"Q28947943",
+"Q998628",
+"Q483501"
+]
+},
+{
+"qid": "Q293106",
+"label": "Properzia de' Rossi",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1490,
+"death": 1530,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1281618",
+"Q483501",
+"Q329439",
+"Q15296811",
+"Q639669",
+"Q177220"
+]
+},
+{
+"qid": "Q2943711",
+"label": "Cecilia Brusasorci",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1549,
+"death": 1606,
+"birth_place": {
+"label": "Verona",
+"lat": 45.43861111111111,
+"lon": 10.992777777777778
+},
+"death_place": {
+"label": "Verona",
+"lat": 45.43861111111111,
+"lon": 10.992777777777778
+},
+"occupations": [
+"Q1028181",
+"Q28947943"
+]
+},
+{
+"qid": "Q2979583",
+"label": "Clorinda Renieri",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1650,
+"death": 1715,
+"birth_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q2979648",
+"label": "Nicolas Régnier",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1588,
+"death": 1667,
+"birth_place": {
+"label": "Maubeuge",
+"lat": 50.276944444444,
+"lon": 3.9725
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q1028181",
+"Q215536"
+]
+},
+{
+"qid": "Q3026163",
+"label": "Diana Scultori",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1547,
+"death": 1612,
+"birth_place": {
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q329439",
+"Q1281618",
+"Q1028181",
+"Q483501",
+"Q3391743",
+"Q13365770"
+]
+},
+{
+"qid": "Q3051108",
+"label": "Elisabetta Marchioni",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1630,
+"death": 1710,
+"birth_place": {
+"label": "Rovigo",
+"lat": 45.0809,
+"lon": 11.794
+},
+"death_place": {
+"label": "Rovigo",
+"lat": 45.0809,
+"lon": 11.794
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q307",
+"label": "Galileo Galilei",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1564,
+"death": 1642,
+"birth_place": {
+"label": "Pisa",
+"lat": 43.716666666667,
+"lon": 10.4
+},
+"death_place": {
+"label": "Arcetri",
+"lat": 43.75485,
+"lon": 11.2518
+},
+"occupations": [
+"Q11063",
+"Q4964182",
+"Q170790",
+"Q169470",
+"Q205375",
+"Q155647",
+"Q1622272",
+"Q901",
+"Q81096",
+"Q4964182",
+"Q82955"
+]
+},
+{
+"qid": "Q3071876",
+"label": "Filippo Brizzi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1603,
+"death": 1675,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q3080861",
+"label": "Francesca Caccia",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1608,
+"death": 1628,
+"birth_place": {
+"label": "Moncalvo",
+"lat": 45.051111111111,
+"lon": 8.2663888888889
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q3081102",
+"label": "Francesco Stringa",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1635,
+"death": 1709,
+"birth_place": {
+"label": "Modena",
+"lat": 44.64582,
+"lon": 10.92572
+},
+"death_place": {
+"label": "Modena",
+"lat": 44.64582,
+"lon": 10.92572
+},
+"occupations": [
+"Q1028181",
+"Q15296811"
+]
+},
+{
+"qid": "Q3107016",
+"label": "Giovanni Antonio di Amato the younger",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1535,
+"death": 1598,
+"birth_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q3107034",
+"label": "Giovanni Battista Bertusio",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1577,
+"death": 1644,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q3107038",
+"label": "Giovanni Battista Benaschi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1636,
+"death": 1688,
+"birth_place": {
+"label": "Turin",
+"lat": 45.079166666666666,
+"lon": 7.676111111111111
+},
+"death_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"occupations": [
+"Q1028181",
+"Q15296811"
+]
+},
+{
+"qid": "Q3107042",
+"label": "Giovanni Battista Brusasorci",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1544,
+"death": null,
+"birth_place": {
+"label": "Verona",
+"lat": 45.43861111111111,
+"lon": 10.992777777777778
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q3107069",
+"label": "Giovanni Battista Scultori",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1503,
+"death": 1575,
+"birth_place": {
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111
+},
+"death_place": {
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111
+},
+"occupations": [
+"Q1028181",
+"Q11569986",
+"Q1281618",
+"Q13365770",
+"Q15296811"
+]
+},
+{
+"qid": "Q3107178",
+"label": "Giovanni Filippo Criscuolo",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1495,
+"death": 1584,
+"birth_place": {
+"label": "Gaeta",
+"lat": 41.216666666667,
+"lon": 13.566666666667
+},
+"death_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q3107339",
+"label": "Giovanni Stanchi Dei Fiori",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1608,
+"death": 1675,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q31146",
+"label": "Barbara Longhi",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1552,
+"death": 1638,
+"birth_place": {
+"label": "Ravenna",
+"lat": 44.416111111111114,
+"lon": 12.201666666666666
+},
+"death_place": {
+"label": "Ravenna",
+"lat": 44.416111111111114,
+"lon": 12.201666666666666
+},
+"occupations": [
+"Q1028181",
+"Q483501"
+]
+},
+{
+"qid": "Q3154328",
+"label": "Irene di Spilimbergo",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1540,
+"death": 1559,
+"birth_place": {
+"label": "Spilimbergo",
+"lat": 46.111388888889,
+"lon": 12.901666666667
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q1028181",
+"Q6673651"
+]
+},
+{
+"qid": "Q317920",
+"label": "Simon Vouet",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1590,
+"death": 1649,
+"birth_place": {
+"label": "Paris",
+"lat": 48.85666666666667,
+"lon": 2.352222222222222
+},
+"death_place": {
+"label": "Paris",
+"lat": 48.85666666666667,
+"lon": 2.352222222222222
+},
+"occupations": [
+"Q1028181",
+"Q15296811",
+"Q2079935",
+"Q3391743"
+]
+},
+{
+"qid": "Q3218663",
+"label": "Laura Bernasconi",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1700,
+"death": 1700,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q3218666",
+"label": "Laura Bottero",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1650,
+"death": null,
+"birth_place": {
+"label": "Piedmont",
+"lat": 45.25,
+"lon": 7.9166666666667
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q3291086",
+"label": "Maria Vittoria Cassana",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1650,
+"death": 1711,
+"birth_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q333369",
+"label": "Alessandro Allori",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1535,
+"death": 1607,
+"birth_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"death_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"occupations": [
+"Q1028181",
+"Q22669155",
+"Q5322166",
+"Q36180",
+"Q17391638"
+]
+},
+{
+"qid": "Q3346449",
+"label": "Nunzio Galizia",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1539,
+"death": 1621,
+"birth_place": {
+"label": "Trento",
+"lat": 46.06666667,
+"lon": 11.11666667
+},
+"death_place": {
+"label": "Milan",
+"lat": 45.466944444444,
+"lon": 9.19
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q3356695",
+"label": "Orsola Maddalena Caccia",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1596,
+"death": 1676,
+"birth_place": {
+"label": "Moncalvo",
+"lat": 45.051111111111,
+"lon": 8.2663888888889
+},
+"death_place": {
+"label": "Moncalvo",
+"lat": 45.051111111111,
+"lon": 8.2663888888889
+},
+"occupations": [
+"Q1028181",
+"Q191808",
+"Q3391743",
+"Q483501"
+]
+},
+{
+"qid": "Q338478",
+"label": "Arcadian Academy",
+"sex": null,
+"inst": "Q497893",
+"birth": null,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": []
+},
+{
+"qid": "Q338523",
+"label": "Accademia di San Luca",
+"sex": null,
+"inst": "Q162633",
+"birth": null,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": []
+},
+{
+"qid": "Q34417",
+"label": "Philip II of Spain",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1527,
+"death": 1598,
+"birth_place": {
+"label": "Palacio de Pimentel",
+"lat": 41.65638889,
+"lon": -4.72444444
+},
+"death_place": {
+"label": "Royal Monastery of San Lorenzo de El Escorial",
+"lat": 40.589167,
+"lon": -4.147778
+},
+"occupations": [
+"Q1097498"
+]
+},
+{
+"qid": "Q3513703",
+"label": "Taddeo Carlone",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1543,
+"death": 1615,
+"birth_place": {
+"label": "Rovio",
+"lat": 45.933333333333,
+"lon": 8.9833333333333
+},
+"death_place": {
+"label": "Genoa",
+"lat": 44.407222222222224,
+"lon": 8.93388888888889
+},
+"occupations": [
+"Q1281618",
+"Q42973"
+]
+},
+{
+"qid": "Q3518357",
+"label": "Teresa del Po",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1649,
+"death": 1713,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"occupations": [
+"Q1028181",
+"Q11569986",
+"Q13365770",
+"Q483501"
+]
+},
+{
+"qid": "Q3603988",
+"label": "Accademia dei Filergiti",
+"sex": null,
+"inst": "Q162633",
+"birth": null,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": []
+},
+{
+"qid": "Q3617772",
+"label": "Anna Maria Vaiani",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1604,
+"death": 1655,
+"birth_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q329439"
+]
+},
+{
+"qid": "Q367360",
+"label": "Orazio Gentileschi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1563,
+"death": 1639,
+"birth_place": {
+"label": "Pisa",
+"lat": 43.716666666667,
+"lon": 10.4
+},
+"death_place": {
+"label": "London",
+"lat": 51.507222222222,
+"lon": -0.1275
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q3742095",
+"label": "Felice Antonia Miradori",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1637,
+"death": 1700,
+"birth_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q3743011",
+"label": "Ferrante Gonzaga",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1544,
+"death": 1586,
+"birth_place": {
+"label": "Castel Goffredo",
+"lat": 45.29805555555556,
+"lon": 10.475
+},
+"death_place": {
+"label": "Castiglione delle Stiviere",
+"lat": 45.4,
+"lon": 10.5
+},
+"occupations": [
+"Q273108"
+]
+},
+{
+"qid": "Q380553",
+"label": "Ludovico Carracci",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1555,
+"death": 1619,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181",
+"Q10862983",
+"Q1925963",
+"Q11569986",
+"Q15296811",
+"Q22669155",
+"Q3391743"
+]
+},
+{
+"qid": "Q3839037",
+"label": "Lucrina Fetti",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1600,
+"death": 1651,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": {
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111
+},
+"occupations": [
+"Q1028181",
+"Q191808"
+]
+},
+{
+"qid": "Q3839904",
+"label": "Luigi Miradori",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1605,
+"death": 1656,
+"birth_place": {
+"label": "Genoa",
+"lat": 44.407222222222224,
+"lon": 8.93388888888889
+},
+"death_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q3847441",
+"label": "Maria Oriana Galli da Bibbiena",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1656,
+"death": 1749,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q388599",
+"label": "Minerva Anguissola",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1539,
+"death": 1566,
+"birth_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"death_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q3906452",
+"label": "Plautilla Nelli",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1524,
+"death": 1588,
+"birth_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"death_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"occupations": [
+"Q1028181",
+"Q55631411",
+"Q483501"
+]
+},
+{
+"qid": "Q395741",
+"label": "Agostino Tassi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1578,
+"death": 1644,
+"birth_place": {
+"label": "Ponzano Romano",
+"lat": 42.258055555556,
+"lon": 12.571666666667
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181",
+"Q15296811"
+]
+},
+{
+"qid": "Q4014505",
+"label": "Virginia Vezzi",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1600,
+"death": 1638,
+"birth_place": {
+"label": "Velletri",
+"lat": 41.666666666667,
+"lon": 12.783333333333
+},
+"death_place": {
+"label": "Paris",
+"lat": 48.85666666666667,
+"lon": 2.352222222222222
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q447730",
+"label": "Giovanni Lanfranco",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1582,
+"death": 1647,
+"birth_place": {
+"label": "Parma",
+"lat": 44.801472222222,
+"lon": 10.328
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181",
+"Q1925963",
+"Q15296811",
+"Q11569986"
+]
+},
+{
+"qid": "Q460751",
+"label": "Prospero Fontana",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1512,
+"death": 1597,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q461670",
+"label": "Antonio Triva",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1626,
+"death": 1699,
+"birth_place": {
+"label": "Reggio Emilia",
+"lat": 44.7,
+"lon": 10.633333333333
+},
+"death_place": {
+"label": "Munich",
+"lat": 48.1375,
+"lon": 11.575
+},
+"occupations": [
+"Q1028181",
+"Q329439"
+]
+},
+{
+"qid": "Q465443",
+"label": "Lucia Anguissola",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1536,
+"death": 1565,
+"birth_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"death_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q4680183",
+"label": "Adamo Scultori",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1530,
+"death": 1585,
+"birth_place": {
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111
+},
+"death_place": {
+"label": "Mantua",
+"lat": 45.156388888889,
+"lon": 10.791111111111
+},
+"occupations": [
+"Q1281618",
+"Q329439",
+"Q3391743"
+]
+},
+{
+"qid": "Q47523026",
+"label": "Anna Maria Sirani",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1645,
+"death": 1715,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q47551",
+"label": "Titian",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1488,
+"death": 1576,
+"birth_place": {
+"label": "Pieve di Cadore",
+"lat": 46.428709,
+"lon": 12.375297
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q1028181",
+"Q15296811",
+"Q2079935",
+"Q11569986",
+"Q3391743"
+]
+},
+{
+"qid": "Q4776226",
+"label": "Antonia Pinelli",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1592,
+"death": 1640,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q4865508",
+"label": "Bartolomeo Coriolano",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1590,
+"death": 1676,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q11569986",
+"Q15296811",
+"Q1437754",
+"Q1925963"
+]
+},
+{
+"qid": "Q4936473",
+"label": "Vincenza Armani",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1530,
+"death": 1568,
+"birth_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"death_place": null,
+"occupations": [
+"Q2259451",
+"Q2865819",
+"Q49757",
+"Q1281618",
+"Q1412495",
+"Q639669"
+]
+},
+{
+"qid": "Q4940622",
+"label": "Plautilla Bricci",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1616,
+"death": 1705,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": {
+"label": "Trastevere",
+"lat": 41.887222222222,
+"lon": 12.465555555556
+},
+"occupations": [
+"Q1028181",
+"Q42973",
+"Q1281618"
+]
+},
+{
+"qid": "Q503322",
+"label": "Carlo Dolci",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1616,
+"death": 1686,
+"birth_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"death_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q5051917",
+"label": "Caterina Ginnasi",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1590,
+"death": 1660,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q5051921",
+"label": "Caterina Tarabotti",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1615,
+"death": null,
+"birth_place": {
+"label": "Vicenza",
+"lat": 45.55,
+"lon": 11.55
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q507765",
+"label": "Giovanna Garzoni",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1600,
+"death": 1670,
+"birth_place": {
+"label": "Ascoli Piceno",
+"lat": 42.854722222222,
+"lon": 13.575277777778
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181",
+"Q3148760",
+"Q483501",
+"Q984276",
+"Q28947943",
+"Q15296811"
+]
+},
+{
+"qid": "Q5186479",
+"label": "Cristoforo Coriolano",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1540,
+"death": 1600,
+"birth_place": {
+"label": "Nuremberg",
+"lat": 49.45388888888889,
+"lon": 11.0775
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q11569986",
+"Q1437754",
+"Q15296811"
+]
+},
+{
+"qid": "Q526155",
+"label": "Ginevra Cantofoli",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1618,
+"death": 1672,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181",
+"Q10862983"
+]
+},
+{
+"qid": "Q534683",
+"label": "Francesco Barberini",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1597,
+"death": 1679,
+"birth_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q250867",
+"Q524778",
+"Q185351"
+]
+},
+{
+"qid": "Q53500766",
+"label": "Domenico Maria Fontana",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1607,
+"death": 1661,
+"birth_place": {
+"label": "Parma",
+"lat": 44.801472222222,
+"lon": 10.328
+},
+"death_place": null,
+"occupations": [
+"Q11569986"
+]
+},
+{
+"qid": "Q5371956",
+"label": "Emilio Taruffi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1633,
+"death": 1696,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181",
+"Q483501"
+]
+},
+{
+"qid": "Q539786",
+"label": "Tiberio Tinelli",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1586,
+"death": 1638,
+"birth_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q544173",
+"label": "Marietta Robusti",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1554,
+"death": 1590,
+"birth_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q1028181",
+"Q483501"
+]
+},
+{
+"qid": "Q5479372",
+"label": "Francesco Gentileschi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1597,
+"death": 1660,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q551695",
+"label": "Domenico Fetti",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1589,
+"death": 1623,
+"birth_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q5592",
+"label": "Michelangelo",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1475,
+"death": 1564,
+"birth_place": {
+"label": "Caprese Michelangelo",
+"lat": 43.640833333333,
+"lon": 11.985833333333
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1281618",
+"Q2079935",
+"Q1028181",
+"Q42973",
+"Q49757",
+"Q289612",
+"Q36180",
+"Q3391743"
+]
+},
+{
+"qid": "Q5597",
+"label": "Raphael",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1483,
+"death": 1520,
+"birth_place": {
+"label": "Urbino",
+"lat": 43.725238888889,
+"lon": 12.6372
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181",
+"Q1281618",
+"Q42973",
+"Q15296811",
+"Q2079935",
+"Q5322166",
+"Q22669155",
+"Q984276",
+"Q3391743"
+]
+},
+{
+"qid": "Q561947",
+"label": "Anna Maria Anguissola",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1555,
+"death": 1611,
+"birth_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"death_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q569020",
+"label": "Agostino Beltrano",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1607,
+"death": 1656,
+"birth_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"death_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q59131648",
+"label": "Antonia di Paolo di Dono",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1456,
+"death": 1491,
+"birth_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"death_place": null,
+"occupations": [
+"Q483501",
+"Q1028181",
+"Q15296811"
+]
+},
+{
+"qid": "Q59361233",
+"label": "Lucia Scaligeri",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1637,
+"death": 1700,
+"birth_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q59361935",
+"label": "Flaminia Triva",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1629,
+"death": null,
+"birth_place": {
+"label": "Reggio Emilia",
+"lat": 44.7,
+"lon": 10.633333333333
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q6078056",
+"label": "Isabella Parasole",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1580,
+"death": 1617,
+"birth_place": {
+"label": "Bergamo",
+"lat": 45.695,
+"lon": 9.67
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q10694573",
+"Q3023339",
+"Q1437754",
+"Q11569986",
+"Q36180",
+"Q15296811",
+"Q483501"
+]
+},
+{
+"qid": "Q64585350",
+"label": "Maria Elena Panzacchi",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1668,
+"death": 1737,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": null,
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q6695922",
+"label": "Luca Longhi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1507,
+"death": 1580,
+"birth_place": {
+"label": "Ravenna",
+"lat": 44.416111111111114,
+"lon": 12.201666666666666
+},
+"death_place": {
+"label": "Ravenna",
+"lat": 44.416111111111114,
+"lon": 12.201666666666666
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q706519",
+"label": "Domenico Tintoretto",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1560,
+"death": 1635,
+"birth_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q709383",
+"label": "Giovanni Andrea Sirani",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1610,
+"death": 1670,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181",
+"Q15296811",
+"Q3391743"
+]
+},
+{
+"qid": "Q7191756",
+"label": "Pierantonio Stiattesi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1612,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q483501"
+]
+},
+{
+"qid": "Q728375",
+"label": "Marcantonio Raimondi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1480,
+"death": 1534,
+"birth_place": {
+"label": "Molinella",
+"lat": 44.616666666667,
+"lon": 11.666666666667
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q329439",
+"Q1028181",
+"Q211423",
+"Q1925963",
+"Q13365770",
+"Q3391743"
+]
+},
+{
+"qid": "Q73524660",
+"label": "Orazio Lomellino",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": null,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": []
+},
+{
+"qid": "Q748699",
+"label": "Francesco Capriani",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1535,
+"death": 1594,
+"birth_place": {
+"label": "Volterra",
+"lat": 43.4,
+"lon": 10.866666666667
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q42973",
+"Q1281618",
+"Q6138343"
+]
+},
+{
+"qid": "Q7780",
+"label": "Fra Bartolomeo",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1472,
+"death": 1517,
+"birth_place": {
+"label": "Prato",
+"lat": 43.880813888889,
+"lon": 11.096561111111
+},
+"death_place": {
+"label": "Florence",
+"lat": 43.771388888889,
+"lon": 11.254166666667
+},
+"occupations": [
+"Q1028181",
+"Q15296811"
+]
+},
+{
+"qid": "Q7782881",
+"label": "Theresa Maria Coriolano",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1657,
+"death": 1671,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"occupations": [
+"Q1028181",
+"Q10862983",
+"Q329439"
+]
+},
+{
+"qid": "Q7824",
+"label": "Annibale Carracci",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1560,
+"death": 1609,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q1028181",
+"Q11569986",
+"Q15296811"
+]
+},
+{
+"qid": "Q81506",
+"label": "Charles I of England",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1600,
+"death": 1649,
+"birth_place": {
+"label": "Dunfermline Palace",
+"lat": 56.0695,
+"lon": -3.46461
+},
+"death_place": {
+"label": "London",
+"lat": 51.507222222222,
+"lon": -0.1275
+},
+"occupations": [
+"Q82955",
+"Q10732476",
+"Q116"
+]
+},
+{
+"qid": "Q81757780",
+"label": "Giulio Danti",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1500,
+"death": 1575,
+"birth_place": {
+"label": "Perugia",
+"lat": 43.11191816,
+"lon": 12.38854847
+},
+"death_place": {
+"label": "Perugia",
+"lat": 43.11191816,
+"lon": 12.38854847
+},
+"occupations": [
+"Q42973"
+]
+},
+{
+"qid": "Q822891",
+"label": "Bernardino Campi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1520,
+"death": 1591,
+"birth_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"death_place": {
+"label": "Reggio Emilia",
+"lat": 44.7,
+"lon": 10.633333333333
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q822909",
+"label": "Bernardino Gatti",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1495,
+"death": 1576,
+"birth_place": {
+"label": "Pavia",
+"lat": 45.185280555556,
+"lon": 9.155
+},
+"death_place": {
+"label": "Cremona",
+"lat": 45.13333333333333,
+"lon": 10.024722222222222
+},
+"occupations": [
+"Q1028181"
+]
+},
+{
+"qid": "Q83029",
+"label": "Gregory XIII",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1502,
+"death": 1585,
+"birth_place": {
+"label": "Bologna",
+"lat": 44.493888888889,
+"lon": 11.342777777778
+},
+"death_place": {
+"label": "Rome",
+"lat": 41.893055555556,
+"lon": 12.482777777778
+},
+"occupations": [
+"Q250867",
+"Q7834465"
+]
+},
+{
+"qid": "Q91909828",
+"label": "Piervincenzo Danti",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1450,
+"death": 1512,
+"birth_place": {
+"label": "Perugia",
+"lat": 43.11191816,
+"lon": 12.38854847
+},
+"death_place": {
+"label": "Perugia",
+"lat": 43.11191816,
+"lon": 12.38854847
+},
+"occupations": [
+"Q211423",
+"Q170790"
+]
+},
+{
+"qid": "Q9319",
+"label": "Jacopo Tintoretto",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1518,
+"death": 1594,
+"birth_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"death_place": {
+"label": "Venice",
+"lat": 45.439722222222,
+"lon": 12.331944444444
+},
+"occupations": [
+"Q1028181",
+"Q2079935",
+"Q3391743"
+]
+},
+{
+"qid": "Q94623693",
+"label": "Alessandro Vaiani",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1571,
+"death": 1631,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q329439",
+"Q205375",
+"Q1028181"
+]
+},
+{
+"qid": "Q948226",
+"label": "Ignazio Danti",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1536,
+"death": 1586,
+"birth_place": {
+"label": "Perugia",
+"lat": 43.11191816,
+"lon": 12.38854847
+},
+"death_place": {
+"label": "Alatri",
+"lat": 41.726388888889,
+"lon": 13.342222222222
+},
+"occupations": [
+"Q11063",
+"Q1734662",
+"Q170790",
+"Q250867",
+"Q121594",
+"Q11744022",
+"Q4964182",
+"Q611644",
+"Q1028181",
+"Q1234713",
+"Q1281618",
+"Q18805",
+"Q211423",
+"Q81096"
+]
+},
+{
+"qid": "Q96312519",
+"label": "Anna Stanchi",
+"sex": "Q6581072",
+"inst": "Q5",
+"birth": 1620,
+"death": null,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q1028181",
+"Q59938355"
+]
+},
+{
+"qid": "Q97583727",
+"label": "Giulio Zanardi",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1639,
+"death": 1694,
+"birth_place": null,
+"death_place": null,
+"occupations": [
+"Q483501",
+"Q1028181"
+]
+},
+{
+"qid": "Q982384",
+"label": "Massimo Stanzione",
+"sex": "Q6581097",
+"inst": "Q5",
+"birth": 1585,
+"death": 1656,
+"birth_place": {
+"label": "Frattamaggiore",
+"lat": 40.941666666667,
+"lon": 14.272222222222
+},
+"death_place": {
+"label": "Naples",
+"lat": 40.83583333333333,
+"lon": 14.248611111111112
+},
+"occupations": [
+"Q1028181"
+]
+}
+]

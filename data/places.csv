@@ -1,0 +1,58 @@
+id,name_it,name_en,kind,city,lat,lon,notes
+rome,Roma,Rome,city,,41.9028,12.4964,
+florence,Firenze,Florence,city,,43.7696,11.2558,
+bologna,Bologna,Bologna,city,,44.4949,11.3426,
+venice,Venezia,Venice,city,,45.4408,12.3155,
+naples,Napoli,Naples,city,,40.8518,14.2681,
+milan,Milano,Milan,city,,45.4642,9.1900,
+cremona,Cremona,Cremona,city,,45.1333,10.0227,
+genoa,Genova,Genoa,city,,44.4056,8.9463,
+palermo,Palermo,Palermo,city,,38.1157,13.3615,
+paterno,Paternò,Paternò,city,,37.5667,14.9000,Moncada fief in Sicily
+pisa,Pisa,Pisa,city,,43.7228,10.4017,
+livorno,Livorno,Livorno,city,,43.5485,10.3106,
+mantua,Mantova,Mantua,city,,45.1564,10.7914,
+ravenna,Ravenna,Ravenna,city,,44.4184,12.2035,
+padua,Padova,Padua,city,,45.4064,11.8768,
+turin,Torino,Turin,city,,45.0703,7.6869,
+verona,Verona,Verona,city,,45.4384,10.9916,
+parma,Parma,Parma,city,,44.8015,10.3279,
+imola,Imola,Imola,city,,44.3533,11.7143,
+ascoli,Ascoli Piceno,Ascoli Piceno,city,,42.8540,13.5745,
+velletri,Velletri,Velletri,city,,41.6867,12.7770,
+spilimbergo,Spilimbergo,Spilimbergo,city,,46.1105,12.9020,
+moncalvo,Moncalvo,Moncalvo,city,,45.0510,8.2650,
+bianze,Bianzè,Bianzè,city,,45.3110,8.1220,
+siena,Siena,Siena,city,,43.3188,11.3308,
+perugia,Perugia,Perugia,city,,43.1107,12.3908,
+madrid,Madrid,Madrid,city,,40.4168,-3.7038,Spanish court
+paris,Parigi,Paris,city,,48.8566,2.3522,
+london,Londra,London,city,,51.5074,-0.1278,
+bo-sanpetronio,Basilica di San Petronio,San Petronio,site,bologna,44.4930,11.3433,Properzia de' Rossi's marble reliefs for the façade (1525-26)
+bo-casasirani,Casa Sirani (via Urbana),Sirani house and workshop,site,bologna,44.4893,11.3378,Workshop where Elisabetta Sirani trained other women
+bo-sandomenico,San Domenico,San Domenico,site,bologna,44.4898,11.3443,Elisabetta Sirani buried beside Guido Reni (1665)
+bo-palazzofava,Palazzo Fava,Palazzo Fava,site,bologna,44.4975,11.3432,Carracci frescoes; circle of the Accademia degli Incamminati
+fi-santacaterina,Convento di Santa Caterina da Siena,Convent of Santa Caterina da Siena,site,florence,43.7782,11.2595,Plautilla Nelli's convent workshop on Piazza San Marco
+fi-casabuonarroti,Casa Buonarroti,Casa Buonarroti,site,florence,43.7703,11.2620,Artemisia's Allegory of Inclination for Michelangelo the Younger (1615-16)
+fi-accademia,Accademia delle Arti del Disegno,Accademia delle Arti del Disegno,site,florence,43.7769,11.2606,Artemisia admitted 1616; met at Santissima Annunziata
+fi-pitti,Palazzo Pitti,Palazzo Pitti,site,florence,43.7651,11.2500,Medici court
+fi-arcetri,"Villa Il Gioiello, Arcetri","Villa Il Gioiello, Arcetri",site,florence,43.7497,11.2531,Galileo's house arrest 1631-1642
+ro-sanluca,Accademia di San Luca (SS. Luca e Martina),Accademia di San Luca,site,rome,41.8935,12.4848,Painters' academy; admitted Lavinia Fontana and Giovanna Garzoni
+ro-vatican,Palazzi Vaticani,Vatican palaces,site,rome,41.9029,12.4534,Papal court
+ro-sanpaolo,San Paolo fuori le Mura,San Paolo fuori le Mura,site,rome,41.8587,12.4769,Lavinia Fontana's Stoning of St Stephen (destroyed in the 1823 fire)
+ro-barberini,Palazzo Barberini,Palazzo Barberini,site,rome,41.9035,12.4903,Barberini patronage
+ro-benedetta,Villa Benedetta (il Vascello),Villa Benedetta,site,rome,41.8856,12.4622,Designed by Plautilla Bricci (1663)
+ro-sanluigi,San Luigi dei Francesi,San Luigi dei Francesi,site,rome,41.8995,12.4747,Chapel of St Louis by Plautilla Bricci
+ro-macel,Casa di Michelangelo (Macel de' Corvi),Michelangelo's house,site,rome,41.8963,12.4836,
+ro-dalpozzo,Casa dal Pozzo (via dei Chiavari),Cassiano dal Pozzo's house,site,rome,41.8946,12.4734,Paper Museum circle
+ve-tintoretto,Casa del Tintoretto (Fondamenta dei Mori),Tintoretto's house,site,venice,45.4440,12.3335,Family workshop of Marietta Robusti
+ve-madonnaorto,Madonna dell'Orto,Madonna dell'Orto,site,venice,45.4462,12.3326,Burial place of Tintoretto and Marietta
+ve-tiziano,Casa di Tiziano (Biri Grande),Titian's house,site,venice,45.4418,12.3423,
+na-palazzoreale,Palazzo Reale,Royal Palace (viceroy's court),site,naples,40.8361,14.2489,
+na-sanmartino,Certosa di San Martino,Certosa di San Martino,site,naples,40.8434,14.2394,
+na-pozzuoli,Duomo di Pozzuoli,Pozzuoli Cathedral,site,naples,40.8226,14.1215,Three canvases by Artemisia (1635-37)
+mi-sancelso,Santa Maria presso San Celso,Santa Maria presso San Celso,site,milan,45.4553,9.1879,Fede Galizia's Noli me tangere (1616)
+to-palazzoreale,Palazzo Reale,Royal Palace,site,turin,45.0726,7.6862,Savoy court of Christine of France
+ma-alcazar,Real Alcázar,Royal Alcázar,site,madrid,40.4180,-3.7143,Court of Philip II and Elisabeth of Valois
+lo-queenshouse,"Queen's House, Greenwich","Queen's House, Greenwich",site,london,51.4810,-0.0036,Ceiling by Orazio (and probably Artemisia) Gentileschi
+pa-luxembourg,Palais du Luxembourg,Luxembourg Palace,site,paris,48.8462,2.3371,Marie de' Medici's palace

@@ -1,0 +1,584 @@
+person,place,from,to,kind,confidence,sources,origin,note
+sofonisba-anguissola,cremona,1532,1559,residence,high,PER;CRE,curated,Family house in Cremona
+sofonisba-anguissola,cremona,1546,1549,training,high,PER;VAS,curated,Trained with Bernardino Campi
+sofonisba-anguissola,cremona,1549,1552,training,medium,PER,curated,Trained with Bernardino Gatti
+sofonisba-anguissola,ro-macel,1554,1554,visit,medium,PER;NEWS,curated,Visits Rome and meets Michelangelo
+sofonisba-anguissola,milan,1558,1558,visit,medium,PER,curated,Portrait of the Duke of Sessa; leads to the Spanish invitation
+sofonisba-anguissola,ma-alcazar,1559,1573,court,high,PER;PRA,curated,Lady-in-waiting and painter to Elisabeth of Valois
+sofonisba-anguissola,paterno,1573,1578,residence,medium,PER,curated,Married to Fabrizio de Moncada
+sofonisba-anguissola,palermo,1578,1579,residence,medium,PER,curated,Widowed
+sofonisba-anguissola,pisa,1579,1580,visit,medium,PER,curated,Marries Orazio Lomellino
+sofonisba-anguissola,genoa,1580,1615,residence,high,PER;SOP,curated,
+sofonisba-anguissola,palermo,1615,1625,residence,high,PER;VDY;NEWS,curated,Van Dyck visits her on 12 July 1624
+elena-anguissola,cremona,1532,1555,residence,medium,CRE,curated,
+elena-anguissola,mantua,1555,1584,convent,medium,CRE;WD,curated,Nun at San Vincenzo (as Sister Minerva)
+lucia-anguissola,cremona,1536,1565,residence,high,CRE;WD,curated,
+lavinia-fontana,bologna,1552,1604,residence,high,MUR;FOR,curated,Trained in the workshop of her father Prospero
+lavinia-fontana,ro-sanpaolo,1603,1604,commission,high,MUR,curated,Stoning of St Stephen for San Paolo fuori le Mura
+lavinia-fontana,rome,1604,1614,residence,high,MUR;FOR;PRA,curated,Moves to Rome with her family
+lavinia-fontana,ro-sanluca,1604,1614,member,low,LAVI;MUR,curated,Elected to the Accademia di San Luca; year not established
+artemisia-gentileschi,rome,1593,1613,residence,high,GAR;CHR,curated,Trained in her father's workshop
+artemisia-gentileschi,florence,1613,1620,residence,high,GAR;CHR,curated,
+artemisia-gentileschi,fi-casabuonarroti,1615,1616,commission,high,CHR,curated,Allegory of Inclination
+artemisia-gentileschi,fi-accademia,1616,1620,member,high,GAR;CHR,curated,First woman admitted to the Accademia delle Arti del Disegno
+artemisia-gentileschi,rome,1620,1627,residence,high,CHR,curated,
+artemisia-gentileschi,venice,1627,1630,residence,medium,CHR,curated,
+artemisia-gentileschi,naples,1630,1638,residence,high,CHR;NAP,curated,
+artemisia-gentileschi,na-pozzuoli,1635,1637,commission,high,CHR,curated,Three canvases for Pozzuoli Cathedral
+artemisia-gentileschi,lo-queenshouse,1638,1640,court,medium,CHR,curated,Joins Orazio at the court of Charles I
+artemisia-gentileschi,naples,1641,1653,residence,high,CHR;JAC,curated,
+orazio-gentileschi,rome,1578,1621,residence,high,CHR,curated,
+orazio-gentileschi,genoa,1621,1624,residence,high,CHR;SOP,curated,
+orazio-gentileschi,pa-luxembourg,1624,1626,court,high,CHR,curated,For Marie de' Medici
+orazio-gentileschi,london,1626,1639,court,high,CHR,curated,Court painter to Charles I
+orazio-gentileschi,lo-queenshouse,1635,1638,commission,high,CHR,curated,Ceiling of the Queen's House
+agostino-tassi,rome,1610,1644,residence,medium,CHR,curated,
+simon-vouet,rome,1614,1627,residence,high,CHR,curated,Principe of the Accademia di San Luca 1624
+simon-vouet,paris,1627,1649,court,high,CHR,curated,First painter to Louis XIII
+virginia-vezzi,rome,1620,1627,residence,medium,NMWA,curated,Marries Simon Vouet 1626
+virginia-vezzi,paris,1627,1638,residence,high,NMWA;WD,curated,
+michelangelo,florence,1490,1534,residence,high,VAS,curated,
+michelangelo,ro-macel,1534,1564,residence,high,VAS,curated,
+titian,ve-tiziano,1531,1576,residence,high,VAS;RID,curated,
+irene-di-spilimbergo,venice,1546,1559,residence,medium,RID,curated,Lessons in Titian's circle
+jacopo-tintoretto,venice,1518,1574,residence,high,RID,curated,
+jacopo-tintoretto,ve-tintoretto,1574,1594,residence,high,RID,curated,
+marietta-robusti,venice,1554,1574,residence,high,RID,curated,
+marietta-robusti,ve-tintoretto,1574,1590,residence,high,RID,curated,Works in her father's workshop
+marietta-robusti,ve-madonnaorto,1590,1590,burial,high,RID,curated,
+plautilla-nelli,florence,1524,1538,residence,high,NEL,curated,
+plautilla-nelli,fi-santacaterina,1538,1588,convent,high,NEL;VAS,curated,Prioress and head of the convent workshop
+fra-bartolomeo,florence,1500,1517,residence,high,VAS,curated,
+properzia-de-rossi,bologna,1490,1530,residence,high,VAS,curated,
+properzia-de-rossi,bo-sanpetronio,1525,1526,commission,high,VAS,curated,Marble reliefs for the façade
+marcantonio-raimondi,bologna,1500,1510,residence,medium,VAS,curated,
+marcantonio-raimondi,rome,1510,1527,residence,high,VAS,curated,
+marcantonio-raimondi,bologna,1527,1534,residence,medium,VAS,curated,
+diana-scultori,mantua,1547,1575,residence,high,LIN,curated,
+diana-scultori,rome,1575,1612,residence,high,LIN,curated,Papal privilege for her prints 1575
+giulio-romano,mantua,1524,1546,court,high,VAS,curated,
+barbara-longhi,ravenna,1552,1638,residence,high,NMWA,curated,
+luca-longhi,ravenna,1507,1580,residence,high,VAS,curated,
+fede-galizia,milan,1578,1630,residence,high,NMWA;MIL,curated,
+fede-galizia,mi-sancelso,1616,1616,commission,medium,NMWA,curated,Noli me tangere
+lucrezia-quistelli,florence,1541,1594,residence,medium,NMWA,curated,
+alessandro-allori,florence,1535,1607,residence,high,VAS,curated,
+giovanna-garzoni,ascoli,1600,1615,residence,medium,GZN,curated,
+giovanna-garzoni,venice,1615,1630,residence,medium,GZN,curated,
+giovanna-garzoni,naples,1630,1631,court,medium,GZN,curated,Works for the viceroy Duke of Alcalá
+giovanna-garzoni,to-palazzoreale,1632,1637,court,medium,GZN,curated,Savoy court of Christine of France
+giovanna-garzoni,fi-pitti,1642,1651,court,medium,GZN,curated,Medici patronage
+giovanna-garzoni,rome,1651,1670,residence,high,GZN,curated,
+giovanna-garzoni,ro-sanluca,1651,1670,member,medium,GZN,curated,Leaves her estate to the Accademia di San Luca
+arcangela-paladini,pisa,1599,1616,residence,medium,NMWA,curated,
+arcangela-paladini,fi-pitti,1616,1622,court,high,NMWA,curated,At the court of Maria Maddalena of Austria
+chiara-varotari,padua,1584,1614,residence,medium,NMWA,curated,
+chiara-varotari,venice,1614,1660,residence,medium,NMWA;WD,curated,
+alessandro-varotari,padua,1588,1614,residence,medium,RID,curated,
+alessandro-varotari,venice,1615,1649,residence,high,RID,curated,
+orsola-maddalena-caccia,moncalvo,1596,1620,residence,high,NMWA,curated,
+orsola-maddalena-caccia,bianze,1620,1625,convent,medium,NMWA,curated,
+orsola-maddalena-caccia,moncalvo,1625,1676,convent,high,NMWA;GNT,curated,Ursuline convent founded by her father
+guglielmo-caccia,moncalvo,1593,1625,residence,high,NMWA,curated,
+lucrina-fetti,rome,1600,1614,residence,medium,NMWA,curated,
+lucrina-fetti,mantua,1614,1651,convent,high,NMWA;WD,curated,Nun at Sant'Orsola
+domenico-fetti,rome,1589,1613,residence,high,NMWA,curated,
+domenico-fetti,mantua,1613,1622,court,high,NMWA,curated,
+domenico-fetti,venice,1622,1623,residence,high,NMWA,curated,
+anna-maria-vaiani,florence,1604,1630,residence,medium,NMWA,curated,
+anna-maria-vaiani,rome,1630,1655,residence,medium,NMWA;WD,curated,
+plautilla-bricci,rome,1616,1705,residence,high,BRI,curated,
+plautilla-bricci,ro-benedetta,1663,1665,commission,high,BRI,curated,Designs Villa Benedetta for Elpidio Benedetti
+plautilla-bricci,ro-sanluigi,1676,1680,commission,medium,BRI,curated,Chapel of St Louis
+teresa-del-po,rome,1649,1683,residence,medium,NMWA,curated,
+teresa-del-po,ro-sanluca,1678,1683,member,medium,NMWA,curated,
+teresa-del-po,naples,1683,1713,residence,medium,NMWA;WD,curated,
+pietro-del-po,rome,1630,1683,residence,medium,NMWA,curated,
+pietro-del-po,naples,1683,1692,residence,medium,NMWA,curated,
+aniella-di-beltrano,naples,1613,1649,residence,high,NAP;WD,curated,
+massimo-stanzione,naples,1617,1656,residence,high,NAP,curated,
+rosalia-novelli,palermo,1628,1688,residence,high,NMWA,curated,
+pietro-novelli,palermo,1620,1647,residence,high,NMWA,curated,
+elisabetta-sirani,bologna,1638,1665,residence,high,MOD;SIR,curated,
+elisabetta-sirani,bo-casasirani,1655,1665,workshop,medium,MOD;SIR;PUL,curated,Runs the family workshop and trains women painters
+elisabetta-sirani,bo-sandomenico,1665,1665,burial,high,MOD,curated,Buried beside Guido Reni
+giovanni-andrea-sirani,bologna,1610,1670,residence,high,MAL,curated,
+guido-reni,bologna,1575,1601,residence,high,MAL,curated,
+guido-reni,rome,1601,1614,residence,high,MAL,curated,
+guido-reni,bologna,1614,1642,residence,high,MAL,curated,
+guido-reni,bo-sandomenico,1642,1642,burial,high,MAL,curated,
+ginevra-cantofoli,bologna,1618,1672,residence,high,MAL;WD,curated,
+ludovico-carracci,bologna,1555,1619,residence,high,MAL,curated,
+ludovico-carracci,bo-palazzofava,1584,1584,commission,high,MAL,curated,Frieze of Jason and Medea with Annibale and Agostino
+annibale-carracci,bologna,1560,1595,residence,high,MAL,curated,
+annibale-carracci,rome,1595,1609,residence,high,MAL,curated,
+prospero-fontana,bologna,1512,1597,residence,high,MAL,curated,
+galileo-galilei,padua,1592,1610,residence,high,GAL,curated,
+galileo-galilei,florence,1610,1631,residence,high,GAL,curated,
+galileo-galilei,fi-arcetri,1631,1642,residence,high,GAL,curated,
+michelangelo-younger,fi-casabuonarroti,1612,1646,residence,high,CHR,curated,
+cassiano-dal-pozzo,ro-dalpozzo,1612,1657,residence,high,CHR,curated,
+anthony-van-dyck,genoa,1621,1627,residence,high,SOP,curated,
+anthony-van-dyck,palermo,1624,1624,visit,high,VDY,curated,
+anthony-van-dyck,london,1632,1641,court,high,CHR,curated,
+philip-ii-of-spain,ma-alcazar,1559,1598,court,high,PER,curated,
+elisabeth-of-valois,ma-alcazar,1559,1568,court,high,PER,curated,
+charles-i-of-england,london,1625,1649,court,high,CHR,curated,
+marie-de-medici,pa-luxembourg,1615,1631,court,high,CHR,curated,
+cosimo-ii,fi-pitti,1609,1621,court,high,CHR,curated,
+maria-maddalena,fi-pitti,1608,1631,court,high,NMWA,curated,
+ferdinando-ii,fi-pitti,1621,1670,court,high,GZN,curated,
+christine-of-france,to-palazzoreale,1619,1663,court,high,GZN,curated,
+duke-of-alcala,na-palazzoreale,1629,1631,court,high,GZN,curated,
+francesco-barberini,ro-barberini,1623,1679,residence,high,CHR,curated,
+francesco-capriani,rome,1570,1594,residence,high,LIN,curated,
+clement-viii,ro-vatican,1592,1605,court,high,MUR,curated,
+gregory-xiii,ro-vatican,1572,1585,court,high,LIN,curated,
+elpidio-benedetti,rome,1630,1690,residence,high,BRI,curated,
+tiberio-tinelli,venice,1586,1638,residence,high,GZN,curated,
+gian-paolo-zappi,bologna,1577,1604,residence,high,MUR,curated,
+gian-paolo-zappi,rome,1604,1615,residence,high,MUR,curated,
+pierantonio-stiattesi,florence,1612,1623,residence,medium,CHR,curated,
+rosa-agnese-bruni,wd-orvieto,1650,1650,birth,medium,WD,wikidata,
+cassiano-dal-pozzo,turin,1588,1588,birth,medium,WD,wikidata,
+cassiano-dal-pozzo,rome,1657,1657,death,medium,WD,wikidata,
+costanza-francini,wd-empoli,1597,1597,birth,medium,WD,wikidata,
+costanza-francini,rome,1657,1657,death,medium,WD,wikidata,
+margherita-caffi,cremona,1648,1648,birth,medium,WD,wikidata,
+margherita-caffi,milan,1710,1710,death,medium,WD,wikidata,
+giulia-canuti-bonaveri,bologna,1636,1636,birth,medium,WD,wikidata,
+barbara-sirani,bologna,1641,1641,birth,medium,WD,wikidata,
+francesca-vicenzina,milan,1657,1657,birth,medium,WD,wikidata,
+francesca-vicenzina,milan,1700,1700,death,medium,WD,wikidata,
+caterina-mongardi,bologna,1645,1645,birth,medium,WD,wikidata,
+isabella-sandri-orfei,imola,1658,1658,birth,medium,WD,wikidata,
+christine-of-france,paris,1606,1606,birth,medium,WD,wikidata,
+christine-of-france,turin,1663,1663,death,medium,WD,wikidata,
+maria-eufrasia-della-croce,rome,1597,1597,birth,medium,WD,wikidata,
+maria-eufrasia-della-croce,rome,1676,1676,death,medium,WD,wikidata,
+guido-reni,bologna,1575,1575,birth,medium,WD,wikidata,
+guido-reni,bologna,1642,1642,death,medium,WD,wikidata,
+guglielmo-caccia,wd-montabone,1568,1568,birth,medium,WD,wikidata,
+guglielmo-caccia,moncalvo,1625,1625,death,medium,WD,wikidata,
+chiara-varotari,padua,1584,1584,birth,medium,WD,wikidata,
+chiara-varotari,venice,1660,1660,death,medium,WD,wikidata,
+vincenzo-danti,perugia,1530,1530,birth,medium,WD,wikidata,
+vincenzo-danti,perugia,1576,1576,death,medium,WD,wikidata,
+giuseppe-volo-vicenzino,milan,1662,1662,birth,medium,WD,wikidata,
+giuseppe-volo-vicenzino,florence,1700,1700,death,medium,WD,wikidata,
+giorgio-vasari,wd-arezzo,1511,1511,birth,medium,WD,wikidata,
+giorgio-vasari,florence,1574,1574,death,medium,WD,wikidata,
+elena-anguissola,cremona,1532,1532,birth,medium,WD,wikidata,
+elena-anguissola,mantua,1584,1584,death,medium,WD,wikidata,
+europa-anguissola,cremona,1542,1542,birth,medium,WD,wikidata,
+europa-anguissola,wd-italy,1578,1578,death,medium,WD,wikidata,
+pietro-novelli,palermo,1603,1603,birth,medium,WD,wikidata,
+pietro-novelli,palermo,1647,1647,death,medium,WD,wikidata,
+domenico-maria-canuti,bologna,1625,1625,birth,medium,WD,wikidata,
+domenico-maria-canuti,bologna,1684,1684,death,medium,WD,wikidata,
+anthony-van-dyck,wd-antwerp,1599,1599,birth,medium,WD,wikidata,
+anthony-van-dyck,london,1641,1641,death,medium,WD,wikidata,
+giovanni-maria-galli-da-bibiena,bologna,1619,1619,birth,medium,WD,wikidata,
+giovanni-maria-galli-da-bibiena,bologna,1665,1665,death,medium,WD,wikidata,
+giuseppe-recco,naples,1634,1634,birth,medium,WD,wikidata,
+giuseppe-recco,wd-alicante,1695,1695,death,medium,WD,wikidata,
+pietro-della-vecchia,venice,1603,1603,birth,medium,WD,wikidata,
+pietro-della-vecchia,wd-vicenza,1678,1678,death,medium,WD,wikidata,
+amilcare-anguissola,genoa,1494,1494,birth,medium,WD,wikidata,
+amilcare-anguissola,cremona,1573,1573,death,medium,WD,wikidata,
+gian-lorenzo-bernini,naples,1598,1598,birth,medium,WD,wikidata,
+gian-lorenzo-bernini,rome,1680,1680,death,medium,WD,wikidata,
+leonardo-parasole,rome,1560,1560,birth,medium,WD,wikidata,
+gioacchino-pizzoli,bologna,1651,1651,birth,medium,WD,wikidata,
+gioacchino-pizzoli,bologna,1733,1733,death,medium,WD,wikidata,
+arcangela-paladini,pisa,1599,1599,birth,medium,WD,wikidata,
+arcangela-paladini,florence,1622,1622,death,medium,WD,wikidata,
+clement-viii,wd-fano,1536,1536,birth,medium,WD,wikidata,
+clement-viii,rome,1605,1605,death,medium,WD,wikidata,
+dario-varotari-the-elder,verona,1539,1539,birth,medium,WD,wikidata,
+dario-varotari-the-elder,padua,1596,1596,death,medium,WD,wikidata,
+alessandro-varotari,padua,1588,1588,birth,medium,WD,wikidata,
+alessandro-varotari,venice,1649,1649,death,medium,WD,wikidata,
+elisabeth-of-valois,wd-fontainebleau,1545,1545,birth,medium,WD,wikidata,
+elisabeth-of-valois,wd-aranjuez,1568,1568,death,medium,WD,wikidata,
+marie-de-medici,florence,1575,1575,birth,medium,WD,wikidata,
+marie-de-medici,wd-cologne,1642,1642,death,medium,WD,wikidata,
+paolo-uccello,wd-pratovecchio,1397,1397,birth,medium,WD,wikidata,
+paolo-uccello,florence,1475,1475,death,medium,WD,wikidata,
+michelangelo-younger,florence,1568,1568,birth,medium,WD,wikidata,
+michelangelo-younger,florence,1646,1646,death,medium,WD,wikidata,
+agnese-dolci,florence,1659,1659,birth,medium,WD,wikidata,
+elena-recco,naples,1654,1654,birth,medium,WD,wikidata,
+giacomo-piccini,venice,1617,1617,birth,medium,WD,wikidata,
+giacomo-piccini,venice,1669,1669,death,medium,WD,wikidata,
+lucrezia-quistelli,florence,1541,1541,birth,medium,WD,wikidata,
+francesco-allegrini-da-gubbio,wd-gubbio,1587,1587,birth,medium,WD,wikidata,
+francesco-allegrini-da-gubbio,rome,1663,1663,death,medium,WD,wikidata,
+artemisia-gentileschi,rome,1593,1593,birth,medium,WD,wikidata,
+artemisia-gentileschi,naples,1653,1653,death,medium,WD,wikidata,
+giulio-romano,rome,1499,1499,birth,medium,WD,wikidata,
+giulio-romano,mantua,1546,1546,death,medium,WD,wikidata,
+rosalia-novelli,palermo,1628,1628,birth,medium,WD,wikidata,
+gentile-zanardi,bologna,1660,1660,birth,medium,WD,wikidata,
+gentile-zanardi,bologna,1700,1700,death,medium,WD,wikidata,
+domenico-riccio,verona,1516,1516,birth,medium,WD,wikidata,
+domenico-riccio,verona,1567,1567,death,medium,WD,wikidata,
+francesco-da-castello,wd-brussels,1540,1540,birth,medium,WD,wikidata,
+francesco-da-castello,rome,1621,1621,death,medium,WD,wikidata,
+sofonisba-anguissola,cremona,1531,1531,birth,medium,WD,wikidata,
+sofonisba-anguissola,palermo,1625,1625,death,medium,WD,wikidata,
+lavinia-fontana,bologna,1552,1552,birth,medium,WD,wikidata,
+lavinia-fontana,rome,1614,1614,death,medium,WD,wikidata,
+teodora-danti,perugia,1498,1498,birth,medium,WD,wikidata,
+carlo-cignani,bologna,1628,1628,birth,medium,WD,wikidata,
+carlo-cignani,wd-forli,1719,1719,death,medium,WD,wikidata,
+mariangiola-criscuolo,naples,1548,1548,birth,medium,WD,wikidata,
+fede-galizia,milan,1578,1578,birth,medium,WD,wikidata,
+fede-galizia,milan,1630,1630,death,medium,WD,wikidata,
+marcantonio-franceschini,bologna,1648,1648,birth,medium,WD,wikidata,
+marcantonio-franceschini,bologna,1729,1729,death,medium,WD,wikidata,
+felice-riccio,verona,1542,1542,birth,medium,WD,wikidata,
+felice-riccio,verona,1605,1605,death,medium,WD,wikidata,
+elisabetta-sirani,bologna,1638,1638,birth,medium,WD,wikidata,
+elisabetta-sirani,bologna,1665,1665,death,medium,WD,wikidata,
+isabella-piccini,venice,1644,1644,birth,medium,WD,wikidata,
+isabella-piccini,venice,1734,1734,death,medium,WD,wikidata,
+aniella-di-beltrano,naples,1613,1613,birth,medium,WD,wikidata,
+aniella-di-beltrano,naples,1649,1649,death,medium,WD,wikidata,
+veronica-fontana,parma,1651,1651,birth,medium,WD,wikidata,
+veronica-fontana,bologna,1690,1690,death,medium,WD,wikidata,
+madonna-fitta-de-milano,milan,1610,1610,birth,medium,WD,wikidata,
+baldassare-bianchi,bologna,1614,1614,birth,medium,WD,wikidata,
+baldassare-bianchi,wd-modena,1678,1678,death,medium,WD,wikidata,
+maddalena-corvina,rome,1607,1607,birth,medium,WD,wikidata,
+maddalena-corvina,rome,1664,1664,death,medium,WD,wikidata,
+properzia-de-rossi,bologna,1490,1490,birth,medium,WD,wikidata,
+properzia-de-rossi,bologna,1530,1530,death,medium,WD,wikidata,
+cecilia-brusasorci,verona,1549,1549,birth,medium,WD,wikidata,
+cecilia-brusasorci,verona,1606,1606,death,medium,WD,wikidata,
+clorinda-renieri,venice,1650,1650,birth,medium,WD,wikidata,
+clorinda-renieri,venice,1715,1715,death,medium,WD,wikidata,
+nicolas-regnier,wd-maubeuge,1588,1588,birth,medium,WD,wikidata,
+nicolas-regnier,venice,1667,1667,death,medium,WD,wikidata,
+diana-scultori,mantua,1547,1547,birth,medium,WD,wikidata,
+diana-scultori,rome,1612,1612,death,medium,WD,wikidata,
+elisabetta-marchioni,wd-rovigo,1630,1630,birth,medium,WD,wikidata,
+elisabetta-marchioni,wd-rovigo,1710,1710,death,medium,WD,wikidata,
+galileo-galilei,pisa,1564,1564,birth,medium,WD,wikidata,
+galileo-galilei,florence,1642,1642,death,medium,WD,wikidata,
+filippo-brizzi,bologna,1603,1603,birth,medium,WD,wikidata,
+filippo-brizzi,bologna,1675,1675,death,medium,WD,wikidata,
+francesca-caccia,moncalvo,1608,1608,birth,medium,WD,wikidata,
+francesco-stringa,wd-modena,1635,1635,birth,medium,WD,wikidata,
+francesco-stringa,wd-modena,1709,1709,death,medium,WD,wikidata,
+giovanni-antonio-di-amato-the-younger,naples,1535,1535,birth,medium,WD,wikidata,
+giovanni-battista-bertusio,bologna,1577,1577,birth,medium,WD,wikidata,
+giovanni-battista-bertusio,bologna,1644,1644,death,medium,WD,wikidata,
+giovanni-battista-benaschi,turin,1636,1636,birth,medium,WD,wikidata,
+giovanni-battista-benaschi,naples,1688,1688,death,medium,WD,wikidata,
+giovanni-battista-scultori,mantua,1503,1503,birth,medium,WD,wikidata,
+giovanni-battista-scultori,mantua,1575,1575,death,medium,WD,wikidata,
+giovanni-filippo-criscuolo,wd-gaeta,1495,1495,birth,medium,WD,wikidata,
+giovanni-filippo-criscuolo,naples,1584,1584,death,medium,WD,wikidata,
+giovanni-stanchi-dei-fiori,rome,1608,1608,birth,medium,WD,wikidata,
+giovanni-stanchi-dei-fiori,rome,1675,1675,death,medium,WD,wikidata,
+barbara-longhi,ravenna,1552,1552,birth,medium,WD,wikidata,
+barbara-longhi,ravenna,1638,1638,death,medium,WD,wikidata,
+irene-di-spilimbergo,spilimbergo,1540,1540,birth,medium,WD,wikidata,
+irene-di-spilimbergo,venice,1559,1559,death,medium,WD,wikidata,
+simon-vouet,paris,1590,1590,birth,medium,WD,wikidata,
+simon-vouet,paris,1649,1649,death,medium,WD,wikidata,
+laura-bernasconi,rome,1700,1700,birth,medium,WD,wikidata,
+laura-bernasconi,rome,1700,1700,death,medium,WD,wikidata,
+maria-vittoria-cassana,venice,1650,1650,birth,medium,WD,wikidata,
+alessandro-allori,florence,1535,1535,birth,medium,WD,wikidata,
+alessandro-allori,florence,1607,1607,death,medium,WD,wikidata,
+nunzio-galizia,wd-trento,1539,1539,birth,medium,WD,wikidata,
+nunzio-galizia,milan,1621,1621,death,medium,WD,wikidata,
+orsola-maddalena-caccia,moncalvo,1596,1596,birth,medium,WD,wikidata,
+orsola-maddalena-caccia,moncalvo,1676,1676,death,medium,WD,wikidata,
+philip-ii-of-spain,wd-palacio-de-pimentel,1527,1527,birth,medium,WD,wikidata,
+philip-ii-of-spain,wd-royal-monastery-of-san-lorenzo-de-el-escorial,1598,1598,death,medium,WD,wikidata,
+taddeo-carlone,wd-rovio,1543,1543,birth,medium,WD,wikidata,
+taddeo-carlone,genoa,1615,1615,death,medium,WD,wikidata,
+teresa-del-po,rome,1649,1649,birth,medium,WD,wikidata,
+teresa-del-po,naples,1713,1713,death,medium,WD,wikidata,
+anna-maria-vaiani,florence,1604,1604,birth,medium,WD,wikidata,
+anna-maria-vaiani,rome,1655,1655,death,medium,WD,wikidata,
+orazio-gentileschi,pisa,1563,1563,birth,medium,WD,wikidata,
+orazio-gentileschi,london,1639,1639,death,medium,WD,wikidata,
+felice-antonia-miradori,cremona,1637,1637,birth,medium,WD,wikidata,
+ferrante-gonzaga,wd-castel-goffredo,1544,1544,birth,medium,WD,wikidata,
+ferrante-gonzaga,wd-castel-goffredo,1586,1586,death,medium,WD,wikidata,
+ludovico-carracci,bologna,1555,1555,birth,medium,WD,wikidata,
+ludovico-carracci,bologna,1619,1619,death,medium,WD,wikidata,
+lucrina-fetti,rome,1600,1600,birth,medium,WD,wikidata,
+lucrina-fetti,mantua,1651,1651,death,medium,WD,wikidata,
+luigi-miradori,genoa,1605,1605,birth,medium,WD,wikidata,
+luigi-miradori,cremona,1656,1656,death,medium,WD,wikidata,
+maria-oriana-galli-da-bibbiena,bologna,1656,1656,birth,medium,WD,wikidata,
+maria-oriana-galli-da-bibbiena,bologna,1749,1749,death,medium,WD,wikidata,
+minerva-anguissola,cremona,1539,1539,birth,medium,WD,wikidata,
+minerva-anguissola,cremona,1566,1566,death,medium,WD,wikidata,
+plautilla-nelli,florence,1524,1524,birth,medium,WD,wikidata,
+plautilla-nelli,florence,1588,1588,death,medium,WD,wikidata,
+agostino-tassi,wd-ponzano-romano,1578,1578,birth,medium,WD,wikidata,
+agostino-tassi,rome,1644,1644,death,medium,WD,wikidata,
+virginia-vezzi,velletri,1600,1600,birth,medium,WD,wikidata,
+virginia-vezzi,paris,1638,1638,death,medium,WD,wikidata,
+giovanni-lanfranco,parma,1582,1582,birth,medium,WD,wikidata,
+giovanni-lanfranco,rome,1647,1647,death,medium,WD,wikidata,
+prospero-fontana,bologna,1512,1512,birth,medium,WD,wikidata,
+prospero-fontana,rome,1597,1597,death,medium,WD,wikidata,
+antonio-triva,wd-reggio-emilia,1626,1626,birth,medium,WD,wikidata,
+antonio-triva,wd-munich,1699,1699,death,medium,WD,wikidata,
+lucia-anguissola,cremona,1536,1536,birth,medium,WD,wikidata,
+lucia-anguissola,cremona,1565,1565,death,medium,WD,wikidata,
+adamo-scultori,mantua,1530,1530,birth,medium,WD,wikidata,
+adamo-scultori,mantua,1585,1585,death,medium,WD,wikidata,
+anna-maria-sirani,bologna,1645,1645,birth,medium,WD,wikidata,
+titian,wd-pieve-di-cadore,1488,1488,birth,medium,WD,wikidata,
+titian,venice,1576,1576,death,medium,WD,wikidata,
+antonia-pinelli,bologna,1592,1592,birth,medium,WD,wikidata,
+antonia-pinelli,bologna,1644,1644,death,medium,WD,wikidata,
+bartolomeo-coriolano,bologna,1590,1590,birth,medium,WD,wikidata,
+bartolomeo-coriolano,bologna,1676,1676,death,medium,WD,wikidata,
+vincenza-armani,venice,1530,1530,birth,medium,WD,wikidata,
+plautilla-bricci,rome,1616,1616,birth,medium,WD,wikidata,
+plautilla-bricci,rome,1705,1705,death,medium,WD,wikidata,
+carlo-dolci,florence,1616,1616,birth,medium,WD,wikidata,
+carlo-dolci,florence,1686,1686,death,medium,WD,wikidata,
+caterina-ginnasi,rome,1590,1590,birth,medium,WD,wikidata,
+caterina-ginnasi,rome,1660,1660,death,medium,WD,wikidata,
+giovanna-garzoni,ascoli,1600,1600,birth,medium,WD,wikidata,
+giovanna-garzoni,rome,1670,1670,death,medium,WD,wikidata,
+cristoforo-coriolano,wd-nuremberg,1540,1540,birth,medium,WD,wikidata,
+cristoforo-coriolano,venice,1600,1600,death,medium,WD,wikidata,
+ginevra-cantofoli,bologna,1618,1618,birth,medium,WD,wikidata,
+ginevra-cantofoli,bologna,1672,1672,death,medium,WD,wikidata,
+francesco-barberini,florence,1597,1597,birth,medium,WD,wikidata,
+francesco-barberini,rome,1679,1679,death,medium,WD,wikidata,
+domenico-maria-fontana,parma,1607,1607,birth,medium,WD,wikidata,
+emilio-taruffi,bologna,1633,1633,birth,medium,WD,wikidata,
+emilio-taruffi,bologna,1696,1696,death,medium,WD,wikidata,
+tiberio-tinelli,venice,1586,1586,birth,medium,WD,wikidata,
+tiberio-tinelli,venice,1638,1638,death,medium,WD,wikidata,
+marietta-robusti,venice,1554,1554,birth,medium,WD,wikidata,
+marietta-robusti,venice,1590,1590,death,medium,WD,wikidata,
+francesco-gentileschi,rome,1597,1597,birth,medium,WD,wikidata,
+domenico-fetti,rome,1589,1589,birth,medium,WD,wikidata,
+domenico-fetti,venice,1623,1623,death,medium,WD,wikidata,
+michelangelo,wd-caprese-michelangelo,1475,1475,birth,medium,WD,wikidata,
+michelangelo,rome,1564,1564,death,medium,WD,wikidata,
+raphael,wd-urbino,1483,1483,birth,medium,WD,wikidata,
+raphael,rome,1520,1520,death,medium,WD,wikidata,
+anna-maria-anguissola,cremona,1555,1555,birth,medium,WD,wikidata,
+anna-maria-anguissola,cremona,1611,1611,death,medium,WD,wikidata,
+agostino-beltrano,naples,1607,1607,birth,medium,WD,wikidata,
+agostino-beltrano,naples,1656,1656,death,medium,WD,wikidata,
+antonia-di-paolo-di-dono,florence,1456,1456,birth,medium,WD,wikidata,
+lucia-scaligeri,venice,1637,1637,birth,medium,WD,wikidata,
+isabella-parasole,wd-bergamo,1580,1580,birth,medium,WD,wikidata,
+isabella-parasole,rome,1617,1617,death,medium,WD,wikidata,
+maria-elena-panzacchi,bologna,1668,1668,birth,medium,WD,wikidata,
+luca-longhi,ravenna,1507,1507,birth,medium,WD,wikidata,
+luca-longhi,ravenna,1580,1580,death,medium,WD,wikidata,
+domenico-tintoretto,venice,1560,1560,birth,medium,WD,wikidata,
+domenico-tintoretto,venice,1635,1635,death,medium,WD,wikidata,
+giovanni-andrea-sirani,bologna,1610,1610,birth,medium,WD,wikidata,
+giovanni-andrea-sirani,bologna,1670,1670,death,medium,WD,wikidata,
+marcantonio-raimondi,wd-molinella,1480,1480,birth,medium,WD,wikidata,
+marcantonio-raimondi,bologna,1534,1534,death,medium,WD,wikidata,
+francesco-capriani,wd-volterra,1535,1535,birth,medium,WD,wikidata,
+francesco-capriani,rome,1594,1594,death,medium,WD,wikidata,
+fra-bartolomeo,florence,1472,1472,birth,medium,WD,wikidata,
+fra-bartolomeo,florence,1517,1517,death,medium,WD,wikidata,
+theresa-maria-coriolano,bologna,1620,1620,birth,medium,WD,wikidata,
+theresa-maria-coriolano,bologna,1671,1671,death,medium,WD,wikidata,
+annibale-carracci,bologna,1560,1560,birth,medium,WD,wikidata,
+annibale-carracci,rome,1609,1609,death,medium,WD,wikidata,
+charles-i-of-england,wd-dunfermline-palace,1600,1600,birth,medium,WD,wikidata,
+charles-i-of-england,london,1649,1649,death,medium,WD,wikidata,
+giulio-danti,perugia,1500,1500,birth,medium,WD,wikidata,
+giulio-danti,perugia,1575,1575,death,medium,WD,wikidata,
+bernardino-campi,cremona,1520,1520,birth,medium,WD,wikidata,
+bernardino-campi,wd-reggio-emilia,1591,1591,death,medium,WD,wikidata,
+bernardino-gatti,wd-pavia,1495,1495,birth,medium,WD,wikidata,
+bernardino-gatti,cremona,1576,1576,death,medium,WD,wikidata,
+gregory-xiii,bologna,1502,1502,birth,medium,WD,wikidata,
+gregory-xiii,rome,1585,1585,death,medium,WD,wikidata,
+piervincenzo-danti,perugia,1450,1450,birth,medium,WD,wikidata,
+piervincenzo-danti,perugia,1512,1512,death,medium,WD,wikidata,
+jacopo-tintoretto,venice,1518,1518,birth,medium,WD,wikidata,
+jacopo-tintoretto,venice,1594,1594,death,medium,WD,wikidata,
+ignazio-danti,perugia,1536,1536,birth,medium,WD,wikidata,
+ignazio-danti,wd-alatri,1586,1586,death,medium,WD,wikidata,
+massimo-stanzione,naples,1585,1585,birth,medium,WD,wikidata,
+massimo-stanzione,naples,1656,1656,death,medium,WD,wikidata,
+margherita-caffi,cremona,1665,1670,active,medium,WD,wikidata,Wikidata work location
+margherita-caffi,wd-piacenza,1670,1682,active,medium,WD,wikidata,Wikidata work location
+margherita-caffi,wd-spain,1666,1710,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+margherita-caffi,turin,1666,1710,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+lucrezia-bianchi,bologna,1668,1710,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+barbara-sirani,bologna,1659,1692,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+francesca-vicenzina,milan,1672,1699,active,medium,WD,wikidata,Wikidata work location
+caterina-mongardi,bologna,1663,1672,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+guido-reni,bologna,1599,1600,active,medium,WD,wikidata,Wikidata work location
+guido-reni,rome,1600,1602,active,medium,WD,wikidata,Wikidata work location
+guido-reni,bologna,1603,1605,active,medium,WD,wikidata,Wikidata work location
+guido-reni,rome,1605,1610,active,medium,WD,wikidata,Wikidata work location
+guido-reni,bologna,1611,1612,active,medium,WD,wikidata,Wikidata work location
+guido-reni,bologna,1615,1616,active,medium,WD,wikidata,Wikidata work location
+guido-reni,mantua,1617,1621,active,medium,WD,wikidata,Wikidata work location
+guido-reni,rome,1622,1629,active,medium,WD,wikidata,Wikidata work location
+guido-reni,naples,1624,1626,active,medium,WD,wikidata,Wikidata work location
+guido-reni,naples,1640,1642,active,medium,WD,wikidata,Wikidata work location
+chiara-varotari,venice,1614,1660,active,medium,WD,wikidata,Wikidata work location
+giorgio-vasari,wd-arezzo,1529,1574,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giorgio-vasari,bologna,1529,1574,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giorgio-vasari,florence,1529,1574,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giorgio-vasari,naples,1529,1574,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giorgio-vasari,pisa,1529,1574,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giorgio-vasari,wd-pistoia,1529,1574,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giorgio-vasari,wd-rimini,1529,1574,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giorgio-vasari,rome,1529,1574,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giorgio-vasari,venice,1529,1574,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+angela-beinaschi,naples,1684,1720,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+angela-beinaschi,rome,1684,1720,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+domenico-maria-canuti,bologna,1639,1645,active,medium,WD,wikidata,Wikidata work location
+domenico-maria-canuti,rome,1646,1647,active,medium,WD,wikidata,Wikidata work location
+domenico-maria-canuti,bologna,1643,1684,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+domenico-maria-canuti,mantua,1643,1684,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+domenico-maria-canuti,padua,1643,1684,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+domenico-maria-canuti,padua,1666,1667,active,medium,WD,wikidata,Wikidata work location
+domenico-maria-canuti,bologna,1667,1672,active,medium,WD,wikidata,Wikidata work location
+domenico-maria-canuti,rome,1672,1677,active,medium,WD,wikidata,Wikidata work location
+domenico-maria-canuti,bologna,1677,1684,active,medium,WD,wikidata,Wikidata work location
+anthony-van-dyck,london,1641,1641,active,medium,WD,wikidata,Wikidata work location
+anthony-van-dyck,london,1632,1641,active,medium,WD,wikidata,Wikidata work location
+giovanni-maria-galli-da-bibiena,bologna,1651,1665,active,medium,WD,wikidata,Wikidata work location
+giuseppe-recco,milan,1644,1654,active,medium,WD,wikidata,Wikidata work location
+giuseppe-recco,naples,1654,1695,active,medium,WD,wikidata,Wikidata work location
+giuseppe-recco,wd-spain,1652,1695,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+pietro-della-vecchia,venice,1640,1673,active,medium,WD,wikidata,Wikidata work location
+pietro-della-vecchia,wd-vicenza,1621,1678,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+pietro-della-vecchia,verona,1621,1678,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+gian-lorenzo-bernini,wd-italy,1616,1680,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+gian-lorenzo-bernini,paris,1616,1680,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+gian-lorenzo-bernini,rome,1616,1680,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+gian-lorenzo-bernini,siena,1616,1680,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+alessandro-varotari,venice,1614,1648,active,medium,WD,wikidata,Wikidata work location
+marie-de-medici,wd-france,1600,1630,active,medium,WD,wikidata,Wikidata work location
+marie-de-medici,wd-amsterdam,1638,1638,active,medium,WD,wikidata,Wikidata work location
+paolo-uccello,florence,1415,1475,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+paolo-uccello,padua,1415,1475,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+paolo-uccello,wd-urbino,1415,1475,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+paolo-uccello,venice,1415,1475,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+elena-recco,naples,1672,1700,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+elena-recco,madrid,1672,1700,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giacomo-piccini,venice,1635,1669,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+artemisia-gentileschi,florence,1610,1620,active,medium,WD,wikidata,Wikidata work location
+artemisia-gentileschi,rome,1622,1626,active,medium,WD,wikidata,Wikidata work location
+francesco-da-castello,rome,1577,1621,active,medium,WD,wikidata,Wikidata work location
+lavinia-fontana,bologna,1579,1601,active,medium,WD,wikidata,Wikidata work location
+lavinia-fontana,rome,1600,1614,active,medium,WD,wikidata,Wikidata work location
+fede-galizia,milan,1595,1630,active,medium,WD,wikidata,Wikidata work location
+felice-riccio,verona,1560,1557,active,medium,WD,wikidata,Wikidata work location
+felice-riccio,florence,1557,1571,active,medium,WD,wikidata,Wikidata work location
+felice-riccio,verona,1571,1605,active,medium,WD,wikidata,Wikidata work location
+isabella-piccini,venice,1660,1700,active,medium,WD,wikidata,Wikidata work location
+baldassare-bianchi,wd-modena,1652,1678,active,medium,WD,wikidata,Wikidata work location
+maddalena-corvina,rome,1600,1649,active,medium,WD,wikidata,Wikidata work location
+properzia-de-rossi,bologna,1516,1530,active,medium,WD,wikidata,Wikidata work location
+cecilia-brusasorci,verona,1567,1606,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+clorinda-renieri,venice,1630,1715,active,medium,WD,wikidata,Wikidata work location
+nicolas-regnier,wd-antwerp,1607,1616,active,medium,WD,wikidata,Wikidata work location
+nicolas-regnier,parma,1616,1617,active,medium,WD,wikidata,Wikidata work location
+nicolas-regnier,rome,1617,1625,active,medium,WD,wikidata,Wikidata work location
+nicolas-regnier,venice,1626,1667,active,medium,WD,wikidata,Wikidata work location
+nicolas-regnier,wd-modena,1638,1639,active,medium,WD,wikidata,Wikidata work location
+nicolas-regnier,bologna,1606,1667,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+nicolas-regnier,mantua,1606,1667,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+filippo-brizzi,bologna,1621,1675,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+francesco-stringa,wd-modena,1661,1709,active,medium,WD,wikidata,Wikidata work location
+giovanni-battista-bertusio,bologna,1595,1644,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giovanni-battista-benaschi,turin,1654,1688,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giovanni-battista-benaschi,rome,1654,1688,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giovanni-battista-benaschi,naples,1654,1688,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giovanni-battista-brusasorci,verona,1562,1604,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giovanni-battista-brusasorci,venice,1562,1604,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giovanni-battista-brusasorci,wd-vienna,1562,1604,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giovanni-battista-scultori,mantua,1518,1575,active,medium,WD,wikidata,Wikidata work location
+giovanni-stanchi-dei-fiori,rome,1626,1675,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+laura-bernasconi,rome,1718,1700,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+taddeo-carlone,genoa,1561,1615,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+luigi-miradori,cremona,1640,1654,active,medium,WD,wikidata,Wikidata work location
+luigi-miradori,milan,1623,1656,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+luigi-miradori,wd-piacenza,1623,1656,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+plautilla-nelli,florence,1538,1588,active,medium,WD,wikidata,Wikidata work location
+giovanni-lanfranco,wd-piacenza,1600,1647,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giovanni-lanfranco,rome,1600,1647,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giovanni-lanfranco,parma,1600,1647,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giovanni-lanfranco,rome,1612,1631,active,medium,WD,wikidata,Wikidata work location
+giovanni-lanfranco,naples,1634,1646,active,medium,WD,wikidata,Wikidata work location
+giovanni-lanfranco,rome,1646,1647,active,medium,WD,wikidata,Wikidata work location
+giovanni-lanfranco,venice,1600,1647,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+adamo-scultori,mantua,1548,1585,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+adamo-scultori,rome,1565,1566,active,medium,WD,wikidata,Wikidata work location
+anna-maria-sirani,bologna,1663,1715,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+titian,rome,1545,1546,active,medium,WD,wikidata,Wikidata work location
+titian,wd-augsburg,1550,1551,active,medium,WD,wikidata,Wikidata work location
+bartolomeo-coriolano,bologna,1630,1647,active,medium,WD,wikidata,Wikidata work location
+bartolomeo-coriolano,rome,1608,1676,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+carlo-dolci,florence,1636,1686,active,medium,WD,wikidata,Wikidata work location
+carlo-dolci,wd-innsbruck,1634,1686,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+caterina-ginnasi,rome,1608,1660,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giovanna-garzoni,venice,1616,1630,active,medium,WD,wikidata,Wikidata work location
+giovanna-garzoni,naples,1630,1631,active,medium,WD,wikidata,Wikidata work location
+giovanna-garzoni,rome,1631,1632,active,medium,WD,wikidata,Wikidata work location
+giovanna-garzoni,turin,1632,1638,active,medium,WD,wikidata,Wikidata work location
+giovanna-garzoni,wd-france,1638,1641,active,medium,WD,wikidata,Wikidata work location
+giovanna-garzoni,florence,1641,1651,active,medium,WD,wikidata,Wikidata work location
+giovanna-garzoni,rome,1651,1670,active,medium,WD,wikidata,Wikidata work location
+cristoforo-coriolano,bologna,1590,1610,active,medium,WD,wikidata,Wikidata work location
+ginevra-cantofoli,bologna,1638,1672,active,medium,WD,wikidata,Wikidata work location
+domenico-maria-fontana,bologna,1625,1661,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+emilio-taruffi,bologna,1651,1696,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+emilio-taruffi,rome,1651,1696,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+tiberio-tinelli,mantua,1637,1638,active,medium,WD,wikidata,Wikidata work location
+marietta-robusti,venice,1570,1590,active,medium,WD,wikidata,Wikidata work location
+domenico-fetti,mantua,1614,1622,active,medium,WD,wikidata,Wikidata work location
+domenico-fetti,venice,1619,1623,active,medium,WD,wikidata,Wikidata work location
+michelangelo,florence,1487,1494,active,medium,WD,wikidata,Wikidata work location
+michelangelo,bologna,1494,1496,active,medium,WD,wikidata,Wikidata work location
+michelangelo,rome,1496,1501,active,medium,WD,wikidata,Wikidata work location
+michelangelo,florence,1501,1505,active,medium,WD,wikidata,Wikidata work location
+michelangelo,rome,1505,1506,active,medium,WD,wikidata,Wikidata work location
+michelangelo,florence,1506,1508,active,medium,WD,wikidata,Wikidata work location
+michelangelo,rome,1508,1516,active,medium,WD,wikidata,Wikidata work location
+michelangelo,florence,1516,1534,active,medium,WD,wikidata,Wikidata work location
+michelangelo,florence,1529,1532,active,medium,WD,wikidata,Wikidata work location
+michelangelo,rome,1532,1533,active,medium,WD,wikidata,Wikidata work location
+michelangelo,florence,1533,1534,active,medium,WD,wikidata,Wikidata work location
+michelangelo,rome,1534,1564,active,medium,WD,wikidata,Wikidata work location
+raphael,florence,1504,1508,active,medium,WD,wikidata,Wikidata work location
+raphael,perugia,1501,1502,active,medium,WD,wikidata,Wikidata work location
+raphael,rome,1508,1520,active,medium,WD,wikidata,Wikidata work location
+raphael,siena,1503,1504,active,medium,WD,wikidata,Wikidata work location
+raphael,wd-urbino,1501,1520,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+isabella-parasole,rome,1598,1617,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+maria-elena-panzacchi,bologna,1686,1737,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+domenico-tintoretto,mantua,1578,1635,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+domenico-tintoretto,wd-ferrara,1578,1635,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+domenico-tintoretto,venice,1578,1635,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+giovanni-andrea-sirani,bologna,1625,1670,active,medium,WD,wikidata,Wikidata work location
+marcantonio-raimondi,bologna,1500,1510,active,medium,WD,wikidata,Wikidata work location
+marcantonio-raimondi,rome,1510,1527,active,medium,WD,wikidata,Wikidata work location
+marcantonio-raimondi,bologna,1527,1534,active,medium,WD,wikidata,Wikidata work location
+annibale-carracci,bologna,1578,1595,active,medium,WD,wikidata,Wikidata work location
+annibale-carracci,rome,1595,1609,active,medium,WD,wikidata,Wikidata work location
+charles-i-of-england,london,1625,1649,active,medium,WD,wikidata,Wikidata work location
+ignazio-danti,florence,1554,1586,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+ignazio-danti,bologna,1554,1586,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+ignazio-danti,rome,1554,1586,active,low,WD,wikidata,Wikidata work location (undated; spread over career)
+anna-stanchi,rome,1638,1680,active,low,WD,wikidata,Wikidata work location (undated; spread over career)

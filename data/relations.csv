@@ -1,0 +1,66 @@
+a,b,type,from,to,confidence,sources,note
+bernardino-campi,sofonisba-anguissola,teacher,1546,1549,high,PER;VAS,
+michelangelo,sofonisba-anguissola,encounter,1554,1557,medium,PER,Michelangelo sends a drawing challenge; she replies with the Boy Bitten by a Crayfish
+elisabeth-of-valois,sofonisba-anguissola,patron,1559,1568,high,PER;PRA,Queen's lady-in-waiting and drawing teacher
+philip-ii-of-spain,sofonisba-anguissola,patron,1559,1573,high,PER;PRA,
+fabrizio-moncada,sofonisba-anguissola,spouse,1573,1578,high,PER,
+orazio-lomellino,sofonisba-anguissola,spouse,1580,1625,high,PER,
+anthony-van-dyck,sofonisba-anguissola,encounter,1624,1624,high,VDY,Sketch and notes from the visit in Palermo
+giorgio-vasari,sofonisba-anguissola,mentions,1566,1568,high,VAS,Visits the Anguissola house in Cremona
+giorgio-vasari,properzia-de-rossi,mentions,1550,1550,high,VAS,Only woman given her own life in the 1550 Vite
+giorgio-vasari,plautilla-nelli,mentions,1568,1568,high,VAS,
+prospero-fontana,lavinia-fontana,teacher,1565,1577,high,MUR;FOR,
+gian-paolo-zappi,lavinia-fontana,spouse,1577,1614,high,MUR,Husband who managed her studio
+gregory-xiii,lavinia-fontana,patron,1580,1585,medium,MUR,Boncompagni family commissions
+philip-ii-of-spain,lavinia-fontana,patron,1589,1589,medium,MUR;PRA,Holy Family for the Escorial
+clement-viii,lavinia-fontana,patron,1603,1605,medium,MUR,Called to Rome
+orazio-gentileschi,artemisia-gentileschi,teacher,1605,1612,high,GAR;CHR,
+agostino-tassi,artemisia-gentileschi,teacher,1611,1612,high,GAR;CHR,Hired to teach perspective; convicted at the 1612 rape trial
+pierantonio-stiattesi,artemisia-gentileschi,spouse,1612,1623,high,CHR,
+michelangelo-younger,artemisia-gentileschi,patron,1615,1620,high,CHR,
+cosimo-ii,artemisia-gentileschi,patron,1614,1620,high,CHR,
+galileo-galilei,artemisia-gentileschi,friend,1614,1635,high,GAL;CHR,Letters of 1635
+cassiano-dal-pozzo,artemisia-gentileschi,patron,1620,1637,high,CHR,
+duke-of-alcala,artemisia-gentileschi,patron,1630,1631,medium,CHR,
+massimo-stanzione,artemisia-gentileschi,collaborator,1630,1638,medium,NAP,
+charles-i-of-england,artemisia-gentileschi,patron,1638,1640,high,CHR,
+charles-i-of-england,orazio-gentileschi,patron,1626,1639,high,CHR,
+marie-de-medici,orazio-gentileschi,patron,1624,1626,high,CHR,
+anthony-van-dyck,orazio-gentileschi,encounter,1621,1627,medium,SOP,Both active in Genoa
+galileo-galilei,michelangelo-younger,friend,1610,1642,high,GAL,
+simon-vouet,virginia-vezzi,teacher,1620,1626,medium,NMWA,
+titian,irene-di-spilimbergo,teacher,1555,1559,medium,RID,
+fra-bartolomeo,plautilla-nelli,influence,1538,1588,medium,NEL,Copies from his drawings kept in the convent
+alessandro-allori,lucrezia-quistelli,teacher,1555,1560,medium,NMWA,
+francesco-capriani,diana-scultori,spouse,1575,1594,high,LIN,
+gregory-xiii,diana-scultori,patron,1575,1585,medium,LIN,Papal printing privilege
+luca-longhi,barbara-longhi,teacher,1565,1580,high,NMWA,
+maria-maddalena,arcangela-paladini,patron,1616,1622,high,NMWA,
+christine-of-france,giovanna-garzoni,patron,1632,1637,high,GZN,
+duke-of-alcala,giovanna-garzoni,patron,1630,1631,medium,GZN,
+ferdinando-ii,giovanna-garzoni,patron,1642,1651,high,GZN,
+cassiano-dal-pozzo,giovanna-garzoni,patron,1630,1657,medium,GZN,
+cassiano-dal-pozzo,anna-maria-vaiani,patron,1630,1655,medium,NMWA,
+francesco-barberini,anna-maria-vaiani,patron,1630,1655,medium,NMWA,
+francesco-barberini,artemisia-gentileschi,patron,1630,1637,medium,CHR,
+pietro-del-po,teresa-del-po,teacher,1660,1683,high,NMWA,
+pietro-del-po,teresa-del-po,parent,1649,1692,high,NMWA,
+guido-reni,giovanni-andrea-sirani,teacher,1630,1642,high,MAL,
+guido-reni,elisabetta-sirani,influence,1650,1665,high,MAL;MOD,
+elpidio-benedetti,plautilla-bricci,patron,1663,1680,high,BRI,
+guglielmo-caccia,orsola-maddalena-caccia,teacher,1610,1625,high,NMWA,
+giovanni-andrea-sirani,elisabetta-sirani,teacher,1650,1662,medium,SIR;MAL,Trained in her father's workshop; start year approximate
+elisabetta-sirani,ginevra-cantofoli,teacher,1662,1665,medium,SIR;MAL;SIRW;ORZ,Listed by Malvasia among Sirani's pupils; span = years Sirani ran the workshop
+elisabetta-sirani,theresa-maria-coriolano,teacher,1662,1665,medium,SIR;MAL;CORW,Listed by Malvasia; span = years Sirani ran the workshop
+elisabetta-sirani,veronica-fontana,teacher,1662,1665,medium,SIR;MAL;SIRW,Listed by Malvasia; span = years Sirani ran the workshop
+elisabetta-sirani,lucrezia-bianchi,teacher,1662,1665,medium,SIR;MAL;SIRW,Listed by Malvasia; span = years Sirani ran the workshop
+elisabetta-sirani,caterina-mongardi,teacher,1662,1665,low,SIR;SIRW,Named as a probable pupil; span = years Sirani ran the workshop
+elisabetta-sirani,anna-maria-sirani,teacher,1662,1665,medium,SIR;MAL;ORZ,Listed by Malvasia; span = years Sirani ran the workshop
+elisabetta-sirani,barbara-sirani,teacher,1662,1665,medium,SIR;MAL;ORZ,Listed by Malvasia; span = years Sirani ran the workshop
+simon-vouet,virginia-vezzi,spouse,1626,1638,high,VEZ,Married at San Lorenzo in Lucina
+virginia-vezzi,accademia-di-san-luca,member,1624,1638,high,VEZ,Member by 1624
+tiberio-tinelli,giovanna-garzoni,spouse,1622,1624,medium,GZT,Marriage dissolved by 1624
+lavinia-fontana,accademia-di-san-luca,member,1604,1614,low,LAVI;MUR,Election year not established; placed at her arrival in Rome
+artemisia-gentileschi,accademia-delle-arti-del-disegno,member,1616,1620,high,GAR;CHR,First woman admitted
+bernardino-gatti,sofonisba-anguissola,teacher,1549,1552,medium,PER,
+gregory-xiii,diana-scultori,patron,1575,1585,high,DIA;LIN,Papal privilege of 5 June 1575 for her prints

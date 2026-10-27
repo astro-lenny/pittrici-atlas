@@ -1,0 +1,12 @@
+SELECT DISTINCT ?a ?aLabel ?birth ?death ?bp ?bpLabel ?bpc ?dp ?dpLabel ?dpc ?ulan WHERE {
+  ?a wdt:P21 wd:Q6581072; wdt:P106 ?occ; wdt:P569 ?birth .
+  VALUES ?occ { wd:Q1028181 wd:Q1281618 wd:Q329439 wd:Q10862983 wd:Q15296811 wd:Q644687 wd:Q11569986 }
+  FILTER(YEAR(?birth) >= 1450 && YEAR(?birth) <= 1660)
+  { ?a wdt:P27 ?c . VALUES ?c { wd:Q38 wd:Q172579 wd:Q4948 wd:Q154849 wd:Q170174 wd:Q207020 wd:Q153529 wd:Q13426199 wd:Q1060396 wd:Q2044 } }
+  UNION { ?a wdt:P19/wdt:P17 wd:Q38 }
+  OPTIONAL { ?a wdt:P570 ?death }
+  OPTIONAL { ?a wdt:P19 ?bp . ?bp wdt:P625 ?bpc }
+  OPTIONAL { ?a wdt:P20 ?dp . ?dp wdt:P625 ?dpc }
+  OPTIONAL { ?a wdt:P245 ?ulan }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "it,en,de,fr". }
+}

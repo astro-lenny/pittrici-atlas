@@ -1,0 +1,111 @@
+province,y1494,y1559,y1600,y1700,confidence,note
+Torino,SAV,FRA,SAV,SAV,medium,Turin French-occupied 1536-1562
+Vercelli,SAV,SAV,SAV,SAV,medium,Parts belonged to Monferrato
+Biella,SAV,SAV,SAV,SAV,high,
+Valle d'Aosta/Vallée d'Aoste,SAV,SAV,SAV,SAV,high,
+Cuneo,SAV,SAV,SAV,SAV,low,Marquisate of Saluzzo separate (French 1548-1601)
+Asti,FRA,SAV,SAV,SAV,low,Asti county Orléans/French to 1531; southern part Monferrato
+Alessandria,MIL,MIL,MIL,MIL,low,Casale and the west belonged to Monferrato
+Novara,MIL,MIL,MIL,MIL,high,
+Verbano-Cusio-Ossola,MIL,MIL,MIL,MIL,medium,
+Varese,MIL,MIL,MIL,MIL,high,
+Como,MIL,MIL,MIL,MIL,high,
+Lecco,MIL,MIL,MIL,MIL,medium,Valsassina border with Venice
+Milano,MIL,MIL,MIL,MIL,high,
+Monza e della Brianza,MIL,MIL,MIL,MIL,high,
+Lodi,MIL,MIL,MIL,MIL,high,
+Pavia,MIL,MIL,MIL,MIL,medium,Oltrepò partly Piedmontese later
+Sondrio,MIL,SWI,SWI,SWI,high,Valtellina under the Grisons from 1512
+Bergamo,VEN,VEN,VEN,VEN,high,
+Brescia,VEN,VEN,VEN,VEN,high,
+Cremona,MIL,MIL,MIL,MIL,medium,Crema was Venetian; Cremona itself Venetian 1499-1509
+Mantova,MAN,MAN,MAN,MAN,medium,Small Gonzaga branches (Castiglione; Sabbioneta)
+Trento,HRE,HRE,HRE,HRE,high,Prince-bishopric of Trento
+Bolzano/Bozen,HRE,HRE,HRE,HRE,high,County of Tyrol
+Verona,VEN,VEN,VEN,VEN,high,
+Vicenza,VEN,VEN,VEN,VEN,high,
+Padova,VEN,VEN,VEN,VEN,high,
+Venezia,VEN,VEN,VEN,VEN,high,
+Treviso,VEN,VEN,VEN,VEN,high,
+Belluno,VEN,VEN,VEN,VEN,high,
+Rovigo,VEN,VEN,VEN,VEN,medium,Venetian from 1484
+Udine,VEN,VEN,VEN,VEN,medium,Eastern Friuli partly Habsburg
+Pordenone,VEN,VEN,VEN,VEN,medium,Pordenone itself Habsburg until 1508
+Gorizia,HRE,HRE,HRE,HRE,medium,Counts of Gorizia to 1500; then Habsburg
+Trieste,HRE,HRE,HRE,HRE,high,Habsburg
+Piacenza,MIL,PAR,PAR,PAR,high,Farnese from 1545
+Parma,MIL,PAR,PAR,PAR,medium,Small fiefs (Pallavicino; Landi) not shown
+Reggio nell'Emilia,EST,EST,EST,EST,medium,Papal 1512-1523; Correggio and Guastalla separate
+Modena,EST,EST,EST,EST,medium,Mirandola and Carpi separate fiefs
+Ferrara,EST,EST,PAP,PAP,high,Devolved to the Papal States 1598
+Bologna,PAP,PAP,PAP,PAP,medium,Bentivoglio signoria under papal sovereignty until 1506
+Ravenna,VEN,PAP,PAP,PAP,medium,Venetian 1441-1509; Lugo area Este
+Forlì-Cesena,PAP,PAP,PAP,PAP,medium,Papal vicars (Riario-Sforza) in 1494
+Rimini,PAP,PAP,PAP,PAP,medium,Malatesta vicars in 1494
+Pesaro e Urbino,URB,URB,URB,PAP,medium,Pesaro under the Sforza in 1494; devolved to the Papal States 1631
+Ancona,PAP,PAP,PAP,PAP,high,
+Macerata,PAP,PAP,PAP,PAP,medium,Camerino under the Varano in 1494
+Fermo,PAP,PAP,PAP,PAP,high,
+Ascoli Piceno,PAP,PAP,PAP,PAP,high,
+Perugia,PAP,PAP,PAP,PAP,medium,Perugia autonomous under the Baglioni until 1540
+Terni,PAP,PAP,PAP,PAP,high,
+Viterbo,PAP,PAP,PAP,PAP,medium,Castro (Farnese) separate 1537-1649
+Rieti,PAP,PAP,PAP,PAP,medium,Eastern edge belonged to Naples
+Roma,PAP,PAP,PAP,PAP,high,
+Latina,PAP,PAP,PAP,PAP,low,South (Fondi; Gaeta; Formia) belonged to Naples
+Frosinone,PAP,PAP,PAP,PAP,medium,Sora and the east belonged to Naples
+Firenze,FLO,FLO,FLO,FLO,high,
+Prato,FLO,FLO,FLO,FLO,high,
+Pistoia,FLO,FLO,FLO,FLO,high,
+Arezzo,FLO,FLO,FLO,FLO,high,
+Livorno,FLO,FLO,FLO,FLO,medium,Piombino (Appiani) and Elba ports separate
+Pisa,FLO,FLO,FLO,FLO,medium,1494 shown before the Pisan revolt of November 1494
+Siena,SIE,FLO,FLO,FLO,high,Enfeoffed to Cosimo I 1557
+Grosseto,SIE,FLO,FLO,FLO,medium,Coastal Stato dei Presidi Spanish from 1557; Pitigliano Orsini
+Lucca,LUC,LUC,LUC,LUC,low,Garfagnana belonged to the Este; Versilia to Florence
+Massa-Carrara,MAS,MAS,MAS,MAS,low,Lunigiana divided between Malaspina; Florence and Genoa
+Genova,GEN,GEN,GEN,GEN,medium,Under Milanese lordship 1487-1499
+Savona,GEN,GEN,GEN,GEN,medium,
+Imperia,GEN,GEN,GEN,GEN,low,Oneglia Savoy from 1576
+La Spezia,GEN,GEN,GEN,GEN,medium,
+L'Aquila,NAP,NAP,NAP,NAP,high,
+Teramo,NAP,NAP,NAP,NAP,high,
+Pescara,NAP,NAP,NAP,NAP,high,
+Chieti,NAP,NAP,NAP,NAP,high,
+Campobasso,NAP,NAP,NAP,NAP,high,
+Isernia,NAP,NAP,NAP,NAP,high,
+Caserta,NAP,NAP,NAP,NAP,high,
+Benevento,NAP,NAP,NAP,NAP,medium,Benevento city a papal enclave
+Napoli,NAP,NAP,NAP,NAP,high,
+Avellino,NAP,NAP,NAP,NAP,high,
+Salerno,NAP,NAP,NAP,NAP,high,
+Foggia,NAP,NAP,NAP,NAP,high,
+Barletta-Andria-Trani,NAP,NAP,NAP,NAP,medium,Trani Venetian 1496-1509
+Bari,NAP,NAP,NAP,NAP,high,
+Taranto,NAP,NAP,NAP,NAP,high,
+Brindisi,NAP,NAP,NAP,NAP,medium,Venetian 1496-1509
+Lecce,NAP,NAP,NAP,NAP,high,
+Matera,NAP,NAP,NAP,NAP,high,
+Potenza,NAP,NAP,NAP,NAP,high,
+Cosenza,NAP,NAP,NAP,NAP,high,
+Crotone,NAP,NAP,NAP,NAP,high,
+Catanzaro,NAP,NAP,NAP,NAP,high,
+Vibo Valentia,NAP,NAP,NAP,NAP,high,
+Reggio Calabria,NAP,NAP,NAP,NAP,high,
+Palermo,SIC,SIC,SIC,SIC,high,
+Trapani,SIC,SIC,SIC,SIC,high,
+Agrigento,SIC,SIC,SIC,SIC,high,
+Caltanissetta,SIC,SIC,SIC,SIC,high,
+Enna,SIC,SIC,SIC,SIC,high,
+Catania,SIC,SIC,SIC,SIC,high,
+Messina,SIC,SIC,SIC,SIC,high,
+Ragusa,SIC,SIC,SIC,SIC,high,
+Siracusa,SIC,SIC,SIC,SIC,high,
+Cagliari,SAR,SAR,SAR,SAR,high,
+Sassari,SAR,SAR,SAR,SAR,high,
+Nuoro,SAR,SAR,SAR,SAR,high,
+Oristano,SAR,SAR,SAR,SAR,high,
+Ogliastra,SAR,SAR,SAR,SAR,high,
+Medio Campidano,SAR,SAR,SAR,SAR,high,
+Sulcis Iglesiente,SAR,SAR,SAR,SAR,high,
+Gallura Nord-Est Sardegna,SAR,SAR,SAR,SAR,high,
