@@ -335,9 +335,9 @@ details ul { padding-left: 16px; }
         <div class="seg" id="basebar2" role="group" aria-label="Base map"></div>
         <label class="hint" data-hint="Rough outlines rebuilt from modern provinces; they change with the year. Click an area to see why it is uncertain.">
           <input type="checkbox" id="borders-toggle"> Historical borders <span class="exp">experimental</span></label>
-        <label><input type="checkbox" id="names-toggle" checked> City names</label>
-        <label class="sub" id="squares-label"><input type="checkbox" id="squares-toggle" checked> State colour beside each city name</label>
-        <label><input type="checkbox" id="rings-toggle" checked> Certainty ring around each dot</label>
+        <label><input type="checkbox" id="names-toggle"> City names</label>
+        <label class="sub off" id="squares-label"><input type="checkbox" id="squares-toggle" disabled> State colour beside each city name</label>
+        <label><input type="checkbox" id="rings-toggle"> Certainty ring around each dot</label>
       </div>
     </section>
     <section>
@@ -386,7 +386,7 @@ const VIEWS = [
   { id: "lombardy", label: "Cremona–Milan", bbox: [9.0, 45.0, 10.2, 45.6] },
 ];
 
-const state = { cityNames: true, rings: true, rangeOn: false, from: 1600, year: 1600, mode: "net", sel: null, playing: false, hidden: new Set(), view: "italy" };
+const state = { cityNames: false, rings: false, rangeOn: false, from: 1600, year: 1600, mode: "net", sel: null, playing: false, hidden: new Set(), view: "italy" };
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
 // ---- per-year lookups ----
@@ -842,7 +842,7 @@ function certStatePoly(f, per) {
 }
 const bordersPane = map.createPane("borders"); bordersPane.style.zIndex = 380;  // above base maps, below the network (650)
 const bordersRenderer = L.svg({ pane: "borders" });  // own renderer, so the outlines can never land in another pane
-let bordersLayer = null; state.period = null; state.borders = false; state.stateMarks = true;
+let bordersLayer = null; state.period = null; state.borders = false; state.stateMarks = false;
 function drawBorders() {
   const per = periodFor(state.year);
   if (!state.borders) { if (bordersLayer) map.removeLayer(bordersLayer); bordersLayer = null; state.period = null; return; }

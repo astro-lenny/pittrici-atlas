@@ -45,6 +45,7 @@ data/raw/                cached Wikidata extracts
 data/build/              merged database: persons, places, stays, relations, yearly tracks, report, network.json
 geo/                     derived geometry: basemap, OSM streets of the hotspot cities, border periods
 scripts/                 fetch, build and validation scripts
+welcome/                 a personal, encrypted welcome guide (not needed to use the atlas)
 ```
 
 ### Curated tables
