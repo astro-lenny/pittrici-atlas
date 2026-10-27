@@ -2,9 +2,11 @@
 
 **Where women artists of early modern Italy lived and travelled, 1480–1720, and who taught, married, employed and met them.**
 
-### ▶ [Launch the atlas](https://astro-lenny.github.io/pittrici-atlas/)
+<p align="center">
+  <a href="https://astro-lenny.github.io/pittrici-atlas/"><img src="assets/launch-button.svg" alt="Launch the atlas" width="320"></a>
+</p>
 
-<sub>The page is a single self-contained HTML file: [`docs/index.html`](docs/index.html), served by GitHub Pages.</sub>
+<p align="center"><sub>Runs in the browser, nothing to install · <a href="https://astro-lenny.github.io/pittrici-atlas/">astro-lenny.github.io/pittrici-atlas</a></sub></p>
 
 ---
 
