@@ -1,4 +1,4 @@
-# Pittrici Atlas
+# Pittrici Atlas (Beta: data not verified)
 
 **Where women artists of early modern Italy lived and travelled, 1480–1720, and who taught, married, employed and met them.**
 
