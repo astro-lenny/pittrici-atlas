@@ -141,6 +141,13 @@ header p { margin: 0; color: var(--ink-2); max-width: 70ch; }
 .lnet-node.root circle { stroke: var(--focus-ring); stroke-width: 3.5; }
 .lnet-node.root text { font-weight: 700; }
 .lnet-col text { font: 600 10.5px var(--f-ui); letter-spacing: .09em; text-transform: uppercase; fill: var(--ink-3); }
+.namerow { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.namerow h3 { margin: 0; }
+.linbtn { display: inline-flex; align-items: center; gap: 6px; font: 600 11.5px var(--f-ui); color: var(--ink); text-decoration: none;
+  border: 1px solid var(--rule); border-radius: 999px; padding: 2px 9px; background: var(--paper); white-space: nowrap; }
+.linbtn span { font: 500 11.5px var(--f-mono); color: var(--ink-2); }
+.linbtn:hover { border-color: var(--focus-ring); }
+.leaflet-container a.linbtn { color: var(--ink); }
 .statemark { stroke: var(--paper); stroke-width: 1.2; cursor: pointer; pointer-events: auto; }
 .statemark:hover { stroke: var(--ink); }
 .states { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 10px; font-size: 12px; }
@@ -900,11 +907,10 @@ function card() {
   const p = P.get(id), y = state.year, w = where(id, y);
   const stays = D.stays.filter(s => s.person === id).sort((a, b) => a.from - b.from || a.to - b.to);
   const rels = (neighbours.get(id) || []).sort((a, b) => a.r.from - b.r.from);
-  el.innerHTML = `<h2>Selected</h2><h3>${p.name}</h3>
+  el.innerHTML = `<h2>Selected</h2><div class="namerow"><h3>${p.name}</h3>${linBtn(id)}</div>
     <div class="life">${life(p)}${light(certLife(p), "life dates")} · ${p.focus ? "woman artist" : p.role}${p.qid ? ` · <a href="https://www.wikidata.org/wiki/${p.qid}" target="_blank" rel="noopener">${p.qid}</a>` : ""}
     ${w ? `<br>In ${y}: ${placeName(w.place)}${light(certPos(id, y), "position in " + y)}${w.carried ? " (no record this year)" : ""}` : `<br>Not on the map in ${y}`}</div>
     ${p.note ? `<p class="muted">${p.note}</p>` : ""}
-    <p style="margin:0 0 8px">${treeLink(id)}</p>
     <div class="seg" style="margin-bottom:10px"><button id="goto">Zoom to her location</button><button id="clear">Clear</button></div>
     <h2>Itinerary</h2><div class="itin">${stays.map(s => `<span class="y${s.from <= y && y <= s.to ? " now" : ""}">${s.from}${s.to !== s.from ? "–" + s.to : ""}</span>
       <span class="${s.from <= y && y <= s.to ? "now" : ""}">${light(certStay(s), "stay")}${placeName(s.place)} · ${s.kind}${s.note ? `<br><span class="muted">${s.note}</span>` : ""}
@@ -973,11 +979,10 @@ function popupHtml(id) {
   const srcs = [...srcIds].map(i => SRC.get(i)).filter(s => s && s.id !== "WD");
   const a = (url, label) => `<a href="${url}" target="_blank" rel="noopener">${label}</a>`;
   const wy = where(id, state.year);
-  return `<div class="pop"><h3>${p.name}</h3><div class="life">${life(p)}${light(certLife(p), "life dates")}${p.focus ? " · woman artist" : ""}
+  return `<div class="pop"><div class="namerow"><h3>${p.name}</h3>${linBtn(id)}</div><div class="life">${life(p)}${light(certLife(p), "life dates")}${p.focus ? " · woman artist" : ""}
     ${wy ? `<br>In ${state.year}: ${placeName(wy.place)}${light(certPos(id, state.year), "position in " + state.year)}` : ""}</div>
     ${desc ? `<p class="desc">${desc}</p>` : ""}
     <p class="sum">${summary(id)}</p>
-    <p style="margin:0 0 6px">${treeLink(id)}</p>
     ${groups.map(([t, ls]) => `<h4>${t}</h4><div class="links">${ls.map(l => a(l.url, l.label)).join("")}</div>`).join("")}
     ${srcs.length ? `<h4>Sources used in this atlas</h4><div class="links">${srcs.map(s => s.url ? a(s.url, s.id) : `<span title="${s.citation.replace(/"/g, "&quot;")}" class="muted">${s.id}</span>`).join("")}</div>
       <p class="muted" style="font-size:11px;margin:4px 0 0">${srcs.map(s => `<b>${s.id}</b> ${s.citation}`).join("<br>")}</p>` : ""}
@@ -1044,7 +1049,12 @@ function reachSet(id, up) {
   }
   return seen;
 }
-const treeLink = id => { const [u, d] = lineageCounts(id); return `<a href="#lineage-${id}" data-tree="${id}">Teacher–pupil lineage</a> <span class="muted">(↑${u} teachers · ↓${d} pupils)</span>`; };
+// "Lineage ↑n ↓m" button beside a name: opens the Lineage tab centred on this person
+const linBtn = id => {
+  const [u, d] = lineageCounts(id);
+  return `<a class="linbtn" href="#lineage-${id}" data-tree="${id}" title="Teacher–pupil lineage: ${u} teacher${u === 1 ? "" : "s"} above, ${d} pupil${d === 1 ? "" : "s"} below"
+    aria-label="Lineage: ${u} teachers above, ${d} pupils below">Lineage <span>↑${u}</span><span>↓${d}</span></a>`;
+};
 
 // ---- views: Map (space) and Lineage (time) ----
 state.tab = "map";  // which tab is open (state.view is the map's zoom preset)
