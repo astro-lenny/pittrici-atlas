@@ -103,7 +103,13 @@ After `python3 scripts/build.py`, commit `docs/index.html` and push; the live pa
 - The historical borders are approximate by construction: each modern province goes to the state that held most of it, so enclaves and small fiefs (Mirandola, Piombino, Castro, the Stato dei Presidi) disappear, and areas outside today's Italy are not drawn.
 - Coordinates of sites are placed by hand to within tens of metres.
 
-## Sources and licences
+## Licence
+
+Code (scripts and app) is under the [MIT licence](LICENSE). The curated data is under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); third-party data keeps its own terms,
+notably the OpenStreetMap street data under ODbL. Details and a suggested citation: [LICENSE-DATA.md](LICENSE-DATA.md).
+
+## Sources
 
 - People, relations, work places and external links: [Wikidata](https://www.wikidata.org/) (CC0).
 - Curated stays and relations: the references in [`data/sources.csv`](data/sources.csv), among them Vasari, Malvasia, Ridolfi, Garrard, Christiansen & Mann, Murphy, Modesti, Perlingieri and the NMWA catalogue *Italian Women Artists from Renaissance to Baroque*.
