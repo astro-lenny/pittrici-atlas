@@ -97,27 +97,46 @@ header p { margin: 0; color: var(--ink-2); max-width: 70ch; }
 .hint:hover::after, .hint:focus-within::after { content: attr(data-hint); position: absolute; left: 0; bottom: calc(100% + 4px); width: max-content; max-width: 280px;
   background: var(--ink); color: var(--paper); font-size: 11.5px; line-height: 1.35; padding: 4px 7px; border-radius: 3px; z-index: 5; pointer-events: none; white-space: normal; }
 .exp { font: 600 9.5px var(--f-ui); letter-spacing: .08em; text-transform: uppercase; color: var(--c-r); border: 1px solid var(--c-r); border-radius: 2px; padding: 0 3px; margin-left: 3px; }
-.lineage { position: absolute; inset: 0; z-index: 1200; background: var(--panel); display: grid; grid-template-rows: auto minmax(0, 1fr); }
-.lin-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; flex-wrap: wrap; padding: 10px 14px; border-bottom: 1px solid var(--rule); }
-.lin-title h2 { font: 600 20px var(--f-display); margin: 0; text-transform: none; letter-spacing: 0; color: var(--ink); }
-.lin-title p { margin: 2px 0 0; max-width: 70ch; font-size: 12.5px; }
-.lin-body { position: relative; min-height: 0; }
-#linsvg { width: 100%; height: 100%; display: block; cursor: grab; }
-#linsvg .lnode rect { fill: var(--paper); stroke: var(--rule); stroke-width: 1; rx: 4; }
-#linsvg .lnode { cursor: pointer; }
-#linsvg .lnode:hover rect { stroke: var(--ink-3); }
-#linsvg .lnode.root rect { stroke: var(--focus-ring); stroke-width: 2.5; }
-#linsvg .lnode.off rect { stroke-dasharray: 3 2; }
-#linsvg .lnode .bar { stroke: none; }
-#linsvg .lnode text { font: 12.5px var(--f-ui); fill: var(--ink); }
-#linsvg .lnode text.yrs { font: 10.5px var(--f-mono); fill: var(--ink-3); }
-#linsvg .llink { fill: none; stroke-width: 2.2; cursor: pointer; }
-#linsvg .gen { font: 600 10.5px var(--f-ui); letter-spacing: .09em; text-transform: uppercase; fill: var(--ink-3); }
-.linindex { position: absolute; inset: 0; overflow-y: auto; padding: 12px 14px; }
-.linindex ul { list-style: none; margin: 8px 0 0; padding: 0; columns: 2; column-gap: 24px; }
-.linindex li { break-inside: avoid; padding: 2px 0; font-size: 13px; }
-.linindex .cnt { font: 11px var(--f-mono); color: var(--ink-3); margin-left: 6px; }
-@media (max-width: 820px) { .linindex ul { columns: 1; } }
+.viewtabs { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; align-self: center; margin: 0 6px; }
+.viewtabs button { display: grid; text-align: left; gap: 0; padding: 5px 16px 6px; border: 0; background: var(--panel); color: var(--ink-2); cursor: pointer; font-family: var(--f-ui); }
+.viewtabs button + button { border-left: 1px solid var(--rule); }
+.viewtabs .ti { font: 600 15px var(--f-ui); }
+.viewtabs .ts { font: 10.5px var(--f-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.viewtabs button[aria-selected="true"] { background: var(--ink); color: var(--paper); }
+.viewtabs button[aria-selected="true"] .ts { color: color-mix(in srgb, var(--paper) 70%, transparent); }
+.viewtabs button:hover:not([aria-selected="true"]) { background: var(--paper); color: var(--ink); }
+.lineview { grid-column: 1 / -1; grid-row: 2 / 4; display: grid; grid-template-columns: minmax(0, 1fr) 340px; min-height: 0; }
+.lg-main { position: relative; display: grid; grid-template-rows: auto minmax(0, 1fr) auto; min-width: 0; min-height: 0; background: var(--paper); }
+.lg-bar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; padding: 8px 14px; border-bottom: 1px solid var(--rule); background: var(--panel); }
+.lg-bar .search { width: 240px; }
+.lg-key { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 11.5px; color: var(--ink-2); }
+.lg-key .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
+.lg-key .dot.hollow { border: 1.5px dashed var(--ink-3); width: 7px; height: 7px; }
+.lg-key .sw { display: inline-block; width: 16px; border-top: 2.5px solid; margin-right: 4px; vertical-align: 3px; }
+.lg-key .sw.dash { border-top-style: dashed; }
+#lgsvg { width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
+#lgsvg:active { cursor: grabbing; }
+.lg-hint { margin: 0; padding: 6px 14px; font-size: 11.5px; color: var(--ink-3); border-top: 1px solid var(--rule); background: var(--panel); }
+.lineview .lg-side { grid-column: 2; grid-row: 1; display: block; min-height: 0; }
+.lg-side { border-left: 1px solid var(--rule); background: var(--panel); overflow-y: auto; padding: 14px 16px 24px; padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.lg-side h3 { font: 600 22px var(--f-display); margin: 0; }
+.lg-side ul { list-style: none; margin: 4px 0 10px; padding: 0; display: grid; gap: 3px; font-size: 13px; }
+.lnet-axis text { font: 10.5px var(--f-mono); fill: var(--ink-3); }
+.lnet-axis line, .lnet-axis path { stroke: var(--rule); }
+.lnet-grid line { stroke: var(--rule); stroke-dasharray: 2 4; }
+.lnet-link { fill: none; stroke-width: 1.8; opacity: .8; cursor: pointer; }
+.lnet-link.dash { stroke-dasharray: 5 4; }
+.lnet-node { cursor: pointer; }
+.lnet-node circle { stroke: var(--paper); stroke-width: 1.5; }
+.lnet-node.off circle { fill: var(--paper) !important; stroke-dasharray: 2 2; stroke-width: 1.6; }
+.lnet-node text { font: 11.5px var(--f-ui); fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; pointer-events: none; }
+.lnet-node.m text { fill: var(--ink-2); font-size: 10.5px; }
+#lgsvg.far .lnet-node.m:not(.hi) text { display: none; }
+#lgsvg.lit .lnet-node:not(.hi) { opacity: .18; }
+#lgsvg.lit .lnet-link:not(.hi) { opacity: .06; }
+.lnet-node.root circle { stroke: var(--focus-ring); stroke-width: 3.5; }
+.lnet-node.root text { font-weight: 700; }
+.lnet-col text { font: 600 10.5px var(--f-ui); letter-spacing: .09em; text-transform: uppercase; fill: var(--ink-3); }
 .statemark { stroke: var(--paper); stroke-width: 1.2; cursor: pointer; pointer-events: auto; }
 .statemark:hover { stroke: var(--ink); }
 .states { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 10px; font-size: 12px; }
@@ -150,10 +169,15 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px s
 .legend .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
 .legend .row { display: flex; gap: 10px; flex-wrap: wrap; }
 .rail { grid-column: 1; display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto; gap: 10px; align-items: center;
-  padding-block: 8px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: 16px; border-top: 1px solid var(--rule); background: var(--panel); }
+  padding-block: 10px 8px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: 16px; border-top: 1px solid var(--rule); background: var(--panel); }
 .rail .year { font: 500 28px var(--f-mono); min-width: 4ch; font-variant-numeric: tabular-nums; }
 .rail .ctl { display: flex; gap: 4px; }
-#hist { width: 100%; height: 44px; display: block; cursor: pointer; }
+#hist { width: 100%; height: 84px; display: block; cursor: ew-resize; touch-action: none; }
+#hist .tick { stroke: var(--rule); }
+#hist .tick.major { stroke: var(--ink-3); }
+#hist .cap { font: 10.5px var(--f-ui); fill: var(--ink-3); }
+#hist .handle { fill: var(--focus-ring); stroke: var(--panel); stroke-width: 2; }
+#hist .curlab { font: 600 11px var(--f-mono); fill: var(--focus-ring); }
 #hist .bar { fill: var(--women); opacity: .45; }
 #hist .bar.e { fill: var(--ink-3); opacity: .25; }
 #hist .cur { stroke: var(--focus-ring); stroke-width: 2; }
@@ -195,6 +219,8 @@ details ul { padding-left: 16px; }
   .rail { grid-template-columns: auto auto minmax(0, 1fr); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
   .rail select { grid-column: 1 / -1; justify-self: start; }
   .legend { display: none; }
+  .lineview { grid-row: 2 / 5; grid-template-columns: minmax(0, 1fr); grid-template-rows: 70vh auto; }
+  .lineview .lg-side { grid-column: 1; grid-row: 2; border-left: 0; border-top: 1px solid var(--rule); }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
@@ -202,6 +228,12 @@ details ul { padding-left: 16px; }
 <div class="app">
   <header>
     <h1>Pittrici Atlas</h1>
+    <nav class="viewtabs" role="tablist" aria-label="View">
+      <button role="tab" id="tab-map" aria-selected="true" aria-controls="mapview" data-view="map">
+        <span class="ti">Map</span><span class="ts">where · space</span></button>
+      <button role="tab" id="tab-lineage" aria-selected="false" aria-controls="lineview" data-view="lineage">
+        <span class="ti">Lineage</span><span class="ts">who taught whom · time</span></button>
+    </nav>
     <p>Where women artists of early modern Italy lived and travelled, 1480–1720, and who they were connected to: teachers, families, patrons, academies.</p>
   </header>
   <div class="mapwrap">
@@ -211,15 +243,28 @@ details ul { padding-left: 16px; }
     <div class="views" id="views"></div>
     <div class="legend" id="legend"></div>
     <div class="tip" id="tip" hidden></div>
-    <div class="lineage" id="lineage" role="dialog" aria-labelledby="linh" hidden>
-      <div class="lin-head">
-        <div class="lin-title"><h2 id="linh">Teacher–pupil lineages</h2><p id="linsub" class="muted"></p></div>
-        <div class="seg"><button id="lin-index">All painters</button><button id="lin-map">Show on map</button><button id="lin-close">Close</button></div>
-      </div>
-      <div class="lin-body"><svg id="linsvg" aria-label="Teacher and pupil tree"></svg><div id="linindex" class="linindex" hidden></div></div>
-    </div>
   </div>
   <div id="whybox" role="dialog" aria-label="Why this is uncertain" hidden></div>
+  <section class="lineview" id="lineview" role="tabpanel" aria-labelledby="tab-lineage" hidden>
+    <div class="lg-main">
+      <div class="lg-bar">
+        <input class="search" id="lgq" list="lgnames" placeholder="Find an artist and press Enter" aria-label="Find an artist">
+        <datalist id="lgnames"></datalist>
+        <div class="seg"><button id="lg-fit">Show all</button><button id="lg-clear">Clear highlight</button></div>
+        <div class="lg-key">
+          <span><span class="dot" style="background:var(--women)"></span>woman</span>
+          <span><span class="dot" style="background:var(--men)"></span>man</span>
+          <span><span class="dot hollow"></span>not on the map</span>
+          <span><span class="sw" style="border-color:var(--c-g)"></span>sourced</span>
+          <span><span class="sw" style="border-color:var(--c-y)"></span>uncertain</span>
+          <span><span class="sw dash" style="border-color:var(--c-r)"></span>Wikidata only, undated</span>
+        </div>
+      </div>
+      <svg id="lgsvg" aria-label="Teacher–pupil network, earlier at the top, later at the bottom"></svg>
+      <p class="lg-hint">Earlier at the top, later at the bottom; lines run from teacher to pupil. Drag to move, scroll or pinch to zoom, click a person to trace her lineage, click a line for its certainty.</p>
+    </div>
+    <aside class="lg-side" id="lgcard"></aside>
+  </section>
   <div class="rail">
     <div class="year" id="year" aria-live="polite">1600</div>
     <div class="ctl">
@@ -244,7 +289,6 @@ details ul { padding-left: 16px; }
       <div class="seg" id="mode">
         <button data-m="women" aria-pressed="false">Women artists</button>
         <button data-m="net" aria-pressed="true">With their network</button>
-        <button id="open-lineage" title="Who taught whom: teachers above, pupils below">Lineages</button>
       </div>
     </section>
     <section>
@@ -934,84 +978,177 @@ function reach(id, up) {
   return seen.size;
 }
 const lineageCounts = id => [reach(id, true), reach(id, false)];
-function treeOf(id, up, depth = 0, path = new Set()) {
-  const es = depth >= 6 || path.has(id) ? [] : ((up ? TEACH : PUP).get(id) || []);
-  const next = new Set(path).add(id);
-  return { id, children: es.map(e => ({ ...treeOf(up ? e.t : e.p, up, depth + 1, next), edge: e })) };
+function reachSet(id, up) {
+  const seen = new Set(), st = [id];
+  while (st.length) for (const e of ((up ? TEACH : PUP).get(st.pop()) || [])) {
+    const y = up ? e.t : e.p; if (y !== id && !seen.has(y)) { seen.add(y); st.push(y); }
+  }
+  return seen;
 }
 const treeLink = id => { const [u, d] = lineageCounts(id); return `<a href="#lineage-${id}" data-tree="${id}">Teacher–pupil lineage</a> <span class="muted">(↑${u} teachers · ↓${d} pupils)</span>`; };
-const lin = document.getElementById("lineage"), linsvg = d3.select("#linsvg"), linG = linsvg.append("g");
-const linZoom = d3.zoom().scaleExtent([0.2, 3]).on("zoom", e => linG.attr("transform", e.transform));
-linsvg.call(linZoom);
-let linRoot = null;
-function openTree(id) {
-  linRoot = id; lin.hidden = false; document.getElementById("linindex").hidden = true; linsvg.style("display", null);
-  const n = LN.get(id), [u, d] = lineageCounts(id);
-  document.getElementById("linh").textContent = `Teacher–pupil lineage of ${n.name}`;
-  document.getElementById("linsub").innerHTML = `${life(n)} · ↑ ${u} teachers and their teachers · ↓ ${d} pupils and their pupils. ` +
-    `Click a person to move the tree to them; click a line to see how certain the link is. Dashed boxes are people outside the map data (from Wikidata only).`;
-  document.getElementById("lin-map").disabled = !n.onMap;
-  drawTree(id);
+
+// ---- views: Map (space) and Lineage (time) ----
+state.tab = "map";  // which tab is open (state.view is the map's zoom preset)
+function setView(v) {
+  state.tab = v;
+  d3.selectAll(".viewtabs button").attr("aria-selected", function () { return this.dataset.view === v; });
+  for (const el of document.querySelectorAll(".mapwrap, .rail, .app > aside")) el.hidden = v !== "map";
+  document.getElementById("lineview").hidden = v !== "lineage";
+  whybox.hidden = true; tip.hidden = true;
+  if (v === "map") { map.invalidateSize(); render(false); }
+  else { buildLineage(); if (!LG.shown) { fitLineage(false); LG.shown = true; } }
 }
-function drawTree(id) {
-  linG.selectAll("*").remove();
-  const BW = 168, BH = 42, layout = d3.tree().nodeSize([BW + 18, 92]);
-  const up = layout(d3.hierarchy(treeOf(id, true))), down = layout(d3.hierarchy(treeOf(id, false)));
-  const place = (h, sign) => h.descendants().map(n => ({ n, x: n.x, y: sign * n.depth * 92 }));
-  const nodes = [...place(up, -1), ...place(down, 1).filter(d => d.n.depth > 0)];
-  const links = [...up.links().map(l => ({ s: l.source, t: l.target, sign: -1 })), ...down.links().map(l => ({ s: l.source, t: l.target, sign: 1 }))];
-  const gl = linG.append("g"), gn = linG.append("g");
-  gl.selectAll("path").data(links).join("path").attr("class", "llink")
-    .attr("stroke", l => css("--c-" + worst(certLin(l.t.data.edge))))
-    .attr("stroke-dasharray", l => worst(certLin(l.t.data.edge)) === "r" ? "5 4" : null)
-    .attr("d", l => d3.linkVertical()({ source: [l.s.x, l.sign * l.s.depth * 92 + l.sign * BH / 2], target: [l.t.x, l.sign * l.t.depth * 92 - l.sign * BH / 2] }))
-    .on("click", (e, l) => {
-      const k = "w" + (++whyN), r = certLin(l.t.data.edge), ed = l.t.data.edge;
-      WHY.set(k, { lv: worst(r), reasons: r, what: `${LN.get(ed.t).name} → ${LN.get(ed.p).name}` });
-      showWhyAt(k, { left: e.clientX, right: e.clientX, top: e.clientY, bottom: e.clientY }); e.stopPropagation();
-    }).append("title").text("Click to see how certain this teacher–pupil link is");
-  const g = gn.selectAll("g").data(nodes).join("g")
-    .attr("class", d => "lnode" + (d.n.depth === 0 ? " root" : "") + (LN.get(d.n.data.id).onMap ? "" : " off"))
-    .attr("transform", d => `translate(${d.x - BW / 2},${d.y - BH / 2})`)
-    .on("click", (e, d) => { e.stopPropagation(); if (d.n.data.id !== linRoot) openTree(d.n.data.id); });
-  g.append("rect").attr("width", BW).attr("height", BH);
-  g.append("rect").attr("class", "bar").attr("width", 4).attr("height", BH).attr("fill", d => { const p = LN.get(d.n.data.id); return p.focus || p.sex === "F" ? css("--women") : css("--men"); });
-  const short = t => t.length > 23 ? t.slice(0, 22) + "…" : t;
-  g.append("text").attr("x", 11).attr("y", 17).text(d => short(LN.get(d.n.data.id).name));
-  g.append("text").attr("class", "yrs").attr("x", 11).attr("y", 33).text(d => { const p = LN.get(d.n.data.id); return life(p) + (p.onMap ? "" : " · not on map"); });
-  g.append("title").text(d => `${LN.get(d.n.data.id).name}: click to centre the tree on this person`);
-  if (up.height) linG.append("text").attr("class", "gen").attr("x", -BW / 2).attr("y", -BH / 2 - 10).text("↑ teachers");
-  if (down.height) linG.append("text").attr("class", "gen").attr("x", -BW / 2).attr("y", BH / 2 + 18).text("↓ pupils");
-  // fit
-  const xs = nodes.map(d => d.x), ys = nodes.map(d => d.y), box = linsvg.node().getBoundingClientRect();
-  const w = d3.max(xs) - d3.min(xs) + BW + 40, h = d3.max(ys) - d3.min(ys) + BH + 60;
-  const k = Math.max(0.62, Math.min(1, box.width / w, box.height / h));  // stay readable; wide trees are panned
-  const cx = k * w > box.width ? 0 : (d3.max(xs) + d3.min(xs)) / 2, cy = (d3.max(ys) + d3.min(ys)) / 2;
-  linsvg.call(linZoom.transform, d3.zoomIdentity.translate(box.width / 2, box.height / 2).scale(k).translate(-cx, -cy));
+d3.selectAll(".viewtabs button").on("click", function () { setView(this.dataset.view); });
+
+// ---- lineage network: all artists, earlier at the top, later at the bottom ----
+let LG = null;
+const lgsvg = d3.select("#lgsvg"), lgRoot = lgsvg.append("g"), lgAxis = lgsvg.append("g").attr("class", "lnet-axis");
+const lgZoom = d3.zoom().scaleExtent([0.15, 5]).on("zoom", e => {
+  lgRoot.attr("transform", e.transform);
+  lgsvg.classed("far", e.transform.k < 1.15);
+  const k = e.transform.k;
+  lgRoot.selectAll(".lnet-node:not(.m) text").attr("font-size", k < 1 ? 11.5 / Math.max(k, 0.45) : null);
+  drawLineageAxis(e.transform);
+});
+lgsvg.call(lgZoom).on("dblclick.zoom", null).on("click", () => { whybox.hidden = true; });
+function buildLineage() {
+  if (LG) return;
+  const ids = new Set(D.lineage.edges.flatMap(e => [e.t, e.p]));
+  D.persons.filter(p => p.focus).forEach(p => ids.add(p.id));
+  const nodes = [...ids].filter(id => LN.has(id)).map(id => ({ id, p: LN.get(id) }));
+  const byId = new Map(nodes.map(n => [n.id, n]));
+  for (const n of nodes) { n.year = n.p.birth; n.est = n.year == null; }
+  for (let pass = 0; pass < 6; pass++) for (const e of D.lineage.edges) {  // undated people: a generation from their teacher or pupil
+    const t = byId.get(e.t), q = byId.get(e.p); if (!t || !q) continue;
+    if (t.year == null && q.year != null) t.year = q.year - 25;
+    if (q.year == null && t.year != null) q.year = t.year + 25;
+  }
+  const ns = nodes.filter(n => n.year != null), ok = new Set(ns.map(n => n.id));
+  const links = D.lineage.edges.filter(e => ok.has(e.t) && ok.has(e.p)).map(e => ({ source: e.t, target: e.p, e }));
+  const deg = d3.rollup(links.flatMap(l => [l.source, l.target]), v => v.length, d => d);
+  ns.forEach(n => n.deg = deg.get(n.id) || 0);
+  const [y0, y1] = d3.extent(ns, n => n.year);
+  const Y0L = Math.floor(y0 / 50) * 50, Y1L = Math.ceil(y1 / 50) * 50;
+  const yS = d3.scaleLinear([Y0L, Y1L], [0, (Y1L - Y0L) * 7]);
+  // connected people cluster in the middle; artists without any recorded teacher or pupil form a column on the right
+  const sim = d3.forceSimulation(ns)
+    .force("link", d3.forceLink(links).id(d => d.id).distance(70).strength(0.5))
+    .force("y", d3.forceY(d => yS(d.year)).strength(1.5))
+    .force("x", d3.forceX(d => d.deg ? 0 : 1100).strength(d => d.deg ? 0.04 : 0.6))
+    .force("charge", d3.forceManyBody().strength(d => d.deg ? -90 : -20))
+    .force("collide", d3.forceCollide(d => d.deg ? 34 : 22)).stop();
+  for (let i = 0; i < 500; i++) sim.tick();
+  // second pass: pin everyone to their year and only spread sideways, wide enough for the names
+  ns.forEach(n => { n.fy = yS(n.year); });
+  sim.force("y", null).force("charge", d3.forceManyBody().strength(d => d.deg ? -40 : -10))
+    .force("collide", d3.forceCollide(d => Math.max(26, d.p.name.length * 3.6)).strength(0.9)).alpha(0.8);
+  for (let i = 0; i < 400; i++) sim.tick();
+  ns.forEach(n => { n.y = n.fy; });  // time is exact; only x comes from the layout
+  const iso = ns.filter(n => !n.deg).sort((a, b) => a.year - b.year);  // tidy column for the unconnected
+  const xr = d3.max(ns.filter(n => n.deg), n => n.x) + 260;
+  iso.forEach((n, i) => { n.x = xr + (i % 2) * 190; });
+  LG = { nodes: ns, links, byId: new Map(ns.map(n => [n.id, n])), yS, Y0L, Y1L, xr, iso, shown: false };
+  drawLineage();
+  document.getElementById("lgnames").innerHTML = ns.map(n => `<option value="${n.p.name.replace(/"/g, "&quot;")}">`).join("");
 }
-function openIndex() {
-  lin.hidden = false; linRoot = null;
-  document.getElementById("linh").textContent = "Teacher–pupil lineages";
-  document.getElementById("linsub").textContent = "Teacher–pupil lineages of every woman artist in the atlas, from curated relations and Wikidata. Pick one to see her teachers above and her pupils below.";
-  document.getElementById("lin-map").disabled = true;
-  linsvg.style("display", "none");
-  const box = document.getElementById("linindex"); box.hidden = false;
-  const ws = D.persons.filter(p => p.focus).map(p => ({ p, c: lineageCounts(p.id) })).sort((a, b) => (b.c[0] + b.c[1]) - (a.c[0] + a.c[1]) || a.p.birth - b.p.birth);
-  box.innerHTML = `<input class="search" id="linq" placeholder="Find a painter" aria-label="Find a painter"><ul>${ws.map(({ p, c }) =>
-    `<li data-name="${p.name.toLowerCase()}"><a class="pname" href="#lineage-${p.id}" data-tree="${p.id}">${p.name}</a> <span class="muted">${p.birth}</span><span class="cnt">↑${c[0]} ↓${c[1]}</span></li>`).join("")}</ul>
-    <p class="muted" style="font-size:12px">Painters with ↑0 ↓0 have no recorded teacher or pupil yet. Many women trained in a father's or brother's workshop that the sources mention without naming dates.</p>`;
-  document.getElementById("linq").oninput = e => { const q = e.target.value.toLowerCase(); box.querySelectorAll("li").forEach(li => li.hidden = q && !li.dataset.name.includes(q)); };
+function drawLineage() {
+  const { nodes, links, yS, Y0L, Y1L, xr, iso } = LG;
+  const [xa, xb] = d3.extent(nodes, n => n.x);
+  lgRoot.append("g").attr("class", "lnet-grid").selectAll("line").data(d3.range(Y0L, Y1L + 1, 50)).join("line")
+    .attr("x1", xa - 200).attr("x2", xb + 400).attr("y1", d => yS(d)).attr("y2", d => yS(d));
+  if (iso.length) lgRoot.append("g").attr("class", "lnet-col").append("text").attr("x", xr - 8).attr("y", yS(Y0L) - 14)
+    .text("No recorded teacher or pupil yet");
+  lgRoot.append("g").attr("class", "lnet-col").append("text").attr("x", xa - 20).attr("y", yS(Y0L) - 14).text("Teacher → pupil network");
+  lgRoot.append("g").selectAll("path").data(links).join("path")
+    .attr("class", l => "lnet-link" + (worst(certLin(l.e)) === "r" ? " dash" : ""))
+    .attr("stroke", l => css("--c-" + worst(certLin(l.e))))
+    .attr("d", l => d3.linkVertical()({ source: [l.source.x, l.source.y + 7], target: [l.target.x, l.target.y - 7] }))
+    .on("click", (ev, l) => {
+      ev.stopPropagation();
+      const k = "w" + (++whyN), r = certLin(l.e);
+      WHY.set(k, { lv: worst(r), reasons: r, what: `${l.source.p.name} → ${l.target.p.name}` });
+      showWhyAt(k, { left: ev.clientX, right: ev.clientX, top: ev.clientY, bottom: ev.clientY });
+    }).append("title").text(l => `${l.source.p.name} taught ${l.target.p.name}; click for certainty`);
+  const g = lgRoot.append("g").selectAll("g").data(nodes).join("g")
+    .attr("class", n => "lnet-node" + (n.p.focus || n.p.sex === "F" ? "" : " m") + (n.p.onMap ? "" : " off"))
+    .attr("transform", n => `translate(${n.x},${n.y})`)
+    .on("click", (ev, n) => { ev.stopPropagation(); selectLineage(n.id); });
+  g.append("circle").attr("r", n => n.p.focus ? 7 : 5).attr("fill", n => n.p.focus || n.p.sex === "F" ? css("--women") : css("--men"))
+    .attr("stroke", n => n.p.onMap ? null : (n.p.sex === "F" ? css("--women") : css("--men")));
+  g.append("text").attr("x", 10).attr("y", 4).text(n => n.p.name);
+  g.append("title").text(n => `${n.p.name} (${n.est ? "c. " + n.year : life(n.p)})${n.p.onMap ? "" : " · not on the map"}`);
+  LG.nodeSel = g; LG.linkSel = lgRoot.selectAll(".lnet-link");
 }
-document.getElementById("open-lineage").onclick = () => state.sel ? openTree(state.sel) : openIndex();
-document.getElementById("lin-index").onclick = openIndex;
-document.getElementById("lin-close").onclick = () => { lin.hidden = true; };
-document.getElementById("lin-map").onclick = () => { const id = linRoot; lin.hidden = true; if (id && LN.get(id).onMap) { select(id); document.getElementById("goto")?.click(); } };
+function drawLineageAxis(t) {
+  if (!LG) return;
+  const ys = t.rescaleY(LG.yS);
+  lgAxis.attr("transform", "translate(52,0)").call(d3.axisLeft(ys).ticks(8).tickFormat(d3.format("d")));
+}
+function fitLineage(animate = true) {
+  const box = lgsvg.node().getBoundingClientRect();
+  const [xa, xb] = d3.extent(LG.nodes, n => n.x), [ya, yb] = d3.extent(LG.nodes, n => n.y);
+  const w = xb - xa + 360, h = yb - ya + 80, k = Math.min(1.2, box.width / w, box.height / h);
+  const t = d3.zoomIdentity.translate(box.width / 2 + 20, box.height / 2).scale(k).translate(-(xa + xb + 160) / 2, -(ya + yb) / 2);
+  (animate ? lgsvg.transition().duration(700) : lgsvg).call(lgZoom.transform, t);
+}
+function focusLineage(id, animate = true) {
+  const n = LG.byId.get(id); if (!n) return;
+  const box = lgsvg.node().getBoundingClientRect(), k = Math.max(d3.zoomTransform(lgsvg.node()).k, 1.4);
+  const t = d3.zoomIdentity.translate(box.width / 2, box.height / 2).scale(k).translate(-n.x, -n.y);
+  (animate ? lgsvg.transition().duration(800) : lgsvg.interrupt()).call(lgZoom.transform, t);
+}
+function selectLineage(id) {
+  LG.sel = id;
+  const up = id ? reachSet(id, true) : new Set(), down = id ? reachSet(id, false) : new Set();
+  const on = new Set([id, ...up, ...down]);
+  lgsvg.classed("lit", !!id);
+  LG.nodeSel.classed("hi", n => on.has(n.id)).classed("root", n => n.id === id);
+  LG.linkSel.classed("hi", l => on.has(l.source.id) && on.has(l.target.id) && (up.has(l.source.id) || l.source.id === id ? (up.has(l.target.id) || l.target.id === id) : true)
+    && !(up.has(l.source.id) && down.has(l.target.id)));
+  lineageCard(id, up, down);
+}
+function lineageCard(id, up, down) {
+  const el = document.getElementById("lgcard");
+  if (!id) {
+    const n = LG.nodes.length, conn = LG.nodes.filter(x => x.deg).length;
+    el.innerHTML = `<h2>Teacher–pupil lineage</h2><p>${n} people: ${conn} linked by teaching, ${LG.iso.length} women artists with no recorded teacher or pupil yet (right-hand column).</p>
+      <p class="muted">Click a person to trace everyone she learned from and everyone who learned from her. Use “Teacher–pupil lineage” in an artist's popup on the map to jump here.</p>
+      <p class="muted">Links come from the curated relations and from Wikidata (up to four generations above the women and three below). Undated people are placed one generation (25 years) from their teacher or pupil.</p>`;
+    return;
+  }
+  const n = LG.byId.get(id), p = n.p;
+  const item = e => { const o = LN.get(e.t === id ? e.p : e.t); return `<li>${light(certLin(e), "teacher–pupil link")}<a class="pname${o.focus || o.sex === "F" ? "" : " m"}" data-lg="${o.id}">${o.name}</a> <span class="muted">${life(o)}</span></li>`; };
+  const tch = TEACH.get(id) || [], pup = PUP.get(id) || [];
+  el.innerHTML = `<h2>Selected</h2><h3>${p.name}</h3>
+    <div class="life">${n.est ? "c. " + n.year + " (estimated from her teacher or pupil)" : life(p)}${p.focus ? " · woman artist" : ""}${p.qid ? ` · <a href="https://www.wikidata.org/wiki/${p.qid}" target="_blank" rel="noopener">${p.qid}</a>` : ""}</div>
+    ${(() => { const d = typeof p.desc === "string" ? p.desc : (p.desc || {}).en || (p.desc || {}).it; return d ? `<p class="muted">${d}</p>` : ""; })()}
+    <div class="seg" style="margin:8px 0 12px">${p.onMap ? `<button id="lg-onmap">Show on map</button>` : `<span class="muted">Not on the map (from Wikidata only)</span>`}</div>
+    <h2>Taught by (${tch.length})</h2><ul>${tch.map(item).join("") || `<li class="muted">No recorded teacher</li>`}</ul>
+    <h2>Taught (${pup.length})</h2><ul>${pup.map(item).join("") || `<li class="muted">No recorded pupil</li>`}</ul>
+    <p class="muted">Whole lineage: ${up.size} people above, ${down.size} below.</p>`;
+  const b = document.getElementById("lg-onmap");
+  if (b) b.onclick = () => { setView("map"); select(id); openPopup(id); };
+}
+function openLineage(id) {
+  map.closePopup(); setView("lineage");
+  if (LG.byId.has(id)) { selectLineage(id); focusLineage(id, false); }
+}
+document.getElementById("lg-fit").onclick = () => fitLineage(true);
+document.getElementById("lg-clear").onclick = () => selectLineage(null);
+document.getElementById("lgq").addEventListener("keydown", e => {
+  if (e.key !== "Enter") return;
+  const q = e.target.value.trim().toLowerCase(); if (!q) return;
+  const n = LG.nodes.find(n => n.p.name.toLowerCase() === q) || LG.nodes.find(n => n.p.name.toLowerCase().includes(q));
+  if (n) { selectLineage(n.id); focusLineage(n.id); }
+});
 document.addEventListener("click", e => {
   const t = e.target.closest("[data-tree]");
-  if (t) { e.preventDefault(); e.stopPropagation(); map.closePopup(); openTree(t.dataset.tree); }
+  if (t) { e.preventDefault(); e.stopPropagation(); openLineage(t.dataset.tree); return; }
+  const l = e.target.closest("[data-lg]");
+  if (l) { e.preventDefault(); e.stopPropagation(); selectLineage(l.dataset.lg); focusLineage(l.dataset.lg); }
 }, true);
 function fromHash() {  // #lineage-<id> (old links: #tree-<id>)
-  const m = location.hash.match(/^#(?:lineage|tree)-(.+)$/); if (m && LN.has(m[1])) openTree(m[1]);
+  const m = location.hash.match(/^#(?:lineage|tree)-(.+)$/); if (m && LN.has(m[1])) openLineage(m[1]);
 }
 window.addEventListener("hashchange", fromHash);
 
@@ -1021,19 +1158,29 @@ const counts = d3.range(Y0, Y1 + 1).map(y => ({ y, w: D.persons.filter(p => p.fo
   e: D.relations.filter(r => r.from <= y && y <= r.to).length }));
 let hx;
 function drawHist() {
-  const w = hist.node().getBoundingClientRect().width, h = 44;
+  const w = hist.node().getBoundingClientRect().width, h = hist.node().getBoundingClientRect().height || 84, base = h - 16, top = 16;
   hx = d3.scaleLinear([Y0, Y1 + 1], [0, w]);
-  const hy = d3.scaleLinear([0, d3.max(counts, c => Math.max(c.w, c.e / 3))], [0, h - 12]);
+  const hy = d3.scaleLinear([0, d3.max(counts, c => Math.max(c.w, c.e / 3))], [0, base - top]);
   hist.selectAll("*").remove();
-  hist.selectAll(".bar.e").data(counts).join("rect").attr("class", "bar e").attr("x", d => hx(d.y)).attr("width", Math.max(1, hx(Y0 + 1) - hx(Y0)))
-    .attr("y", d => h - 12 - hy(d.e / 3)).attr("height", d => hy(d.e / 3));
-  hist.selectAll(".bar.w").data(counts).join("rect").attr("class", "bar").attr("x", d => hx(d.y)).attr("width", Math.max(1, hx(Y0 + 1) - hx(Y0)))
-    .attr("y", d => h - 12 - hy(d.w)).attr("height", d => hy(d.w));
-  hist.selectAll("text").data(d3.range(1500, Y1 + 1, 50)).join("text").attr("x", d => hx(d)).attr("y", h - 1).attr("text-anchor", "middle").text(d => d);
-  hist.append("line").attr("class", "cur").attr("y1", 0).attr("y2", h - 12);
+  const bw = Math.max(1, hx(Y0 + 1) - hx(Y0));
+  hist.selectAll(".tick").data(d3.range(1500, Y1 + 1, 25)).join("line").attr("class", d => "tick" + (d % 50 ? "" : " major"))
+    .attr("x1", d => hx(d)).attr("x2", d => hx(d)).attr("y1", d => d % 50 ? base - 4 : top).attr("y2", base + 3);
+  hist.selectAll(".bar.e").data(counts).join("rect").attr("class", "bar e").attr("x", d => hx(d.y)).attr("width", bw)
+    .attr("y", d => base - hy(d.e / 3)).attr("height", d => hy(d.e / 3));
+  hist.selectAll(".bar.w").data(counts).join("rect").attr("class", "bar").attr("x", d => hx(d.y)).attr("width", bw)
+    .attr("y", d => base - hy(d.w)).attr("height", d => hy(d.w));
+  hist.selectAll(".lab").data(d3.range(1500, Y1 + 1, 50)).join("text").attr("class", "lab").attr("x", d => hx(d)).attr("y", h - 2).attr("text-anchor", "middle").text(d => d);
+  hist.append("text").attr("class", "cap").attr("x", 2).attr("y", 11).text("Women artists per year (blue) · links (grey) · drag to move in time");
+  hist.append("line").attr("class", "cur").attr("y1", top - 2).attr("y2", base);
+  hist.append("circle").attr("class", "handle").attr("r", 6).attr("cy", base);
   drawHistCursor();
 }
-function drawHistCursor() { if (hx) hist.select(".cur").attr("x1", hx(state.year + .5)).attr("x2", hx(state.year + .5)); }
+function drawHistCursor() {
+  if (!hx) return;
+  const x = hx(state.year + .5);
+  hist.select(".cur").attr("x1", x).attr("x2", x);
+  hist.select(".handle").attr("cx", x);
+}
 let dragging = false;
 const setFromHist = e => { const [x] = d3.pointer(e, hist.node()); state.year = Math.max(Y0, Math.min(Y1, Math.floor(hx.invert(x)))); render(true); };
 hist.on("pointerdown", e => { dragging = true; hist.node().setPointerCapture(e.pointerId); setFromHist(e); })
