@@ -13,6 +13,7 @@
 ## What it shows
 
 - **A map that moves through time.** Play/pause through 1480–1720 at 1, 3 or 8 years per second, or jump from event to event. Each year shows where every artist was, who was connected to whom (teachers, family, marriages, patrons, academies, encounters) and recent travels.
+- **One year or a range.** Switch the timeline from *Year* to *Range* and drag two handles to see everyone present at any time in, say, 1600–1650, with every link active in that window and every move; earlier places of a person are shown faded. Borders, state colours and certainty use the last year of the range.
 - **Zoom from Europe into a city.** Zoomed out, each city is one bubble; in Bologna, Florence, Rome, Venice and Naples people move onto the actual buildings: Elisabetta Sirani's workshop, San Petronio, Casa Buonarroti, the Accademia di San Luca, Villa Benedetta and others.
 - **One click per artist.** A popup with a summary of everything recorded about her, Wikidata descriptions in Italian, English, German and French, and every link found: Wikipedia (it/en/de/fr/es), Treccani, Grove, Getty ULAN, RKD, GND, BnF, VIAF, museum collections, plus the sources used here.
 - **Certainty on every statement.** A green / yellow / red dot next to each date, place and relation; click it to see why. Green: given by a source checked online or by two or more references. Yellow: Wikidata only, a single reference, approximate, or a family tie dated only by the two lifetimes. Red: estimated, or no record for that year. Dots on the map carry a ring in the same colours.
@@ -102,6 +103,10 @@ After `python3 scripts/build.py`, commit `docs/index.html` and push; the live pa
 - About half of the painters have no recorded teacher or pupil yet; many trained in a father's or brother's workshop without dated sources. Malvasia, Baldinucci and the Dizionario Biografico degli Italiani are the obvious next sources.
 - The historical borders are approximate by construction: each modern province goes to the state that held most of it, so enclaves and small fiefs (Mirandola, Piombino, Castro, the Stato dei Presidi) disappear, and areas outside today's Italy are not drawn.
 - Coordinates of sites are placed by hand to within tens of metres.
+
+## Contributing
+
+Found an error or have a source to add? [Report it](https://github.com/astro-lenny/pittrici-atlas/issues/new) or see [CONTRIBUTING.md](CONTRIBUTING.md) for how to edit the tables yourself.
 
 ## Licence
 

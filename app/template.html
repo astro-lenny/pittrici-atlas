@@ -41,6 +41,10 @@ header { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 16px; f
   border-bottom: 1px solid var(--rule); }
 h1 { font-family: var(--f-display); font-weight: 500; font-style: italic; font-size: 26px; margin: 0; letter-spacing: .01em; }
 header p { margin: 0; color: var(--ink-2); max-width: 70ch; }
+.repo { margin-left: auto; display: flex; gap: 6px; align-items: center; align-self: center; flex-wrap: wrap; }
+.repo a { display: inline-flex; align-items: center; gap: 5px; font: 500 12.5px var(--f-ui); color: var(--ink-2); text-decoration: none;
+  border: 1px solid var(--rule); border-radius: 4px; padding: 4px 9px; background: var(--panel); }
+.repo a:hover { color: var(--ink); border-color: var(--ink-3); }
 .mapwrap { position: relative; min-width: 0; min-height: 0; background: var(--sea); }
 #map { position: absolute; inset: 0; background: var(--sea); font-family: var(--f-ui); }
 #map[data-base="street"] .leaflet-tile-pane { filter: var(--tile-filter); }
@@ -167,7 +171,16 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px s
 .legend .row { display: flex; gap: 10px; flex-wrap: wrap; }
 .rail { grid-column: 1; display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto; gap: 10px; align-items: center;
   padding-block: 10px 8px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: 16px; border-top: 1px solid var(--rule); background: var(--panel); }
-.rail .year { font: 500 28px var(--f-mono); min-width: 4ch; font-variant-numeric: tabular-nums; }
+.rail .year { font: 500 28px var(--f-mono); min-width: 4ch; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.rail .year.range { font-size: 21px; }
+.yearbox { display: grid; gap: 4px; justify-items: start; }
+.spanmode { gap: 0 !important; flex-wrap: nowrap !important; }
+.spanmode button { padding: 2px 9px; font-size: 11.5px; border-radius: 0; margin-left: -1px; }
+.spanmode button:first-child { border-radius: 3px 0 0 3px; } .spanmode button:last-child { border-radius: 0 3px 3px 0; }
+.spanmode.hint:hover::after { bottom: calc(100% + 6px); max-width: 300px; }
+#hist .band { fill: var(--focus-ring); opacity: .14; cursor: grab; }
+#hist .rhandle { fill: var(--focus-ring); stroke: var(--panel); stroke-width: 2; cursor: ew-resize; }
+.node.ghost { pointer-events: auto; }
 .rail .ctl { display: flex; gap: 4px; }
 #hist { width: 100%; height: 84px; display: block; cursor: ew-resize; touch-action: none; }
 #hist .tick { stroke: var(--rule); }
@@ -232,6 +245,13 @@ details ul { padding-left: 16px; }
         <span class="ti">Lineage</span><span class="ts">who taught whom · time</span></button>
     </nav>
     <p>Where women artists of early modern Italy lived and travelled, 1480–1720, and who they were connected to: teachers, families, patrons, academies.</p>
+    <nav class="repo" aria-label="Project">
+      <a href="https://github.com/astro-lenny/pittrici-atlas" target="_blank" rel="noopener" title="Source code and data on GitHub">
+        <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        GitHub</a>
+      <a href="https://github.com/astro-lenny/pittrici-atlas/issues/new" target="_blank" rel="noopener" title="Report a bug or a factual error">Report a bug</a>
+      <a href="https://github.com/astro-lenny/pittrici-atlas/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener" title="Add sources, artists or corrections">Contribute</a>
+    </nav>
   </header>
   <div class="mapwrap">
     <div id="map" role="region" aria-label="Map of artists' locations and relations for the selected year"></div>
@@ -263,7 +283,13 @@ details ul { padding-left: 16px; }
     <aside class="lg-side" id="lgcard"></aside>
   </section>
   <div class="rail">
-    <div class="year" id="year" aria-live="polite">1600</div>
+    <div class="yearbox">
+      <div class="year" id="year" aria-live="polite">1600</div>
+      <div class="seg spanmode hint" id="spanmode" role="group" aria-label="Show one year or a range"
+        data-hint="Range: everyone present at any time in the range, with every link active in it; earlier places of a person are faded. Borders, state colours and certainty rings use the last year of the range.">
+        <button data-s="year" aria-pressed="true">Year</button><button data-s="range" aria-pressed="false">Range</button>
+      </div>
+    </div>
     <div class="ctl">
       <button id="prev" title="Previous event year">◀︎ Event</button>
       <button id="play" title="Play or pause">Play</button>
@@ -344,7 +370,7 @@ const VIEWS = [
   { id: "lombardy", label: "Cremona–Milan", bbox: [9.0, 45.0, 10.2, 45.6] },
 ];
 
-const state = { rings: true, year: 1600, mode: "net", sel: null, playing: false, hidden: new Set(), view: "italy" };
+const state = { rings: true, rangeOn: false, from: 1600, year: 1600, mode: "net", sel: null, playing: false, hidden: new Set(), view: "italy" };
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
 // ---- per-year lookups ----
@@ -502,16 +528,34 @@ function cityOpen(cid) {
   return d3.max(sites, s => { const [x, y] = xy(s.lon, s.lat); return Math.hypot(x - cx, y - cy); }) > 40;
 }
 
-function visiblePeople(y) {
+// The time window: one year, or a range [state.from, state.year]; state.year is always the last year.
+const span = () => state.rangeOn ? [state.from, state.year] : [state.year, state.year];
+const spanLabel = () => state.rangeOn ? `${state.from}–${state.year}` : `${state.year}`;
+const relActive = r => { const [a, b] = span(); return r.from <= b && r.to >= a; };
+// Places a person occupied within the window, oldest first (city level, consecutive duplicates merged).
+function placesIn(pid, a, b) {
   const out = [];
+  for (const s of D.tracks[pid] || []) {
+    if (s[1] < a || s[0] > b) continue;
+    const seg = { place: s[2], kind: s[3], carried: s[4], from: Math.max(s[0], a), to: Math.min(s[1], b) };
+    const last = out[out.length - 1];
+    if (last && cityOf(last.place) === cityOf(seg.place)) { last.to = seg.to; if (!seg.carried) Object.assign(last, { place: seg.place, kind: seg.kind, carried: false }); }
+    else out.push(seg);
+  }
+  return out;
+}
+const presentIn = pid => { const [a, b] = span(); return placesIn(pid, a, b).length > 0; };
+function visiblePeople(y) {
+  const out = [], [a, b] = span();
   for (const p of D.persons) {
-    const w = where(p.id, y); if (!w) continue;
+    const ps = placesIn(p.id, a, b); if (!ps.length) continue;
     if (state.mode === "women" && !p.focus && p.id !== state.sel) continue;
-    if (state.mode === "net" && !p.focus) {   // keep only people linked to a visible woman this year
-      const ok = (neighbours.get(p.id) || []).some(n => P.get(n.other).focus && n.r.from <= y && y <= n.r.to && where(n.other, y));
+    if (state.mode === "net" && !p.focus) {   // keep only people linked to a visible woman in the window
+      const ok = (neighbours.get(p.id) || []).some(n => P.get(n.other).focus && relActive(n.r) && presentIn(n.other));
       if (!ok && p.id !== state.sel) continue;
     }
-    out.push({ p, w });
+    const last = ps[ps.length - 1];
+    out.push({ p, w: { place: last.place, kind: last.kind, carried: last.carried }, earlier: ps.slice(0, -1) });
   }
   return out;
 }
@@ -519,35 +563,41 @@ function visiblePeople(y) {
 const AGG_ZOOM = 8;  // below this zoom each city is one bubble, placed exactly on the city
 function layout(y) {
   const people = visiblePeople(y), open = new Map(), groups = new Map(), agg = map.getZoom() < AGG_ZOOM;
-  for (const { p, w } of people) {
-    const cid = cityOf(w.place);
+  const put = (m) => {
+    const cid = cityOf(m.w.place);
     if (!open.has(cid)) open.set(cid, !agg && cityOpen(cid));
-    const loc = open.get(cid) && PL.get(w.place).kind === "site" ? w.place : cid;
+    const loc = open.get(cid) && PL.get(m.w.place).kind === "site" ? m.w.place : cid;
     if (!groups.has(loc)) groups.set(loc, []);
-    groups.get(loc).push({ p, w, cid });
+    groups.get(loc).push({ ...m, cid });
+  };
+  for (const { p, w, earlier } of people) {
+    put({ p, w });
+    for (const e of earlier) put({ p, w: { place: e.place, kind: e.kind, carried: e.carried }, ghost: e });
   }
-  const pos = new Map();
+  const pos = new Map(), ghosts = [];
   for (const [loc, ms] of groups) {
     ms.sort((a, b) => (b.p.focus - a.p.focus) || a.p.name.localeCompare(b.p.name));
     const L = PL.get(loc); const [cx, cy] = xy(L.lon, L.lat);
     ms.forEach((m, i) => {   // sunflower spiral so a crowded city stays readable (zoomed in only)
       const r = agg || i === 0 ? 0 : 7.5 * Math.sqrt(i), a = i * 2.39996;
-      pos.set(m.p.id, { x: cx + r * Math.cos(a), y: cy + r * Math.sin(a), ...m, loc });
+      const d = { x: cx + r * Math.cos(a), y: cy + r * Math.sin(a), ...m, loc };
+      if (m.ghost) ghosts.push(d); else pos.set(m.p.id, d);
     });
   }
-  return { pos, groups, open, agg };
+  return { pos, groups, open, agg, ghosts };
 }
 const aggRadius = n => 3.5 + 2.6 * Math.sqrt(n);
 
 const tip = document.getElementById("tip");
 function render(animate = true) {
   placeOverlay();  // keep the network layer aligned with the map on every redraw
-  const y = state.year, { pos, groups, open, agg } = layout(y);
+  const y = state.year, [y0] = span(), { pos, groups, open, agg, ghosts } = layout(y);
   const dur = animate && !matchMedia("(prefers-reduced-motion: reduce)").matches ? Math.min(700, playDelay() * 0.8) : 0;
-  const sel = state.sel, selN = sel ? new Set([sel, ...(neighbours.get(sel) || []).filter(n => n.r.from <= y && y <= n.r.to).map(n => n.other)]) : null;
+  const sel = state.sel, selN = sel ? new Set([sel, ...(neighbours.get(sel) || []).filter(n => relActive(n.r)).map(n => n.other)]) : null;
 
   // city rings + labels (city level) and site labels (opened cities)
-  const cityCounts = d3.rollup([...pos.values()], v => ({ n: v.length, w: v.filter(m => m.p.focus).length }), m => m.cid);
+  const present = [...pos.values(), ...ghosts];  // everyone at a city in the window, counted once per person
+  const cityCounts = d3.rollup(present, v => { const u = [...new Map(v.map(m => [m.p.id, m.p])).values()]; return { n: u.length, w: u.filter(p => p.focus).length }; }, m => m.cid);
   const labels = [];
   for (const [cid, c] of cityCounts) {
     const L = PL.get(cid); const [x, y2] = xy(L.lon, L.lat);
@@ -585,7 +635,7 @@ function render(animate = true) {
   statePanel([...cityCounts.keys()]);
 
   // edges
-  const edges = D.relations.filter(r => r.from <= y && y <= r.to && pos.has(r.a) && pos.has(r.b) && !state.hidden.has(EDGE_GROUP[r.type])
+  const edges = D.relations.filter(r => relActive(r) && pos.has(r.a) && pos.has(r.b) && !state.hidden.has(EDGE_GROUP[r.type])
     && !(agg && pos.get(r.a).cid === pos.get(r.b).cid));
   const fan = new Map(), slot = new Map();  // parallel links between the same two cities fan out
   for (const r of edges) { const k = [pos.get(r.a).cid, pos.get(r.b).cid].sort().join(); slot.set(r, fan.get(k) || 0); fan.set(k, (fan.get(k) || 0) + 1); }
@@ -599,10 +649,10 @@ function render(animate = true) {
     .attr("stroke", r => css("--e-" + EDGE_GROUP[r.type]))
     .transition().duration(dur).attr("d", curve);
 
-  // travel trails: city changes in the last 6 years
-  const trails = [];
+  // travel trails: every city change in the range, or in the last 6 years
+  const trails = [], depth = state.rangeOn ? Math.max(1, y - y0 + 1) : 6;
   for (const [id, m] of pos) {
-    for (let k = 0; k < 6; k++) {
+    for (let k = 0; k < depth; k++) {
       const a = where(id, y - k - 1), b = where(id, y - k);
       if (a && b && cityOf(a.place) !== cityOf(b.place)) {
         const A = PL.get(cityOf(a.place)), Bp = PL.get(cityOf(b.place));
@@ -611,24 +661,25 @@ function render(animate = true) {
     }
   }
   gTrails.selectAll("path").data(trails, d => d.id).join("path").attr("class", "trail")
-    .attr("opacity", d => (d.focus ? 0.9 : 0.4) * (1 - d.age / 6))
+    .attr("opacity", d => (d.focus ? 0.9 : 0.4) * (state.rangeOn ? 1 - 0.6 * d.age / depth : 1 - d.age / 6))
     .attr("d", d => { const [x0, y0] = d.from, [x1, y1] = d.to, mx = (x0 + x1) / 2, my = (y0 + y1) / 2;
       return `M${x0},${y0}Q${mx - (y1 - y0) * .2},${my + (x1 - x0) * .2} ${x1},${y1}`; });
 
   // nodes: one dot per person when zoomed in; one bubble per city when zoomed out
   const people = [...pos.values()];
   const nodes = agg
-    ? [...d3.group(people, m => m.cid)].map(([cid, ms]) => {
-        const c = PL.get(cid), [x, yy] = xy(c.lon, c.lat);
-        return { key: "city:" + cid, agg: true, cid, x, y: yy, ms, n: ms.length, w: ms.filter(m => m.p.focus).length };
+    ? [...d3.group(present, m => m.cid)].map(([cid, ms]) => {
+        const c = PL.get(cid), [x, yy] = xy(c.lon, c.lat), u = [...new Map(ms.map(m => [m.p.id, m])).values()];
+        return { key: "city:" + cid, agg: true, cid, x, y: yy, ms: u, n: u.length, w: u.filter(m => m.p.focus).length };
       })
-    : people.map(m => ({ ...m, key: m.p.id }));
+    : [...people.map(m => ({ ...m, key: m.p.id })),
+       ...ghosts.map(m => ({ ...m, key: m.p.id + "@" + cityOf(m.w.place) + "@" + m.ghost.from }))];
   const hasSel = d => d.agg ? d.ms.some(m => m.p.id === sel) : d.p.id === sel;
   const dimmed = d => selN && (d.agg ? !d.ms.some(m => selN.has(m.p.id)) : !selN.has(d.p.id));
   gNodes.selectAll("circle").data(nodes, d => d.key).join(
       en => en.append("circle").attr("cx", d => d.x).attr("cy", d => d.y).attr("r", 0),
       up => up, ex => ex.transition().duration(dur).attr("r", 0).remove())
-    .attr("class", d => "node" + (d.agg ? " agg" : "") + (hasSel(d) ? " sel" : "") + (dimmed(d) ? " dim" : ""))
+    .attr("class", d => "node" + (d.agg ? " agg" : "") + (d.ghost ? " ghost" : "") + (hasSel(d) ? " sel" : "") + (dimmed(d) ? " dim" : ""))
     .attr("fill", d => d.agg ? (d.w ? css("--women") : css("--men")) : nodeColor(d.p))
     .on("mouseenter", (e, d) => showTip(e, d)).on("mousemove", (e, d) => showTip(e, d))
     .on("mouseleave", () => tip.hidden = true)
@@ -641,10 +692,10 @@ function render(animate = true) {
       if (!isFinite(+this.getAttribute("cx"))) d3.select(this).attr("cx", d.x).attr("cy", d.y);
     })
     .transition().duration(dur)
-    .attr("cx", d => d.x).attr("cy", d => d.y).attr("r", d => d.agg ? aggRadius(d.n) : d.p.focus ? 5.5 : 3.8)
-    .attr("opacity", d => d.agg ? 0.9 : d.w.carried ? 0.6 : 1)
-    .style("stroke", d => hasSel(d) ? css("--focus-ring") : d.agg || !state.rings ? css("--paper") : css("--c-" + worst(certPos(d.p.id, y) || [["y", ""]])))
-    .style("stroke-width", d => hasSel(d) ? 3 : !d.agg && state.rings ? 2 : 1.2);
+    .attr("cx", d => d.x).attr("cy", d => d.y).attr("r", d => d.agg ? aggRadius(d.n) : (d.p.focus ? 5.5 : 3.8) * (d.ghost ? 0.8 : 1))
+    .attr("opacity", d => d.agg ? 0.9 : d.ghost ? 0.35 : d.w.carried ? 0.6 : 1)
+    .style("stroke", d => hasSel(d) && !d.ghost ? css("--focus-ring") : d.agg || d.ghost || !state.rings ? css("--paper") : css("--c-" + worst(certPos(d.p.id, y) || [["y", ""]])))
+    .style("stroke-width", d => hasSel(d) && !d.ghost ? 3 : !d.agg && !d.ghost && state.rings ? 2 : 1.2);
   gAggText.selectAll("text").data(nodes.filter(d => d.agg && d.n > 1), d => d.key).join("text").attr("class", "aggn")
     .attr("x", d => d.x).attr("y", d => d.y + 3.5).text(d => d.n);
 
@@ -664,6 +715,7 @@ function showTip(e, d) {
   const box = map.getContainer().getBoundingClientRect(), pl = PL.get(d.w.place);
   tip.innerHTML = `<b>${d.p.name}</b><br>${life(d.p)} · ${d.p.focus ? "woman artist" : d.p.role}<br>` +
     `${pl.name}${pl.city ? ", " + PL.get(pl.city).name : ""} <span class="muted">(${d.w.kind}${d.w.carried ? ", no record this year" : ""})</span>` +
+    (d.ghost ? `<br><span class="muted">Earlier in the range: ${d.ghost.from}${d.ghost.to !== d.ghost.from ? "–" + d.ghost.to : ""}</span>` : "") +
     `<br>${(() => { const c = certPos(d.p.id, state.year), lv = c && worst(c); return c ? `<span class="cl ${lv}"></span>${LVLABEL[lv]}: ${c.filter(x => x[0] === lv)[0][1]}` : ""; })()}` +
     `<br><span class="muted">Click for summary, links and certainty</span>`;
   tip.hidden = false;
@@ -812,26 +864,30 @@ function statePanel(cityIds) {
 }
 
 function panel(nodes, edges) {
-  const y = state.year;
-  document.getElementById("year").textContent = y;
+  const y = state.year, [y0] = span();
+  const yel = document.getElementById("year"); yel.textContent = spanLabel(); yel.classList.toggle("range", state.rangeOn);
   const women = nodes.filter(n => n.p.focus).length;
-  const moves = (eventsByYear.get(y) || []).filter(e => e.k === "move").length;
+  const winEvents = d3.range(y0, y + 1).flatMap(yy => (eventsByYear.get(yy) || []).map(e => ({ ...e, yy })));
+  const moves = winEvents.filter(e => e.k === "move").length;
   document.getElementById("stats").innerHTML =
     [[women, "women on map"], [nodes.length, "people shown"], [edges.length, "active links"], [moves, "moves"]]
       .map(([v, l]) => `<div><b>${v}</b><span>${l}</span></div>`).join("");
-  const evs = (eventsByYear.get(y) || []).filter(e => e.focus || state.mode === "net");
-  document.getElementById("evh").textContent = `In ${y}`;
-  document.getElementById("events").innerHTML = evs.length ? evs.slice(0, 30).map(e => {
-    if (e.k === "move") return `<li><span class="k">move</span>${light(certPos(e.p, y), "position in " + y)}${nameLink(e.p)}: ${PL.get(e.from).name} → ${PL.get(e.to).name}</li>`;
+  const evs = winEvents.filter(e => e.focus || state.mode === "net"), cap = state.rangeOn ? 60 : 30;
+  document.getElementById("evh").textContent = `In ${spanLabel()}`;
+  const yr = e => state.rangeOn ? `<span class="k">${e.yy}</span>` : "";
+  document.getElementById("events").innerHTML = evs.length ? evs.slice(0, cap).map(e => yr(e) + (() => {
+    if (e.k === "move") return `<li><span class="k">move</span>${light(certPos(e.p, e.yy), "position in " + e.yy)}${nameLink(e.p)}: ${PL.get(e.from).name} → ${PL.get(e.to).name}</li>`;
     if (e.k === "born") return `<li><span class="k">born</span>${nameLink(e.p)} in ${PL.get(e.at).name}</li>`;
     if (e.k === "rel") return `<li><span class="k">${e.r.type}</span>${light(certRel(e.r), "relation")}${nameLink(e.r.a)} ${VERB[e.r.type]} ${nameLink(e.r.b)}${e.r.note ? ` <span class="muted">${e.r.note}</span>` : ""}</li>`;
     return `<li><span class="k">${e.k}</span>${nameLink(e.p)}, ${placeName(e.at)}${e.note ? ` <span class="muted">${e.note}</span>` : ""}</li>`;
-  }).join("") : `<li class="muted">No recorded events. Use “Event ▶︎” to jump to the next one.</li>`;
+  })()).join("").replace(/<span class="k">(\d{4})<\/span><li>/g, '<li><span class="k">$1</span> ')
+    + (evs.length > cap ? `<li class="muted">… and ${evs.length - cap} more in this range</li>` : "")
+    : `<li class="muted">No recorded events. Use “Event ▶︎” to jump to the next one.</li>`;
   card();
   const q = document.getElementById("q").value.trim().toLowerCase();
   const ws = D.persons.filter(p => p.focus && (!q || p.name.toLowerCase().includes(q))).sort((a, b) => a.birth - b.birth);
   document.getElementById("women").innerHTML = ws.map(p =>
-    `<li class="${where(p.id, y) ? "" : "off"}">${nameLink(p.id)} <span class="muted">${p.birth}</span></li>`).join("");
+    `<li class="${presentIn(p.id) ? "" : "off"}">${nameLink(p.id)} <span class="muted">${p.birth}</span></li>`).join("");
   drawHistCursor();
 }
 
@@ -926,15 +982,18 @@ function popupHtml(id) {
 }
 let popup = null;
 function openPopup(id) {
-  const w = where(id, state.year); if (!w) return;
-  const el = gNodes.selectAll("circle").filter(d => d.p && d.p.id === id).node(), n = el && d3.select(el).datum();
+  const [a, b] = span(), ps = placesIn(id, a, b), w = where(id, state.year) || (ps.length && ps[ps.length - 1]); if (!w) return;
+  const el = gNodes.selectAll("circle").filter(d => d.p && d.p.id === id && !d.ghost).node(), n = el && d3.select(el).datum();
   const ll = n ? map.containerPointToLatLng([n.x, n.y]) : L.latLng(PL.get(w.place).lat, PL.get(w.place).lon);
   popup = L.popup({ maxWidth: 380, autoPanPaddingTopLeft: [20, 60], autoPanPaddingBottomRight: [20, 20], className: "artist-pop" }).setLatLng(ll).setContent(popupHtml(id)).openOn(map);
 }
 
 function select(id) {
   state.sel = id;
-  if (id) { const p = P.get(id); if (!where(id, state.year)) state.year = Math.max(Y0, p.birth + 15); }
+  if (id && !presentIn(id)) {  // jump to a time when she is on the map
+    const p = P.get(id), len = state.year - state.from;
+    state.year = Math.min(Y1, Math.max(Y0, p.birth + 15) + (state.rangeOn ? len : 0)); state.from = state.year - len;
+  }
   render(true);
 }
 document.getElementById("q").addEventListener("input", () => render(true));
@@ -1167,21 +1226,50 @@ function drawHist() {
   hist.selectAll(".bar.w").data(counts).join("rect").attr("class", "bar").attr("x", d => hx(d.y)).attr("width", bw)
     .attr("y", d => base - hy(d.w)).attr("height", d => hy(d.w));
   hist.selectAll(".lab").data(d3.range(1500, Y1 + 1, 50)).join("text").attr("class", "lab").attr("x", d => hx(d)).attr("y", h - 2).attr("text-anchor", "middle").text(d => d);
-  hist.append("text").attr("class", "cap").attr("x", 2).attr("y", 11).text("Women artists per year (blue) · links (grey) · drag to move in time");
+  hist.append("text").attr("class", "cap").attr("x", 2).attr("y", 11).text("Women per year (blue) · links (grey)");
   hist.append("line").attr("class", "cur").attr("y1", top - 2).attr("y2", base);
   hist.append("circle").attr("class", "handle").attr("r", 6).attr("cy", base);
   drawHistCursor();
 }
 function drawHistCursor() {
   if (!hx) return;
-  const x = hx(state.year + .5);
+  const x = hx(state.year + .5), H = hist.node().getBoundingClientRect().height || 84, base = H - 16;
   hist.select(".cur").attr("x1", x).attr("x2", x);
-  hist.select(".handle").attr("cx", x);
+  hist.select(".handle").attr("cx", x).attr("display", state.rangeOn ? "none" : null);
+  hist.selectAll(".band").data(state.rangeOn ? [0] : []).join(en => en.insert("rect", ".cur").attr("class", "band"))
+    .attr("x", hx(state.from)).attr("width", Math.max(2, hx(state.year + 1) - hx(state.from))).attr("y", 14).attr("height", base - 12);
+  hist.selectAll(".rhandle").data(state.rangeOn ? [state.from, state.year + 1] : []).join("rect").attr("class", "rhandle")
+    .attr("x", d => hx(d) - 4).attr("width", 8).attr("y", 14).attr("height", base - 12).attr("rx", 3);
 }
-let dragging = false;
-const setFromHist = e => { const [x] = d3.pointer(e, hist.node()); state.year = Math.max(Y0, Math.min(Y1, Math.floor(hx.invert(x)))); render(true); };
-hist.on("pointerdown", e => { dragging = true; hist.node().setPointerCapture(e.pointerId); setFromHist(e); })
-    .on("pointermove", e => dragging && setFromHist(e)).on("pointerup", () => dragging = false);
+let drag = null;
+const yearAt = e => { const [x] = d3.pointer(e, hist.node()); return Math.max(Y0, Math.min(Y1, Math.floor(hx.invert(x)))); };
+hist.on("pointerdown", e => {
+  hist.node().setPointerCapture(e.pointerId);
+  const yv = yearAt(e);
+  if (!state.rangeOn) drag = { kind: "year" };
+  else {
+    const px = d3.pointer(e, hist.node())[0], dFrom = Math.abs(px - hx(state.from)), dTo = Math.abs(px - hx(state.year + 1));
+    if (Math.min(dFrom, dTo) < 10) drag = { kind: dFrom < dTo ? "from" : "to" };
+    else if (yv >= state.from && yv <= state.year) drag = { kind: "band", off: yv - state.from, len: state.year - state.from };
+    else drag = { kind: yv < state.from ? "from" : "to" };
+  }
+  moveDrag(yv);
+}).on("pointermove", e => { if (drag) moveDrag(yearAt(e)); }).on("pointerup pointercancel", () => drag = null);
+function moveDrag(yv) {
+  if (drag.kind === "year") state.year = yv;
+  else if (drag.kind === "from") state.from = Math.min(yv, state.year);
+  else if (drag.kind === "to") state.year = Math.max(yv, state.from);
+  else { const f = Math.max(Y0, Math.min(Y1 - drag.len, yv - drag.off)); state.from = f; state.year = f + drag.len; }
+  render(true);
+}
+d3.selectAll("#spanmode button").on("click", function () {
+  const on = this.dataset.s === "range";
+  if (on === state.rangeOn) return;
+  state.rangeOn = on;
+  if (on) state.from = Math.max(Y0, state.year - 20);  // start with the 20 years up to the current year
+  d3.selectAll("#spanmode button").attr("aria-pressed", function () { return (this.dataset.s === "range") === on; });
+  render(true);
+});
 
 // ---- playback ----
 const speedSel = document.getElementById("speed");
@@ -1190,8 +1278,9 @@ let timer = null;
 function step(dir) {
   if (speedSel.value === "ev" || dir !== 0) {
     const d = dir || 1, ys = d > 0 ? eventYears.filter(y => y > state.year) : eventYears.filter(y => y < state.year).reverse();
-    if (!ys.length) return false; state.year = ys[0];
-  } else { if (state.year >= Y1) return false; state.year++; }
+    if (!ys.length) return false;
+    const len = state.year - state.from; state.year = ys[0]; state.from = state.rangeOn ? Math.max(Y0, ys[0] - len) : ys[0];
+  } else { if (state.year >= Y1) return false; state.year++; state.from++; }
   render(true); return true;
 }
 function setPlaying(on) {
@@ -1200,15 +1289,18 @@ function setPlaying(on) {
   const tick = () => { if (!state.playing) return; if (!step(0)) return setPlaying(false); timer = setTimeout(tick, playDelay()); };
   if (on) timer = setTimeout(tick, 200);
 }
-document.getElementById("play").onclick = () => { if (!state.playing && state.year >= Y1) state.year = Y0; setPlaying(!state.playing); };
+document.getElementById("play").onclick = () => {
+  if (!state.playing && state.year >= Y1) { const len = state.year - state.from; state.from = Y0; state.year = Y0 + len; }
+  setPlaying(!state.playing);
+};
 document.getElementById("next").onclick = () => step(1);
 document.getElementById("prev").onclick = () => step(-1);
 speedSel.onchange = () => state.playing && setPlaying(true);
 document.addEventListener("keydown", e => {
   if (e.target.tagName === "INPUT") return;
   if (e.key === " ") { e.preventDefault(); document.getElementById("play").click(); }
-  if (e.key === "ArrowRight") { state.year = Math.min(Y1, state.year + 1); render(true); }
-  if (e.key === "ArrowLeft") { state.year = Math.max(Y0, state.year - 1); render(true); }
+  if (e.key === "ArrowRight" && state.year < Y1) { state.year++; state.from++; render(true); }
+  if (e.key === "ArrowLeft" && state.from > Y0) { state.year--; state.from--; render(true); }
 });
 
 // ---- method ----
